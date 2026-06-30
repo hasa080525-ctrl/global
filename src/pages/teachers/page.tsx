@@ -18,6 +18,16 @@ export default function TeachersPage() {
       <meta name="description" content="서울 국제학교전문과외 - IB, AP, IGCSE, SAT 등 국제학교 커리큘럼에 특화된 평균 8~15년 경력의 검증된 전문 강사진을 소개합니다. 수학·영어·과학·에세이·제2외국어 등 과목별 전담 강사가 1:1 맞춤 화상 과외를 제공합니다. 지금 무료 모의수업을 신청해보세요." />
       <meta name="keywords" content="국제학교전문과외, 국제학교 강사진, IB 과외, AP 과외, 화상 과외, 1:1 맞춤 과외, SAT" />
       <link rel="canonical" href={`${siteUrl}/faculty`} />
+      <meta property="og:title" content="과목별 전담 강사진 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 과외" />
+      <meta property="og:description" content="평균 경력 8~15년, IB·AP·IGCSE·SAT 국제학교 커리큘럼에 특화된 검증된 전문 강사진을 소개합니다. 수학·영어·과학·에세이 과목별 1:1 맞춤 화상 과외." />
+      <meta property="og:url" content={`${siteUrl}/faculty`} />
+      <meta property="og:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="국제학교전문과외" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="과목별 전담 강사진 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 과외" />
+      <meta name="twitter:description" content="평균 경력 8~15년, IB·AP·IGCSE·SAT 국제학교 커리큘럼에 특화된 검증된 전문 강사진을 소개합니다. 수학·영어·과학·에세이 과목별 1:1 맞춤 화상 과외." />
+      <meta name="twitter:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "ItemList",

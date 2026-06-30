@@ -38,6 +38,16 @@ export default function NewsDetail() {
       <meta name="description" content={item.summary} />
       <meta name="keywords" content={`국제학교, ${item.category}, IB, AP, SAT, 화상 과외, 국제학교전문과외`} />
       <link rel="canonical" href={`${siteUrl}/news/${item.id}`} />
+      <meta property="og:title" content={`${item.title} | 서울 국제학교전문과외`} />
+      <meta property="og:description" content={item.summary} />
+      <meta property="og:url" content={`${siteUrl}/news/${item.id}`} />
+      <meta property="og:image" content={item.image} />
+      <meta property="og:type" content="article" />
+      <meta property="og:site_name" content="국제학교전문과외" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={`${item.title} | 서울 국제학교전문과외`} />
+      <meta name="twitter:description" content={item.summary} />
+      <meta name="twitter:image" content={item.image} />
       <JsonLd
         data={{
           "@context": "https://schema.org",

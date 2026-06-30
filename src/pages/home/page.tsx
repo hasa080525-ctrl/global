@@ -19,9 +19,26 @@ import { FAQS } from "@/mocks/faq";
 
 const siteUrl = import.meta.env.VITE_SITE_URL || "https://example.com";
 
+const OG_IMAGE = "https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox";
+
 export default function Home() {
   return (
     <main className="bg-background-50 text-foreground-950">
+      <title>서울 국제학교전문과외 | IB·AP·IGCSE·SAT 1:1 화상 과외 | 무료 모의수업</title>
+      <meta name="description" content="서울 국제학교전문과외 - 국내·해외 국제학교 학생을 위한 1:1 맞춤 화상 과외 서비스입니다. IB, AP, IGCSE, SAT, GPA 내신까지 국제학교 커리큘럼을 완벽 대비하며, 8~15년 경력의 검증된 전문 강사진이 실시간으로 지도합니다. 지금 무료 모의수업을 신청해보세요." />
+      <meta name="keywords" content="국제학교전문과외, 국제학교 과외, IB 과외, AP 과외, 화상 과외, 1:1 맞춤 과외, 서울 국제학교 과외" />
+      <link rel="canonical" href={siteUrl} />
+      <meta property="og:title" content="서울 국제학교전문과외 | IB·AP·IGCSE·SAT 1:1 화상 과외 | 무료 모의수업" />
+      <meta property="og:description" content="서울 국제학교전문과외 - 국제학교 내신 GPA부터 IB·AP·IGCSE·SAT까지 1:1 실시간 화상 과외. 8~15년 경력 전문 강사진의 무료 모의수업을 신청해보세요." />
+      <meta property="og:image" content={OG_IMAGE} />
+      <meta property="og:url" content={siteUrl} />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="국제학교전문과외" />
+      <meta property="og:locale" content="ko_KR" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="서울 국제학교전문과외 | IB·AP·IGCSE·SAT 1:1 화상 과외 | 무료 모의수업" />
+      <meta name="twitter:description" content="서울 국제학교전문과외 - 국제학교 내신 GPA부터 IB·AP·IGCSE·SAT까지 1:1 실시간 화상 과외. 8~15년 경력 전문 강사진의 무료 모의수업을 신청해보세요." />
+      <meta name="twitter:image" content={OG_IMAGE} />
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "WebSite",

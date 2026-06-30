@@ -68,6 +68,16 @@ export default function ResultsPage() {
       <meta name="description" content="서울 국제학교전문과외와 함께한 350명 이상 학생들의 실제 성적 변화와 입시 결과. Top 20 대학 합격 120건 이상, 평균 1.5등급 성적 향상 등 검증된 IB·AP·IGCSE·SAT 국제학교 과외 사례를 확인하세요. 지금 무료 모의수업을 신청해보세요." />
       <meta name="keywords" content="국제학교 합격, 성적 향상, 국제학교 과외, Top 20 대학, 1:1 화상 과외, 국제학교전문과외" />
       <link rel="canonical" href={`${siteUrl}/success`} />
+      <meta property="og:title" content="합격생 & 성적 향상 사례 | 서울 국제학교전문과외" />
+      <meta property="og:description" content="누적 학생 350명+, Top 20 대학 합격 120건, 평균 성적 1.5 향상. 서울 국제학교전문과외와 함께한 실제 IB·AP·IGCSE·SAT 성적 향상 사례를 확인하세요." />
+      <meta property="og:url" content={`${siteUrl}/success`} />
+      <meta property="og:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="국제학교전문과외" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="합격생 & 성적 향상 사례 | 서울 국제학교전문과외" />
+      <meta name="twitter:description" content="누적 학생 350명+, Top 20 대학 합격 120건, 평균 성적 1.5 향상. 서울 국제학교전문과외와 함께한 실제 IB·AP·IGCSE·SAT 성적 향상 사례를 확인하세요." />
+      <meta name="twitter:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
       <JsonLd
         data={{
           "@context": "https://schema.org",
