@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /faculty
+Allow: /success
+Allow: /contact
+Allow: /trial
+Allow: /news
+Allow: /news/*
+Disallow: /teachers
+Disallow: /results
+Sitemap: https://kukje-gwaoe.co.kr/sitemap.xml
