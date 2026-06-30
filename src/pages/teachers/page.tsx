@@ -21,13 +21,13 @@ export default function TeachersPage() {
       <meta property="og:title" content="과목별 전담 강사진 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 과외" />
       <meta property="og:description" content="평균 경력 8~15년, IB·AP·IGCSE·SAT 국제학교 커리큘럼에 특화된 검증된 전문 강사진을 소개합니다. 수학·영어·과학·에세이 과목별 1:1 맞춤 화상 과외." />
       <meta property="og:url" content={`${siteUrl}/faculty`} />
-      <meta property="og:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
+      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="과목별 전담 강사진 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 과외" />
       <meta name="twitter:description" content="평균 경력 8~15년, IB·AP·IGCSE·SAT 국제학교 커리큘럼에 특화된 검증된 전문 강사진을 소개합니다. 수학·영어·과학·에세이 과목별 1:1 맞춤 화상 과외." />
-      <meta name="twitter:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
+      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "ItemList",

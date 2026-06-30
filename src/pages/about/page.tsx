@@ -21,13 +21,13 @@ export default function AboutPage() {
       <meta property="og:title" content="소개 | 서울 국제학교전문과외 – IB·AP·IGCSE·SAT 1:1 화상 과외" />
       <meta property="og:description" content="서울 국제학교전문과외 소개 - 2015년부터 운영, 평균 8~15년 경력 검증된 강사진이 IB·AP·IGCSE·SAT 국제학교 커리큘럼 1:1 화상 과외를 제공합니다." />
       <meta property="og:url" content={`${siteUrl}/about`} />
-      <meta property="og:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
+      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="소개 | 서울 국제학교전문과외 – IB·AP·IGCSE·SAT 1:1 화상 과외" />
       <meta name="twitter:description" content="서울 국제학교전문과외 소개 - 2015년부터 운영, 평균 8~15년 경력 검증된 강사진이 IB·AP·IGCSE·SAT 국제학교 커리큘럼 1:1 화상 과외를 제공합니다." />
-      <meta name="twitter:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
+      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "AboutPage",

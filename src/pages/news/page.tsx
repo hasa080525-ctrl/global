@@ -122,13 +122,13 @@ export default function NewsPage() {
       <meta property="og:title" content="뉴스 & 소식 | 서울 국제학교전문과외 – IB·AP·SAT 입시 정보" />
       <meta property="og:description" content="국제학교 입시, IB·AP·IGCSE·SAT 커리큘럼, 유학 등 국제학교 학생과 학부모를 위한 최신 교육 정보를 제공합니다." />
       <meta property="og:url" content={`${siteUrl}/news`} />
-      <meta property="og:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
+      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="뉴스 & 소식 | 서울 국제학교전문과외 – IB·AP·SAT 입시 정보" />
       <meta name="twitter:description" content="국제학교 입시, IB·AP·IGCSE·SAT 커리큘럼, 유학 등 국제학교 학생과 학부모를 위한 최신 교육 정보를 제공합니다." />
-      <meta name="twitter:image" content="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png?ogv=j1v8ox" />
+      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <JsonLd
         data={{
           "@context": "https://schema.org",
