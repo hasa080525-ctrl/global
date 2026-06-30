@@ -16,7 +16,7 @@ export default function TeachersPage() {
     <main className="bg-background-50 text-foreground-950">
       <title>과목별 전담 강사진 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 과외</title>
       <meta name="description" content="서울 국제학교전문과외 - IB, AP, IGCSE, SAT 등 국제학교 커리큘럼에 특화된 평균 8~15년 경력의 검증된 전문 강사진을 소개합니다. 수학·영어·과학·에세이·제2외국어 등 과목별 전담 강사가 1:1 맞춤 화상 과외를 제공합니다. 지금 무료 모의수업을 신청해보세요." />
-      <meta name="keywords" content="국제학교전문과외, 국제학교 강사진, IB 과외, AP 과외, 화상 과외, 1:1 맞춤 과외, SAT" />
+      <meta name="keywords" content="국제학교 과외 강사, IB 과외 선생님, AP 과외 강사, IGCSE 과외, SAT 과외, IB 수학 과외, IB 영어 과외, AP 물리 과외, 화상 과외 강사, 국제학교 1:1 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외" />
       <link rel="canonical" href={`${siteUrl}/faculty`} />
       <meta property="og:title" content="과목별 전담 강사진 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 과외" />
       <meta property="og:description" content="평균 경력 8~15년, IB·AP·IGCSE·SAT 국제학교 커리큘럼에 특화된 검증된 전문 강사진을 소개합니다. 수학·영어·과학·에세이 과목별 1:1 맞춤 화상 과외." />

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Test-NetConnection -ComputerName kukje-gwaoe.co.kr -Port 443)",
+      "PowerShell(git commit -m \"seo: update keywords across all pages with high-volume search terms\")"
+    ]
+  }
+}

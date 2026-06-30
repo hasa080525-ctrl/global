@@ -26,7 +26,7 @@ export default function Home() {
     <main className="bg-background-50 text-foreground-950">
       <title>서울 국제학교전문과외 | IB·AP·IGCSE·SAT 1:1 화상 과외 | 무료 모의수업</title>
       <meta name="description" content="서울 국제학교전문과외 - 국내·해외 국제학교 학생을 위한 1:1 맞춤 화상 과외 서비스입니다. IB, AP, IGCSE, SAT, GPA 내신까지 국제학교 커리큘럼을 완벽 대비하며, 8~15년 경력의 검증된 전문 강사진이 실시간으로 지도합니다. 지금 무료 모의수업을 신청해보세요." />
-      <meta name="keywords" content="국제학교전문과외, 국제학교 과외, IB 과외, AP 과외, 화상 과외, 1:1 맞춤 과외, 서울 국제학교 과외" />
+      <meta name="keywords" content="국제학교 과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, 국제학교 수학 과외, IB 수학 과외, IB 영어 과외, 화상 과외, 1:1 맞춤 과외, 서울 국제학교 과외, 강남 국제학교 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, 국제학교 과외 비용, 무료 체험 수업, 국제학교 전문과외, 국제학교 1:1 과외, IB 과외 추천" />
       <link rel="canonical" href={siteUrl} />
       <meta property="og:title" content="서울 국제학교전문과외 | IB·AP·IGCSE·SAT 1:1 화상 과외 | 무료 모의수업" />
       <meta property="og:description" content="서울 국제학교전문과외 - 국제학교 내신 GPA부터 IB·AP·IGCSE·SAT까지 1:1 실시간 화상 과외. 8~15년 경력 전문 강사진의 무료 모의수업을 신청해보세요." />
