@@ -5,18 +5,18 @@
 @tailwind utilities;
 
 :root {
-  /* Background - warm cream paper */
-  --background-50: 0.985 0.008 95;
-  --background-100: 0.97 0.012 92;
-  --background-200: 0.94 0.018 90;
-  --background-300: 0.9 0.022 88;
-  --background-400: 0.82 0.025 86;
-  --background-500: 0.72 0.028 84;
-  --background-600: 0.6 0.03 82;
-  --background-700: 0.48 0.028 80;
-  --background-800: 0.35 0.025 78;
-  --background-900: 0.22 0.02 76;
-  --background-950: 0.13 0.015 74;
+  /* Background - light mint green */
+  --background-50: 0.97 0.022 162;
+  --background-100: 0.93 0.033 162;
+  --background-200: 0.88 0.05 160;
+  --background-300: 0.80 0.07 158;
+  --background-400: 0.70 0.09 156;
+  --background-500: 0.58 0.10 154;
+  --background-600: 0.46 0.10 152;
+  --background-700: 0.36 0.09 150;
+  --background-800: 0.28 0.08 148;
+  --background-900: 0.20 0.06 146;
+  --background-950: 0.14 0.04 144;
 
   /* Primary - vivid golden yellow */
   --primary-50: 0.985 0.04 95;
