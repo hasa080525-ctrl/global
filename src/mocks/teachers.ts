@@ -4,7 +4,7 @@ export const TEACHERS = [
     subject: "수학",
     name: "김서윤 선생님",
     years: 12,
-    image: "https://readdy.ai/api/search-image?query=Professional%20Korean%20woman%20in%20navy%20business%20blazer%20with%20confident%20smile%2C%20dark%20blue%20gradient%20background%2C%20warm%20studio%20lighting%2C%20clean%20corporate%20headshot%20portrait%20style%2C%20high-end%20editorial%20photography%2C%20sharp%20focus%2C%20elegant%20and%20trustworthy%20appearance&width=400&height=400&seq=teacher-math-02&orientation=squarish",
+    image: "/teacher-female-1.jpg",
     tagline: "수학은 이해의 문제입니다.",
     specialties: ["IB Math HL", "AP Calculus", "Pre-Calculus", "Algebra 2"],
     career: [
@@ -55,7 +55,7 @@ export const TEACHERS = [
     subject: "내신관리",
     name: "최지아 선생님",
     years: 8,
-    image: "https://readdy.ai/api/search-image?query=Professional%20Korean%20woman%20in%20elegant%20black%20blazer%20with%20warm%20trustworthy%20smile%2C%20dark%20blue%20gradient%20background%2C%20corporate%20headshot%20portrait%20style%2C%20soft%20studio%20lighting%2C%20organized%20and%20dependable%20appearance%2C%20high-end%20editorial%20photography&width=400&height=400&seq=teacher-manage-02&orientation=squarish",
+    image: "/teacher-female-2.jpg",
     tagline: "체계가 성적을 만듭니다.",
     specialties: ["내신 전 과목 관리", "시간 관리", "학교 별 적응", "학부모 커뮤니케이션"],
     career: [
