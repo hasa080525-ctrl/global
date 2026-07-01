@@ -7,6 +7,4 @@ Allow: /contact
 Allow: /trial
 Allow: /news
 Allow: /news/*
-Disallow: /teachers
-Disallow: /results
 Sitemap: https://kukje-gwaoe.co.kr/sitemap.xml
