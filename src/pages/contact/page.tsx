@@ -74,7 +74,7 @@ export default function ContactPage() {
     <main className="bg-background-50 text-foreground-950">
       <title>문의하기 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 과외 상담</title>
       <meta name="description" content="서울 국제학교전문과외 문의하기. 전화 010-3951-0535, 카카오톡 실시간 상담, 온라인 문의 등 다양한 방법으로 IB·AP·IGCSE·SAT 국제학교 과외 관련 궁금증을 해결하세요. 평균 8~15년 경력 전문 강사진이 24시간 내 답변드립니다." />
-      <meta name="keywords" content="국제학교 과외 상담, IB 과외 문의, AP 과외 비용, IGCSE 과외 상담, 화상 과외 상담, 국제학교 과외 추천, 국제학교 1:1 과외, 서울 국제학교 과외" />
+      <meta name="keywords" content="국제학교 과외 상담, IB 과외 문의, AP 과외 비용, IGCSE 과외 상담, A-Level 과외 상담, SAT 과외 비용, ACT 과외 비용, 화상 과외 상담, 온라인 과외 상담, 국제학교 과외 추천, 국제학교 1:1 과외, 서울 국제학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상 상담, 무료 과외 상담" />
       <link rel="canonical" href={`${siteUrl}/contact`} />
       <meta property="og:title" content="문의하기 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 과외 상담" />
       <meta property="og:description" content="전화·카카오톡·온라인 문의 가능. 국제학교 과외 관련 궁금증을 편하게 물어보세요. 24시간 내 답변드립니다." />

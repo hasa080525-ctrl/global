@@ -66,7 +66,7 @@ export default function ResultsPage() {
     <main className="bg-background-50 text-foreground-950">
       <title>합격생 &amp; 성적 향상 사례 | 서울 국제학교전문과외</title>
       <meta name="description" content="서울 국제학교전문과외와 함께한 350명 이상 학생들의 실제 성적 변화와 입시 결과. Top 20 대학 합격 120건 이상, 평균 1.5등급 성적 향상 등 검증된 IB·AP·IGCSE·SAT 국제학교 과외 사례를 확인하세요. 지금 무료 모의수업을 신청해보세요." />
-      <meta name="keywords" content="국제학교 합격, IB 성적 향상, AP 과외 결과, 국제학교 과외 후기, Top 20 대학 합격, 국제학교 1:1 과외, 국제학교 과외 비용, NLCS 합격, 채드윅 합격, 화상 과외 추천" />
+      <meta name="keywords" content="국제학교 합격, IB 성적 향상, IB 7점 과외, AP 과외 결과, 국제학교 과외 후기, Top 20 대학 합격, 아이비리그 합격, 미국 대학 합격, 영국 대학 합격, 국제학교 1:1 과외, 국제학교 과외 비용, NLCS 합격, 채드윅 합격, KIS 합격, 화상 과외 추천, 온라인 과외 추천, 국제학교 내신 향상, GPA 향상 사례" />
       <link rel="canonical" href={`${siteUrl}/success`} />
       <meta property="og:title" content="합격생 & 성적 향상 사례 | 서울 국제학교전문과외" />
       <meta property="og:description" content="누적 학생 350명+, Top 20 대학 합격 120건, 평균 성적 1.5 향상. 서울 국제학교전문과외와 함께한 실제 IB·AP·IGCSE·SAT 성적 향상 사례를 확인하세요." />
