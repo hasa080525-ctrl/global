@@ -15,6 +15,102 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "13",
+    title: "2026 IB 5월 시험 성적 발표 — 국제학교 학생 필독 대응 가이드",
+    category: "커리큘럼",
+    date: "2026-07-01",
+    summary:
+      "IBO가 2026년 5월 시험 성적을 7월 첫째 주에 발표합니다. 점수 확인부터 이의신청, 대학 합격자 성적 제출까지 단계별 대응법을 정리했습니다.",
+    sections: [
+      {
+        heading: "IB 5월 시험 결과, 언제 어떻게 확인하나",
+        body: "2026년 IB 디플로마 5월 시험 성적은 7월 5일(현지 기준) IBO 공식 포털 IBIS에서 발표됩니다. 학생은 학교에서 발급받은 IBIS 계정으로 로그인하면 과목별 점수와 최종 디플로마 취득 여부를 확인할 수 있습니다. 총점 24점 이상, 필수 과목 최소 점수 충족, TOK·EE 합산 보너스 포인트를 모두 통과해야 디플로마가 수여됩니다.",
+      },
+      {
+        heading: "기대 점수보다 낮게 나왔다면 — 이의신청 절차",
+        body: "성적에 이의가 있는 경우 결과 발표 후 3주 이내에 'Enquiry upon Results(EuR)'를 신청할 수 있습니다. 재채점(Re-mark)과 리포트 요청으로 나뉘며, 재채점 결과 점수가 오를 수도, 내려갈 수도 있습니다. 비용은 과목당 약 USD 130~260 수준이며, 결과는 신청 후 4~6주 이내에 통보됩니다. 대학 입학에 영향을 미칠 수 있으므로 담당 코디네이터와 충분히 상의한 뒤 결정하세요.",
+      },
+      {
+        heading: "대학에 성적 제출하는 방법",
+        body: "IB 성적을 지원 대학에 공식 제출하려면 IBO 포털에서 'Transcript Request'를 통해 직접 대학으로 발송해야 합니다. 예비 합격(Conditional Offer)을 받은 학생은 요구 점수 충족 여부를 즉시 확인하고, 대학 입학처에 성적을 제출해야 합격이 확정됩니다. 제출 기한은 대학마다 다르지만 보통 7월 말이므로 서두르는 것이 좋습니다.",
+      },
+      {
+        heading: "점수가 예상보다 높게 나왔다면",
+        body: "목표 점수를 초과 달성했다면 더 높은 순위의 대학에 추가 지원하는 'Clearing' 또는 'Adjustment' 전형을 활용할 수 있습니다. 영국 대학의 경우 UCAS 시스템을 통해 7월 중 Adjustment 신청이 가능하며, 미국 대학은 대기자 명단(Waitlist) 전환 요청을 이메일로 직접 보내볼 수 있습니다.",
+      },
+      {
+        heading: "내년 5월 시험을 준비하는 학생들에게",
+        body: "올해 결과를 보며 방향을 잡고 있는 예비 수험생이라면, 지금이 전략을 세울 최적의 시점입니다. 고득점자들이 공통적으로 강조하는 것은 '예제 시험지(Past Papers) 반복 풀이'와 '채점 기준(Markscheme) 분석'입니다. 과목별 IA는 1학기가 시작되는 9월 이전에 주제를 확정하고 데이터 수집을 시작하는 것이 이상적입니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20checking%20exam%20results%20on%20laptop%20with%20relieved%20happy%20expression%2C%20clean%20modern%20desk%20with%20IB%20textbooks%2C%20warm%20natural%20window%20light%2C%20academic%20achievement%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-13&orientation=landscape",
+  },
+  {
+    id: "14",
+    title: "AP 2026 점수 발표 D-2주 — 재시험·대학 크레딧 활용 완벽 정리",
+    category: "입시",
+    date: "2026-06-30",
+    summary:
+      "2026 AP 점수가 7월 중순 발표됩니다. 점수별 대응 전략, 대학 크레딧 인정 기준, 재시험 신청 방법을 미리 알아두세요.",
+    sections: [
+      {
+        heading: "2026 AP 점수 발표 일정",
+        body: "College Board는 2026년 AP 시험 점수를 7월 둘째 주(예정)에 순차 공개합니다. My AP 포털에 로그인하면 과목별 1~5점 결과를 확인할 수 있습니다. 발표 날짜는 과목마다 다를 수 있으며, 이메일 알림을 미리 설정해두면 편리합니다.",
+      },
+      {
+        heading: "점수별 대응 전략 — 3점 이하라면",
+        body: "AP 점수 3점 이하는 대부분의 대학에서 크레딧을 인정하지 않습니다. 해당 과목이 전공 필수 과목이거나 진학 후 재수강이 부담된다면, 2027년 5월 재시험 등록을 고려해보세요. AP 재시험은 이전 점수와 별개로 기록되며, 더 높은 점수를 대학에 제출할 수 있습니다.",
+      },
+      {
+        heading: "대학 크레딧 인정 — 학교마다 기준이 다르다",
+        body: "AP 점수 4~5점을 받았더라도 대학마다 크레딧 인정 기준이 다릅니다. MIT와 Caltech은 AP 크레딧을 거의 인정하지 않는 반면, 대부분의 주립대와 리버럴 아츠 칼리지는 4점 이상이면 해당 과목 수강을 면제해줍니다. 진학 예정 대학의 AP Credit Policy 페이지에서 과목별 인정 기준을 반드시 확인하세요.",
+      },
+      {
+        heading: "점수 공식 제출 — 언제, 어떻게",
+        body: "AP 점수를 지원 대학에 공식 제출하려면 College Board 포털에서 'Send Score Report'를 클릭하면 됩니다. 최초 1개 대학은 무료이고 추가 대학은 USD 15입니다. 입학 허가(Admission)와 장학금 요건에 AP 점수가 포함된 경우, 대학이 지정한 마감일 이전에 제출해야 합니다.",
+      },
+      {
+        heading: "IB와 AP 동시 수강 학생을 위한 조언",
+        body: "IB DP와 AP를 병행하는 학생이라면 두 시험 일정이 맞물리는 5월이 특히 힘든 시기입니다. AP 점수가 기대에 못 미쳤더라도 IB 점수와 함께 종합적으로 평가되므로 너무 낙담하지 않아도 됩니다. 다만 특정 대학의 조건부 합격이 AP 점수에 연결되어 있다면 빠르게 입학처에 상황을 설명하고 대안을 논의하는 것이 중요합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20anxiously%20waiting%20for%20exam%20score%20results%20on%20phone%2C%20AP%20exam%20preparation%20books%20on%20desk%2C%20focused%20study%20environment%2C%20warm%20indoor%20lighting%2C%20academic%20tension%20and%20anticipation%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-14&orientation=landscape",
+  },
+  {
+    id: "15",
+    title: "2027학년도 미국 명문대 조기전형 일정 공개 — 지금 준비해야 할 것들",
+    category: "유학",
+    date: "2026-06-29",
+    summary:
+      "하버드·예일·스탠퍼드 등 주요 대학의 2027학년도 조기전형(ED/EA) 일정이 발표됐습니다. 7월부터 본격 시작해야 할 원서 준비 로드맵을 공개합니다.",
+    sections: [
+      {
+        heading: "2027학년도 조기전형 주요 마감일",
+        body: "하버드·프린스턴·MIT·예일의 Restrictive Early Action(REA) 및 Early Action(EA) 마감은 11월 1일, 얼리 디시전(ED)을 운영하는 대부분의 대학(컬럼비아·노스웨스턴·밴더빌트 등)은 11월 1~15일입니다. 스탠퍼드 REA도 11월 1일 마감으로, 결과는 12월 중순에 발표됩니다. 지금부터 역산하면 에세이 초안 완성까지 12~14주밖에 남지 않았습니다.",
+      },
+      {
+        heading: "7월에 반드시 해야 할 것",
+        body: "7월은 원서 준비의 골든타임입니다. Common App 계정을 개설하고 기본 정보를 입력해두세요. 가장 중요한 것은 650단어 Personal Statement(Common App Essay) 주제를 확정하는 일입니다. 7가지 프롬프트 중 자신의 이야기를 가장 잘 담을 수 있는 주제를 골라 초안을 3개 이상 써보세요. 이 과정만으로 한 달이 소요되는 경우가 많습니다.",
+      },
+      {
+        heading: "추천서 요청은 지금 당장",
+        body: "추천서는 교사가 충분히 준비할 시간을 드려야 합니다. 담임 및 과목 교사 2명에게 7월 중 정식으로 요청하고, 자신의 활동 목록(Brag Sheet)과 지원 대학 리스트를 함께 전달하세요. 학교 카운슬러 추천서도 필요한 경우가 많으니 미리 약속을 잡아두는 것이 좋습니다.",
+      },
+      {
+        heading: "ED vs EA vs REA — 어떤 전형이 유리할까",
+        body: "얼리 디시전(ED)은 합격 시 반드시 등록해야 하는 구속력 있는 전형으로, 합격률이 정시보다 1.5~2배 높은 경우가 많습니다. 재정 지원이 필요한 학생은 여러 학교의 패키지를 비교할 수 없으므로 신중해야 합니다. EA와 REA는 구속력이 없어 합격 후에도 다른 학교에 지원할 수 있지만, REA는 타 사립대 조기전형 동시 지원이 제한됩니다.",
+      },
+      {
+        heading: "국제학교 학생이 원서에서 강조해야 할 것",
+        body: "IB·AP·A-Level 고득점은 학업 역량을 입증하는 기본 조건입니다. 여기에 더해 다국어·다문화 환경에서 쌓은 경험, 지역사회 기여 활동, 자기 주도 프로젝트를 구체적인 수치와 스토리로 녹여내야 차별화됩니다. 활동(Activities) 섹션은 150자 제한이 있으므로 동사로 시작하는 임팩트 있는 문장으로 압축하는 연습이 필요합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20working%20on%20college%20application%20essay%20at%20laptop%20with%20prestigious%20university%20brochures%20nearby%2C%20organized%20modern%20study%20desk%2C%20calm%20focused%20atmosphere%2C%20warm%20ambient%20lighting%2C%20academic%20planning%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-15&orientation=landscape",
+  },
+  {
     id: "10",
     title: "2026 하반기 국제학교 교육 트렌드: AI·에듀테크가 바꾸는 교실",
     category: "커리큘럼",
