@@ -24,11 +24,11 @@ const OG_IMAGE = `${import.meta.env.VITE_SITE_URL || "https://kukje-gwaoe.co.kr"
 export default function Home() {
   return (
     <main className="bg-background-50 text-foreground-950">
-      <title>서울 국제학교전문과외 | IB·AP·IGCSE·SAT 1:1 화상 과외 | 무료 모의수업</title>
+      <title>국제학교전문과외 | IB·AP·SAT 1:1 화상 과외</title>
       <meta name="description" content="서울 국제학교전문과외 - 국내·해외 국제학교 학생을 위한 1:1 맞춤 화상 과외 서비스입니다. IB, AP, IGCSE, SAT, GPA 내신까지 국제학교 커리큘럼을 완벽 대비하며, 8~15년 경력의 검증된 전문 강사진이 실시간으로 지도합니다. 지금 무료 모의수업을 신청해보세요." />
       <meta name="keywords" content="국제학교 과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, 국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, 국제학교 에세이 과외, IB EE 과외, TOK 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 1:1 맞춤 과외, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상, 국제학교 과외 비용, 무료 체험 수업, 국제학교 전문과외, 국제학교 1:1 과외, IB 과외 추천" />
       <link rel="canonical" href={siteUrl} />
-      <meta property="og:title" content="서울 국제학교전문과외 | IB·AP·IGCSE·SAT 1:1 화상 과외 | 무료 모의수업" />
+      <meta property="og:title" content="국제학교전문과외 | IB·AP·SAT 1:1 화상 과외" />
       <meta property="og:description" content="서울 국제학교전문과외 - 국제학교 내신 GPA부터 IB·AP·IGCSE·SAT까지 1:1 실시간 화상 과외. 8~15년 경력 전문 강사진의 무료 모의수업을 신청해보세요." />
       <meta property="og:image" content={OG_IMAGE} />
       <meta property="og:url" content={siteUrl} />
@@ -36,7 +36,7 @@ export default function Home() {
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta property="og:locale" content="ko_KR" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="서울 국제학교전문과외 | IB·AP·IGCSE·SAT 1:1 화상 과외 | 무료 모의수업" />
+      <meta name="twitter:title" content="국제학교전문과외 | IB·AP·SAT 1:1 화상 과외" />
       <meta name="twitter:description" content="서울 국제학교전문과외 - 국제학교 내신 GPA부터 IB·AP·IGCSE·SAT까지 1:1 실시간 화상 과외. 8~15년 경력 전문 강사진의 무료 모의수업을 신청해보세요." />
       <meta name="twitter:image" content={OG_IMAGE} />
       <JsonLd data={{

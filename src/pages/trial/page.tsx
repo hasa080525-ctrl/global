@@ -74,18 +74,18 @@ export default function TrialPage() {
 
   return (
     <main className="bg-background-50 text-foreground-950">
-      <title>무료 모의수업 신청 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 체험</title>
+      <title>무료 모의수업 신청 | 국제학교전문과외</title>
       <meta name="description" content="서울 국제학교전문과외 - 1시간 내외의 실제 국제학교 과외 수업을 무료로 체험하세요. IB·AP·IGCSE·SAT 커리큘럼에 맞춘 1:1 화상 모의수업으로 학생의 현재 수준 진단과 맞춤 학습 계획을 제시합니다. 지금 바로 무료 모의수업을 신청하세요." />
       <meta name="keywords" content="무료 체험 수업, 국제학교 과외 무료, IB 과외 무료 체험, AP 과외 무료, IGCSE 무료 체험, A-Level 무료 체험, SAT 과외 무료, ACT 과외 무료, 화상 과외 체험, 온라인 과외 체험, 국제학교 1:1 과외, 무료 모의수업, 국제학교 과외 비용, 국제학교 내신 무료 상담, IB Math AA 무료 체험, IB Math AI 무료 체험" />
       <link rel="canonical" href={`${siteUrl}/trial`} />
-      <meta property="og:title" content="무료 모의수업 신청 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 체험" />
+      <meta property="og:title" content="무료 모의수업 신청 | 국제학교전문과외" />
       <meta property="og:description" content="100% 무료 1:1 화상 모의수업. IB·AP·IGCSE·SAT 맞춤 수업을 체험하고 선생님과의 궁합을 확인하세요. 지금 바로 신청하세요." />
       <meta property="og:url" content={`${siteUrl}/trial`} />
       <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="무료 모의수업 신청 | 서울 국제학교전문과외 – IB·SAT 1:1 화상 체험" />
+      <meta name="twitter:title" content="무료 모의수업 신청 | 국제학교전문과외" />
       <meta name="twitter:description" content="100% 무료 1:1 화상 모의수업. IB·AP·IGCSE·SAT 맞춤 수업을 체험하고 선생님과의 궁합을 확인하세요. 지금 바로 신청하세요." />
       <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <JsonLd data={{

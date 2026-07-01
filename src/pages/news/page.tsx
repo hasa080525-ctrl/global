@@ -115,18 +115,18 @@ export default function NewsPage() {
 
   return (
     <main className="bg-background-50 text-foreground-950">
-      <title>뉴스 &amp; 소식 | 서울 국제학교전문과외 – IB·AP·SAT 입시 정보</title>
+      <title>뉴스 &amp; 소식 | 국제학교전문과외 IB·AP</title>
       <meta name="description" content="서울 국제학교전문과외 - 국제학교 입시, IB·AP·IGCSE·SAT 커리큘럼, 유학, 학교 소식 등 국제학교 학생과 학부모를 위한 최신 정보를 제공합니다. 글로벌 교육 트렌드와 1:1 화상 과외 학습 노하우를 확인하세요." />
       <meta name="keywords" content="국제학교 입시, IB 입시, AP 시험 준비, SAT 준비, IGCSE 시험, 국제학교 뉴스, 국제학교 과외 정보, 국제학교 유학, 화상 과외 추천" />
       <link rel="canonical" href={`${siteUrl}/news`} />
-      <meta property="og:title" content="뉴스 & 소식 | 서울 국제학교전문과외 – IB·AP·SAT 입시 정보" />
+      <meta property="og:title" content="뉴스 & 소식 | 국제학교전문과외 IB·AP" />
       <meta property="og:description" content="국제학교 입시, IB·AP·IGCSE·SAT 커리큘럼, 유학 등 국제학교 학생과 학부모를 위한 최신 교육 정보를 제공합니다." />
       <meta property="og:url" content={`${siteUrl}/news`} />
       <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="뉴스 & 소식 | 서울 국제학교전문과외 – IB·AP·SAT 입시 정보" />
+      <meta name="twitter:title" content="뉴스 & 소식 | 국제학교전문과외 IB·AP" />
       <meta name="twitter:description" content="국제학교 입시, IB·AP·IGCSE·SAT 커리큘럼, 유학 등 국제학교 학생과 학부모를 위한 최신 교육 정보를 제공합니다." />
       <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <JsonLd
