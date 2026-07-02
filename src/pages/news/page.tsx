@@ -67,7 +67,7 @@ function LatestNewsSlider({ onNavigate }: { onNavigate: (id: string) => void }) 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-5 md:p-8">
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="inline-block rounded-full bg-accent-500 px-3 py-1 text-xs font-bold text-foreground-950">
+                    <span className="inline-block rounded-full bg-accent-500 px-3 py-1 text-xs font-bold text-background-50">
                       {item.category}
                     </span>
                     <span className="text-sm font-medium text-white/80">

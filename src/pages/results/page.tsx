@@ -255,7 +255,7 @@ export default function ResultsPage() {
                   <span className="inline-flex items-center gap-1 rounded-full bg-secondary-100 px-3 py-1 text-xs font-bold text-secondary-700">
                     <i className="ri-book-open-line" /> {r.subject}
                   </span>
-                  <span className="inline-flex items-center gap-1 rounded-full bg-accent-500 px-3 py-1 text-xs font-bold text-foreground-950">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-accent-500 px-3 py-1 text-xs font-bold text-background-50">
                     <i className="ri-map-pin-2-fill" /> {r.university}
                   </span>
                 </div>
