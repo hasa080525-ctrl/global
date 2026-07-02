@@ -14,19 +14,19 @@ const toneCycle = ["primary", "accent", "secondary"] as const;
 export default function AboutPage() {
   return (
     <main className="bg-background-50 text-foreground-950">
-      <title>소개 | 국제학교전문과외 IB·AP 화상 과외</title>
-      <meta name="description" content="2015년 설립. IB·AP·IGCSE·SAT 국제학교 1:1 화상 과외. 검증된 강사진 소개." />
-      <meta name="keywords" content="국제학교 전문과외, 국제학교 과외 추천, IB 과외, AP 과외, IGCSE 과외, A-Level 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 서울 국제학교 과외, 국제학교 1:1 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, 국제학교 과외 비용, 국제학교 내신 관리, 외국인학교 과외, 국제학교 GPA 향상" />
+      <title>소개 | 국제학교전문과외 2015년 설립 검증된 강사진</title>
+      <meta name="description" content="2015년 설립, 누적 학생 350명+ 국제학교 전문과외. IB·AP·IGCSE·SAT 커리큘럼에 특화된 8~15년 경력 강사진을 소개합니다." />
+      <meta name="keywords" content="국제학교 전문과외, 국제학교 과외 추천, IB 과외, AP 과외, IGCSE 과외, A-Level 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 서울 국제학교 과외, 국제학교 1:1 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, 국제학교 과외 비용, 국제학교 내신 관리, 외국인학교 과외, 국제학교 GPA 향상, 국제학교 과외 후기, 국제학교전문과외 소개, 국제학교 과외 업체 비교" />
       <link rel="canonical" href={`${siteUrl}/about`} />
-      <meta property="og:title" content="소개 | 국제학교전문과외 IB·AP 화상 과외" />
-      <meta property="og:description" content="2015년 설립. IB·AP·IGCSE·SAT 국제학교 1:1 화상 과외. 검증된 강사진 소개." />
+      <meta property="og:title" content="소개 | 국제학교전문과외 2015년 설립 검증된 강사진" />
+      <meta property="og:description" content="2015년 설립, 누적 학생 350명+ 국제학교 전문과외. IB·AP·IGCSE·SAT 커리큘럼에 특화된 8~15년 경력 강사진을 소개합니다." />
       <meta property="og:url" content={`${siteUrl}/about`} />
       <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="소개 | 국제학교전문과외 IB·AP 화상 과외" />
-      <meta name="twitter:description" content="2015년 설립. IB·AP·IGCSE·SAT 국제학교 1:1 화상 과외. 검증된 강사진 소개." />
+      <meta name="twitter:title" content="소개 | 국제학교전문과외 2015년 설립 검증된 강사진" />
+      <meta name="twitter:description" content="2015년 설립, 누적 학생 350명+ 국제학교 전문과외. IB·AP·IGCSE·SAT 커리큘럼에 특화된 8~15년 경력 강사진을 소개합니다." />
       <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <JsonLd data={{
         "@context": "https://schema.org",

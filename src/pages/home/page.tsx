@@ -24,20 +24,20 @@ const OG_IMAGE = `${import.meta.env.VITE_SITE_URL || "https://kukje-gwaoe.co.kr"
 export default function Home() {
   return (
     <main className="bg-background-50 text-foreground-950">
-      <title>국제학교전문과외 | IB·AP·SAT 1:1 화상 과외</title>
-      <meta name="description" content="IB·AP·IGCSE·SAT 국제학교 전문 1:1 화상 과외. 8~15년 경력 강사, 무료 모의수업 신청." />
-      <meta name="keywords" content="국제학교 과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, 국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, 국제학교 에세이 과외, IB EE 과외, TOK 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 1:1 맞춤 과외, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상, 국제학교 과외 비용, 무료 체험 수업, 국제학교 전문과외, 국제학교 1:1 과외, IB 과외 추천" />
+      <title>국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험</title>
+      <meta name="description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
+      <meta name="keywords" content="국제학교 과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, 국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, 국제학교 에세이 과외, IB EE 과외, TOK 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 1:1 맞춤 과외, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상, 국제학교 과외 비용, 무료 체험 수업, 국제학교 전문과외, 국제학교 1:1 과외, IB 과외 추천, 국제학교 편입 과외, 국제학교 유학 상담, 국제학교 온라인 과외 후기" />
       <link rel="canonical" href={siteUrl} />
-      <meta property="og:title" content="국제학교전문과외 | IB·AP·SAT 1:1 화상 과외" />
-      <meta property="og:description" content="IB·AP·IGCSE·SAT 국제학교 전문 1:1 화상 과외. 8~15년 경력 강사, 무료 모의수업 신청." />
+      <meta property="og:title" content="국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험" />
+      <meta property="og:description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
       <meta property="og:image" content={OG_IMAGE} />
       <meta property="og:url" content={siteUrl} />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta property="og:locale" content="ko_KR" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="국제학교전문과외 | IB·AP·SAT 1:1 화상 과외" />
-      <meta name="twitter:description" content="IB·AP·IGCSE·SAT 국제학교 전문 1:1 화상 과외. 8~15년 경력 강사, 무료 모의수업 신청." />
+      <meta name="twitter:title" content="국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험" />
+      <meta name="twitter:description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
       <meta name="twitter:image" content={OG_IMAGE} />
       <JsonLd data={{
         "@context": "https://schema.org",

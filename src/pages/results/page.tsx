@@ -64,19 +64,19 @@ export default function ResultsPage() {
 
   return (
     <main className="bg-background-50 text-foreground-950">
-      <title>합격 사례 &amp; 성적 향상 | 국제학교전문과외</title>
-      <meta name="description" content="누적 350명+, Top 20 합격 120건. IB·AP·SAT 실제 성적 향상 사례를 확인하세요." />
-      <meta name="keywords" content="국제학교 합격, IB 성적 향상, IB 7점 과외, AP 과외 결과, 국제학교 과외 후기, Top 20 대학 합격, 아이비리그 합격, 미국 대학 합격, 영국 대학 합격, 국제학교 1:1 과외, 국제학교 과외 비용, NLCS 합격, 채드윅 합격, KIS 합격, 화상 과외 추천, 온라인 과외 추천, 국제학교 내신 향상, GPA 향상 사례" />
+      <title>합격 사례 &amp; 성적 향상 | IB·AP·SAT 국제학교전문과외</title>
+      <meta name="description" content="누적 수업 350명+, Top 20 대학 합격 120건. IB·AP·SAT 국제학교 학생들의 실제 성적 향상 사례와 합격 후기를 확인하세요." />
+      <meta name="keywords" content="국제학교 합격, IB 성적 향상, IB 7점 과외, AP 과외 결과, 국제학교 과외 후기, Top 20 대학 합격, 아이비리그 합격, 미국 대학 합격, 영국 대학 합격, 국제학교 1:1 과외, 국제학교 과외 비용, NLCS 합격, 채드윅 합격, KIS 합격, 화상 과외 추천, 온라인 과외 추천, 국제학교 내신 향상, GPA 향상 사례, 국제학교 과외 성공 사례, SAT 점수 향상" />
       <link rel="canonical" href={`${siteUrl}/success`} />
-      <meta property="og:title" content="합격 사례 & 성적 향상 | 국제학교전문과외" />
-      <meta property="og:description" content="누적 350명+, Top 20 합격 120건. IB·AP·SAT 실제 성적 향상 사례를 확인하세요." />
+      <meta property="og:title" content="합격 사례 & 성적 향상 | IB·AP·SAT 국제학교전문과외" />
+      <meta property="og:description" content="누적 수업 350명+, Top 20 대학 합격 120건. IB·AP·SAT 국제학교 학생들의 실제 성적 향상 사례와 합격 후기를 확인하세요." />
       <meta property="og:url" content={`${siteUrl}/success`} />
       <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="합격 사례 & 성적 향상 | 국제학교전문과외" />
-      <meta name="twitter:description" content="누적 350명+, Top 20 합격 120건. IB·AP·SAT 실제 성적 향상 사례를 확인하세요." />
+      <meta name="twitter:title" content="합격 사례 & 성적 향상 | IB·AP·SAT 국제학교전문과외" />
+      <meta name="twitter:description" content="누적 수업 350명+, Top 20 대학 합격 120건. IB·AP·SAT 국제학교 학생들의 실제 성적 향상 사례와 합격 후기를 확인하세요." />
       <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
       <JsonLd
         data={{
