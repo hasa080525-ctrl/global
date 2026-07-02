@@ -20,7 +20,7 @@ export default function Chart() {
         </p>
 
         <div className="mt-14 rounded-2xl border border-background-300/70 bg-background-100/60 p-6 md:p-10">
-          <div className="flex items-end justify-center gap-5 md:gap-10 h-80">
+          <div className="flex items-end justify-center gap-5 md:gap-10 h-96">
             {BARS.map((b, idx) => (
               <div key={b.label} className="flex flex-col items-center">
                 <span className="mb-2 font-heading text-lg md:text-2xl text-foreground-950">

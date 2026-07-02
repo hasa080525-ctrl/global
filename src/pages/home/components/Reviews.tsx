@@ -1,19 +1,19 @@
 const REVIEWS = [
   {
     text: "학교 시험 범위에 맞춰 핵심만 짚어주셔서 시험기간이 훨씬 편해졌어요.",
-    who: "국제학교 10학년 학부모",
+    who: "서울국제학교 10학년 학부모",
   },
   {
     text: "영어로 진행되는 수학 수업이 처음엔 걱정됐는데 금방 익숙해졌어요.",
-    who: "국제학교 8학년",
+    who: "부산국제학교 8학년",
   },
   {
     text: "에세이 첨삭을 받을 때마다 논리가 점점 또렷해지는 게 느껴져요.",
-    who: "국제학교 11학년",
+    who: "대전외국인학교 11학년",
   },
   {
     text: "아이 학습 패턴을 정확히 파악하고 수업해주셔서 믿고 맡기고 있어요.",
-    who: "학부모",
+    who: "대구국제학교 학부모",
   },
   {
     text: "Living in Shanghai, time zone was a huge concern — but the online sessions fit perfectly into our schedule. My son's IB Math went from a B to A+ in one semester.",
