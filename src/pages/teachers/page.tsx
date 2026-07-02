@@ -82,9 +82,11 @@ export default function TeachersPage() {
               TONE_MAP[toneCycle[idx % toneCycle.length]];
             const isEven = idx % 2 === 0;
             return (
-              <article
+              <a
                 key={t.id}
-                className={`flex flex-col gap-6 md:gap-10 rounded-3xl border border-background-300/70 bg-background-50 p-6 md:p-8 transition hover:-translate-y-1 ${
+                href="tel:01039510535"
+                aria-label={`${t.name} 상담 전화 연결 010-3951-0535`}
+                className={`flex flex-col gap-6 md:gap-10 rounded-3xl border border-background-300/70 bg-background-50 p-6 md:p-8 transition hover:-translate-y-1 cursor-pointer ${
                   isEven ? "lg:flex-row" : "lg:flex-row-reverse"
                 }`}
               >
@@ -103,6 +105,9 @@ export default function TeachersPage() {
                     >
                       {t.subject} 전담
                     </div>
+                    <span className="absolute right-4 top-4 flex h-9 w-9 items-center justify-center rounded-full bg-foreground-950 text-primary-500">
+                      <i className="ri-phone-fill text-base" />
+                    </span>
                   </div>
                 </div>
 
@@ -151,7 +156,7 @@ export default function TeachersPage() {
                     </span>
                   </div>
                 </div>
-              </article>
+              </a>
             );
           })}
         </div>

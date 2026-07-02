@@ -22,16 +22,21 @@ export default function Teachers() {
         {/* Horizontal scroll */}
         <div className="mt-10 flex gap-5 overflow-x-auto scroll-smooth pb-6 px-6 md:px-10 snap-x snap-mandatory [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {TEACHERS.map((t) => (
-            <div
+            <a
               key={t.id}
-              className="flex-none w-64 md:w-72 snap-start rounded-2xl bg-accent-800 overflow-hidden"
+              href="tel:01039510535"
+              aria-label={`${t.name} 상담 전화 연결 010-3951-0535`}
+              className="flex-none w-64 md:w-72 snap-start rounded-2xl bg-accent-800 overflow-hidden cursor-pointer transition hover:-translate-y-1"
             >
-              <div className="w-full h-56 md:h-64 overflow-hidden">
+              <div className="relative w-full h-56 md:h-64 overflow-hidden">
                 <img
                   src={t.image}
                   alt={t.name}
                   className="w-full h-full object-cover object-top"
                 />
+                <span className="absolute top-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-primary-500 text-foreground-950">
+                  <i className="ri-phone-fill text-base" />
+                </span>
               </div>
               <div className="p-5">
                 <div className="flex items-center gap-2 mb-2">
@@ -50,7 +55,7 @@ export default function Teachers() {
                   ))}
                 </ul>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
