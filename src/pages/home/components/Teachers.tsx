@@ -32,6 +32,7 @@ export default function Teachers() {
                 <img
                   src={t.image}
                   alt={t.name}
+                  loading="lazy"
                   className="w-full h-full object-cover object-top"
                 />
                 <span className="absolute top-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-primary-500 text-foreground-950">

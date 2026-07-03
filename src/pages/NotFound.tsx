@@ -1,6 +1,8 @@
 export default function NotFound() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-background-50 px-4 text-center">
+      <title>페이지를 찾을 수 없습니다 | 국제학교전문과외</title>
+      <meta name="robots" content="noindex, follow" />
       <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary-500 text-foreground-950">
         <i className="ri-map-pin-2-line text-3xl" />
       </div>
