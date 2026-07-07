@@ -15,6 +15,70 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "17",
+    title: "2026 AP 시험 성적, 오늘부터 확인 가능 — 발표 첫날 체크리스트",
+    category: "입시",
+    date: "2026-07-07",
+    summary:
+      "College Board가 예고했던 2026 AP 성적이 오늘부터 My AP 포털에서 순차 공개됩니다. 발표 당일 학생과 학부모가 놓치지 말아야 할 사항을 정리했습니다.",
+    sections: [
+      {
+        heading: "성적 확인, 지금 바로 해야 할 일",
+        body: "My AP 계정에 로그인해 과목별 점수를 확인하세요. 여러 과목을 응시했다면 점수가 동시에 뜨지 않고 순차적으로 업데이트될 수 있으니, 하루 이틀 간격을 두고 다시 확인해보는 것이 좋습니다. 점수와 함께 표시되는 백분위(Percentile)도 함께 기록해두면 이후 대학 크레딧 신청 시 참고가 됩니다.",
+      },
+      {
+        heading: "포털 접속이 몰릴 때 대처법",
+        body: "발표 당일에는 접속자가 몰려 페이지 로딩이 느려지거나 오류가 뜰 수 있습니다. 이런 경우 브라우저 캐시를 지우고 재시도하거나, 새벽·늦은 밤 시간대에 다시 접속하면 대부분 해결됩니다. 여러 번 시도해도 계정 자체가 안 열리는 경우에만 College Board 고객센터에 문의하세요.",
+      },
+      {
+        heading: "점수별 다음 단계",
+        body: "5점·4점을 받았다면 대학별 크레딧 인정 기준표에서 전공 필수 과목 면제 여부를 바로 확인하세요. 3점 이하라면 해당 과목이 전공에 필수적인지 따져보고, 필요하다면 내년 5월 재시험 등록을 고려할 수 있습니다. 재시험 점수는 이전 점수와 별개로 기록되어 더 유리한 점수만 대학에 제출할 수 있습니다.",
+      },
+      {
+        heading: "대학 제출 마감일 다시 확인하기",
+        body: "조건부 합격(Conditional Offer)을 받은 학생이라면 AP 점수 제출 마감일을 다시 한번 확인해야 합니다. 대학마다 마감일이 다르므로, 입학처 웹사이트의 'AP Score Requirement' 페이지에서 정확한 날짜와 제출 방법(Send Score Report)을 재확인하세요.",
+      },
+      {
+        heading: "2학기 학습 계획 세우기",
+        body: "성적 발표를 계기로 남은 여름방학 동안 2학기 커리큘럼을 미리 점검하는 것도 좋습니다. 특히 올해 성적이 기대에 못 미쳤던 과목은 2학기 시작 전에 기초 개념부터 다시 정리해두면 새 학기 부담을 크게 줄일 수 있습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20checking%20AP%20exam%20score%20results%20on%20laptop%20screen%2C%20mixed%20anticipation%20and%20relief%20expression%2C%20modern%20study%20desk%20with%20notebook%2C%20warm%20natural%20window%20light%2C%20academic%20achievement%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-17&orientation=landscape",
+  },
+  {
+    id: "16",
+    title: "국제학교 2학기 준비, 여름방학 마지막 3주가 좌우한다",
+    category: "커리큘럼",
+    date: "2026-07-05",
+    summary:
+      "여름방학이 절반 가까이 지난 지금, 2학기 개강 전 남은 3주를 어떻게 쓰느냐가 성적을 좌우합니다. 과목별 점검 포인트를 정리했습니다.",
+    sections: [
+      {
+        heading: "왜 '마지막 3주'가 중요한가",
+        body: "방학 초반의 여유로운 계획은 흐지부지되기 쉽지만, 개강을 코앞에 둔 마지막 3주는 실제로 2학기 출발선을 결정합니다. 이 시기에 부족한 과목을 정리하지 않으면 새 학기 진도를 따라가는 데 곱절의 시간이 들 수 있습니다.",
+      },
+      {
+        heading: "IB·AP 학생: 미완성 과제부터 마무리",
+        body: "여름방학 초에 시작만 해두고 미뤄둔 IA, Extended Essay 초안, AP Summer Assignment가 있다면 지금이 마무리할 마지막 기회입니다. 개강 첫 주는 새로운 진도로 곧바로 바빠지므로, 미완성 과제를 방학 중에 끝내두는 것이 훨씬 유리합니다.",
+      },
+      {
+        heading: "내신·GPA 학생: 지난 학기 취약 단원 복습",
+        body: "지난 학기 성적표에서 낮았던 단원을 골라 핵심 개념만 다시 훑어보세요. 전 범위를 복습하기보다 취약한 2~3개 단원에 집중하는 것이 남은 기간 안에 효과를 볼 수 있는 현실적인 방법입니다.",
+      },
+      {
+        heading: "생활 패턴, 개강 1주 전부터 되돌리기",
+        body: "방학 중 늦어진 수면·기상 시간을 개강 1주 전부터 학기 중 패턴으로 서서히 되돌려야 합니다. 개강 당일부터 갑자기 바꾸려 하면 첫 1~2주 동안 수업 집중도가 떨어지는 경우가 많습니다.",
+      },
+      {
+        heading: "지금 상담을 시작해야 하는 이유",
+        body: "남은 3주 동안 무엇을 우선순위로 둘지는 학생마다 다릅니다. 과목별 진단을 통해 부족한 부분을 짚어내고, 개강 전까지 실행 가능한 계획을 세우는 것이 이 시기 학습 관리의 핵심입니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20reviewing%20study%20notes%20and%20calendar%20at%20desk%20preparing%20for%20new%20school%20semester%2C%20organized%20workspace%20with%20textbooks%2C%20warm%20late%20summer%20afternoon%20light%2C%20focused%20academic%20planning%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-16&orientation=landscape",
+  },
+  {
     id: "13",
     title: "2026 IB 5월 시험 성적 발표 — 국제학교 학생 필독 대응 가이드",
     category: "커리큘럼",
