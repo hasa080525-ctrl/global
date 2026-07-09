@@ -19,7 +19,7 @@ import { FAQS } from "@/mocks/faq";
 
 const siteUrl = import.meta.env.VITE_SITE_URL || "https://example.com";
 
-const OG_IMAGE = `${import.meta.env.VITE_SITE_URL || "https://kukje-gwaoe.co.kr"}/og-image.png`;
+const OG_IMAGE = `${import.meta.env.VITE_SITE_URL || "https://kukje-gwaoe.co.kr"}/og-image.jpg`;
 
 export default function Home() {
   return (

@@ -81,13 +81,13 @@ export default function TrialPage() {
       <meta property="og:title" content="무료 모의수업 신청 | IB·AP·SAT 1:1 화상 과외 체험" />
       <meta property="og:description" content="100% 무료 1:1 화상 모의수업. IB·AP·IGCSE·SAT 맞춤 체험 수업으로 선생님과의 궁합과 학습 방향을 미리 확인해보세요." />
       <meta property="og:url" content={`${siteUrl}/trial`} />
-      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="무료 모의수업 신청 | IB·AP·SAT 1:1 화상 과외 체험" />
       <meta name="twitter:description" content="100% 무료 1:1 화상 모의수업. IB·AP·IGCSE·SAT 맞춤 체험 수업으로 선생님과의 궁합과 학습 방향을 미리 확인해보세요." />
-      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "WebPage",

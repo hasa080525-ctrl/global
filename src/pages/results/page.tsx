@@ -71,13 +71,13 @@ export default function ResultsPage() {
       <meta property="og:title" content="합격 사례 & 성적 향상 | IB·AP·SAT 국제학교전문과외" />
       <meta property="og:description" content="누적 수업 350명+, Top 20 대학 합격 120건. IB·AP·SAT 국제학교 학생들의 실제 성적 향상 사례와 합격 후기를 확인하세요." />
       <meta property="og:url" content={`${siteUrl}/success`} />
-      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="합격 사례 & 성적 향상 | IB·AP·SAT 국제학교전문과외" />
       <meta name="twitter:description" content="누적 수업 350명+, Top 20 대학 합격 120건. IB·AP·SAT 국제학교 학생들의 실제 성적 향상 사례와 합격 후기를 확인하세요." />
-      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <JsonLd
         data={{
           "@context": "https://schema.org",

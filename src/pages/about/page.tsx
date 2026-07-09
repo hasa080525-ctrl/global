@@ -21,13 +21,13 @@ export default function AboutPage() {
       <meta property="og:title" content="소개 | 국제학교전문과외 2015년 설립 검증된 강사진" />
       <meta property="og:description" content="2015년 설립, 누적 학생 350명+ 국제학교 전문과외. IB·AP·IGCSE·SAT 커리큘럼에 특화된 8~15년 경력 강사진을 소개합니다." />
       <meta property="og:url" content={`${siteUrl}/about`} />
-      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="소개 | 국제학교전문과외 2015년 설립 검증된 강사진" />
       <meta name="twitter:description" content="2015년 설립, 누적 학생 350명+ 국제학교 전문과외. IB·AP·IGCSE·SAT 커리큘럼에 특화된 8~15년 경력 강사진을 소개합니다." />
-      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "AboutPage",

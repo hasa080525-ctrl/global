@@ -79,13 +79,13 @@ export default function ContactPage() {
       <meta property="og:title" content="상담 문의 | 국제학교전문과외 전화·카카오톡 무료상담" />
       <meta property="og:description" content="IB·AP·IGCSE·SAT 국제학교 과외 비용, 커리큘럼 상담을 전화·카카오톡·온라인으로 받아보세요. 24시간 내 답변드립니다." />
       <meta property="og:url" content={`${siteUrl}/contact`} />
-      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="상담 문의 | 국제학교전문과외 전화·카카오톡 무료상담" />
       <meta name="twitter:description" content="IB·AP·IGCSE·SAT 국제학교 과외 비용, 커리큘럼 상담을 전화·카카오톡·온라인으로 받아보세요. 24시간 내 답변드립니다." />
-      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "ContactPage",

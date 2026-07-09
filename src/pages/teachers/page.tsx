@@ -21,13 +21,13 @@ export default function TeachersPage() {
       <meta property="og:title" content="전담 강사진 | IB·AP·SAT 과목별 화상 과외 선생님" />
       <meta property="og:description" content="IB Math·IB 영어·AP·IGCSE·SAT·ACT 과목별 전담 강사진. 평균 8~15년 경력, 1:1 맞춤 화상 과외로 성적 향상을 돕습니다." />
       <meta property="og:url" content={`${siteUrl}/faculty`} />
-      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="전담 강사진 | IB·AP·SAT 과목별 화상 과외 선생님" />
       <meta name="twitter:description" content="IB Math·IB 영어·AP·IGCSE·SAT·ACT 과목별 전담 강사진. 평균 8~15년 경력, 1:1 맞춤 화상 과외로 성적 향상을 돕습니다." />
-      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.png" />
+      <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "ItemList",
