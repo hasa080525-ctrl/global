@@ -15,6 +15,38 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "18",
+    title: "2026-27학년도 SAT, 대기자 명단·Bluebook 신기능 도입",
+    category: "입시",
+    date: "2026-07-13",
+    summary:
+      "College Board가 2026년 가을 SAT부터 대기자 명단 자동 배정, Bluebook 계산기 크기 조절 등 새 기능을 도입합니다. 국제학교 학생이 응시 전 미리 알아둬야 할 변경사항을 정리했습니다.",
+    sections: [
+      {
+        heading: "가을 학기부터 달라지는 SAT",
+        body: "College Board가 2026-27학년도 SAT 시행 방식에 몇 가지 변화를 예고했습니다. 시험 자체의 난이도나 구성이 바뀌는 것은 아니지만, 응시 신청 과정과 Bluebook 앱 사용성에 영향을 주는 변경이라 미리 확인해두는 것이 좋습니다. 2026년 가을 시험 등록은 이미 시작된 상태입니다.",
+      },
+      {
+        heading: "대기자 명단(Waitlist) 자동 배정",
+        body: "2026년 가을부터 미국 내 응시자를 대상으로 대기자 명단 기능이 도입됩니다. 원하는 시험일이나 고사장이 마감됐을 때 대기 등록을 해두면, 해당 지역에 자리가 생길 경우 자동으로 배정됩니다. 한국에서 응시하는 학생에게 직접 적용되는 기능은 아니지만, 미국 현지에서 응시를 계획 중이라면 참고할 만합니다.",
+      },
+      {
+        heading: "Bluebook 계산기·참고자료 사용성 개선",
+        body: "디지털 SAT 응시 앱 Bluebook에서 수학 영역에 내장된 계산기 창 크기를 자유롭게 조절할 수 있게 됩니다. 참고자료 레이아웃도 개선되어 차트나 그래프를 확대·이동(줌/팬)하며 볼 수 있습니다. 늦여름에는 PSAT/NMSQT, PSAT 10, PSAT 8/9의 새로운 전체 길이 연습시험도 Bluebook에 추가될 예정이라, 실전과 동일한 환경에서 미리 연습해볼 수 있습니다.",
+      },
+      {
+        heading: "편의 지원(Accommodations) 대상 학생은 준비물 확인",
+        body: "음성 지원(Text-to-Speech)이나 화면 읽기 기능 승인을 받은 학생은 이제 반드시 유선 헤드폰(블루투스 제외)을 지참해야 합니다. 또한 음성 지원 승인 학생은 온라인이 아닌 테스트 센터에서 주말 시험에 응시해야 하므로, 편의 지원을 신청한 경우 시험 장소와 준비물을 다시 한번 점검하세요.",
+      },
+      {
+        heading: "지금 준비해야 할 것",
+        body: "2026년 가을 시험 응시를 계획 중이라면 등록 마감일과 고사장 정원을 서둘러 확인하는 것이 좋습니다. 이번 학기부터 Bluebook을 처음 쓰는 학생이라면, 늦여름 업데이트로 추가되는 연습시험을 활용해 계산기·참고자료 조작법에 미리 익숙해지는 것을 추천합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20taking%20digital%20SAT%20exam%20on%20laptop%20using%20Bluebook%20testing%20app%2C%20focused%20concentration%2C%20modern%20minimalist%20study%20desk%2C%20clean%20background%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-18&orientation=landscape",
+  },
+  {
     id: "17",
     title: "2026 AP 시험 성적, 오늘부터 확인 가능 — 발표 첫날 체크리스트",
     category: "입시",
