@@ -12,8 +12,7 @@ interface NavLinkItem {
 
 const NAV_LINKS: NavLinkItem[] = [
   { label: "홈", href: "#hero" },
-  { label: "소개", href: "#about" },
-  { label: "나라별 가이드", href: "#countries" },
+  { label: "나라별 가이드", href: "#about" },
   { label: "강사진", href: "#teachers" },
   { label: "성적 사례", href: "#success" },
   { label: "뉴스", href: "/news", isPage: true, hasNewsDropdown: true },

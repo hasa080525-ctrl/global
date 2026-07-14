@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Traits from "./components/Traits";
 import AboutSection from "./components/AboutSection";
-import CountryGuide from "./components/CountryGuide";
 import Teachers from "./components/Teachers";
 import Subjects from "./components/Subjects";
 import Ranking from "./components/Ranking";
@@ -209,7 +208,6 @@ export default function Home() {
       <Hero />
       <Traits />
       <AboutSection />
-      <CountryGuide />
       <Teachers />
       <Subjects />
       <Ranking />

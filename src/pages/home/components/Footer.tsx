@@ -24,7 +24,7 @@ export default function Footer() {
               <ul className="mt-3 space-y-2">
                 <li>
                   <a href="/#about" className="hover:text-primary-300 cursor-pointer">
-                    소개
+                    나라별 가이드
                   </a>
                 </li>
                 <li>
