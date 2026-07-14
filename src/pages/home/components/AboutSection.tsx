@@ -137,7 +137,7 @@ export default function AboutSection() {
         </span>
         <h4 className="mt-5 font-heading text-3xl md:text-4xl text-foreground-950">
           <a href="#about" className="cursor-pointer">
-            국제학교 전문 1:1 화상 과외
+            수업중인 학교
           </a>
         </h4>
         <p className="mt-3 text-sm md:text-base text-foreground-700">

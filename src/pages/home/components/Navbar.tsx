@@ -12,12 +12,8 @@ interface NavLinkItem {
 
 const NAV_LINKS: NavLinkItem[] = [
   { label: "홈", href: "#hero" },
-  { label: "나라별 가이드", href: "#about" },
-  { label: "강사진", href: "#teachers" },
-  { label: "성적 사례", href: "#success" },
+  { label: "수업중인 학교", href: "#about" },
   { label: "뉴스", href: "/news", isPage: true, hasNewsDropdown: true },
-  { label: "과목", href: "#subjects" },
-  { label: "후기", href: "#reviews" },
   { label: "FAQ", href: "#faq" },
   { label: "문의", href: "/contact", isPage: true },
   { label: "신청", href: "/trial", isPage: true, highlight: true },

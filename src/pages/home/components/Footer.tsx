@@ -24,17 +24,7 @@ export default function Footer() {
               <ul className="mt-3 space-y-2">
                 <li>
                   <a href="/#about" className="hover:text-primary-300 cursor-pointer">
-                    나라별 가이드
-                  </a>
-                </li>
-                <li>
-                  <a href="/#teachers" className="hover:text-primary-300 cursor-pointer">
-                    강사진
-                  </a>
-                </li>
-                <li>
-                  <a href="/#success" className="hover:text-primary-300 cursor-pointer">
-                    성적 사례
+                    수업중인 학교
                   </a>
                 </li>
                 <li>
