@@ -39,7 +39,7 @@ export default function Home() {
     <main className="bg-background-50 text-foreground-950">
       <title>국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험</title>
       <meta name="description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
-      <meta name="keywords" content="국제학교 과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, 국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, 국제학교 에세이 과외, IB EE 과외, TOK 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 1:1 맞춤 과외, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상, 국제학교 과외 비용, 무료 체험 수업, 국제학교 전문과외, 국제학교 1:1 과외, IB 과외 추천, 국제학교 편입 과외, 국제학교 유학 상담, 국제학교 온라인 과외 후기" />
+      <meta name="keywords" content="국제학교 과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, 국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, 국제학교 에세이 과외, IB EE 과외, TOK 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 1:1 맞춤 과외, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상, 국제학교 과외 비용, 무료 체험 수업, 국제학교 전문과외, 국제학교 1:1 과외, IB 과외 추천, 국제학교 편입 과외, 국제학교 유학 상담, 국제학교 온라인 과외 후기, 국제학교입학, 국제학교전학, 국제학교준비, 국제학교입시, 국제학교내신, GPA관리, 국제학교수학, 국제학교영어, 에세이첨삭, 아이비리그준비, 아이비리그, 입학인터뷰, SSAT대비, SSAT 과외, MAP테스트, MAP 테스트 대비, 알지브라과외, 지오메트리 과외" />
       <link rel="canonical" href={siteUrl} />
       <meta property="og:title" content="국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험" />
       <meta property="og:description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
@@ -136,7 +136,13 @@ export default function Home() {
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AP 과외" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IGCSE 과외" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SAT 과외" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "국제학교 내신 GPA 관리" } }
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "국제학교 내신 GPA 관리" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "국제학교 입학·전학 준비" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SSAT 대비" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "MAP 테스트 대비" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "입학 인터뷰 대비" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "에세이 첨삭" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "아이비리그 진학 준비" } }
           ]
         }
       }} />

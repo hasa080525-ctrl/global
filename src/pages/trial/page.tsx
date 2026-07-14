@@ -78,7 +78,7 @@ export default function TrialPage() {
     <main className="bg-background-50 text-foreground-950">
       <title>무료 모의수업 신청 | IB·AP·SAT 1:1 화상 과외 체험</title>
       <meta name="description" content="100% 무료 1:1 화상 모의수업. IB·AP·IGCSE·SAT 맞춤 체험 수업으로 선생님과의 궁합과 학습 방향을 미리 확인해보세요." />
-      <meta name="keywords" content="무료 체험 수업, 국제학교 과외 무료, IB 과외 무료 체험, AP 과외 무료, IGCSE 무료 체험, A-Level 무료 체험, SAT 과외 무료, ACT 과외 무료, 화상 과외 체험, 온라인 과외 체험, 국제학교 1:1 과외, 무료 모의수업, 국제학교 과외 비용, 국제학교 내신 무료 상담, IB Math AA 무료 체험, IB Math AI 무료 체험, 국제학교 과외 무료체험 신청, 국제학교 과외 선생님 궁합" />
+      <meta name="keywords" content="무료 체험 수업, 국제학교 과외 무료, IB 과외 무료 체험, AP 과외 무료, IGCSE 무료 체험, A-Level 무료 체험, SAT 과외 무료, ACT 과외 무료, 화상 과외 체험, 온라인 과외 체험, 국제학교 1:1 과외, 무료 모의수업, 국제학교 과외 비용, 국제학교 내신 무료 상담, IB Math AA 무료 체험, IB Math AI 무료 체험, 국제학교 과외 무료체험 신청, 국제학교 과외 선생님 궁합, 국제학교입학, 국제학교전학, 국제학교준비, 입학인터뷰, SSAT대비, MAP테스트, 아이비리그준비, 에세이첨삭" />
       <link rel="canonical" href={`${siteUrl}/trial`} />
       <meta property="og:title" content="무료 모의수업 신청 | IB·AP·SAT 1:1 화상 과외 체험" />
       <meta property="og:description" content="100% 무료 1:1 화상 모의수업. IB·AP·IGCSE·SAT 맞춤 체험 수업으로 선생님과의 궁합과 학습 방향을 미리 확인해보세요." />
@@ -284,7 +284,7 @@ export default function TrialPage() {
             <fieldset className="block">
               <legend className="text-sm font-semibold">관심 과목 (복수 선택)</legend>
               <div className="mt-2 grid grid-cols-2 sm:grid-cols-4 gap-2">
-                {["수학", "영어", "과학", "제2외국어", "에세이", "입시", "내신", "SAT"].map(
+                {["수학", "영어", "과학", "제2외국어", "에세이 첨삭", "입시", "내신", "SAT", "입학·전학 준비", "SSAT/MAP 테스트", "아이비리그 준비", "입학 인터뷰"].map(
                   (s) => (
                     <label
                       key={s}

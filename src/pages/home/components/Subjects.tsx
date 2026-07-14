@@ -5,7 +5,7 @@ const ROWS = [
   },
   {
     subject: "영어",
-    detail: "ESSAY, LITERATURE, SAT WRITING",
+    detail: "ESSAY 첨삭, LITERATURE, SAT WRITING",
   },
   {
     subject: "과학",
@@ -15,6 +15,11 @@ const ROWS = [
     subject: "제2외국어",
     detail:
       "중국어: IGCSE / IB CHINESE B 대비\n일본어: IB JAPANESE B / BEGINNER 대비\n스페인어: IB SPANISH AB INITIO / SL",
+  },
+  {
+    subject: "입학·전학 준비",
+    detail:
+      "국제학교 입학·전학 준비: SSAT 대비 / MAP 테스트 대비 / 입학 인터뷰 대비 / 아이비리그 진학 준비",
   },
 ];
 

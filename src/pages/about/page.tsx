@@ -18,7 +18,7 @@ export default function AboutPage() {
     <main className="bg-background-50 text-foreground-950">
       <title>소개 | 국제학교전문과외 2015년 설립 검증된 강사진</title>
       <meta name="description" content="2015년 설립, 누적 학생 350명+ 국제학교 전문과외. IB·AP·IGCSE·SAT 커리큘럼에 특화된 8~15년 경력 강사진을 소개합니다." />
-      <meta name="keywords" content="국제학교 전문과외, 국제학교 과외 추천, IB 과외, AP 과외, IGCSE 과외, A-Level 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 서울 국제학교 과외, 국제학교 1:1 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, 국제학교 과외 비용, 국제학교 내신 관리, 외국인학교 과외, 국제학교 GPA 향상, 국제학교 과외 후기, 국제학교전문과외 소개, 국제학교 과외 업체 비교" />
+      <meta name="keywords" content="국제학교 전문과외, 국제학교 과외 추천, IB 과외, AP 과외, IGCSE 과외, A-Level 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 서울 국제학교 과외, 국제학교 1:1 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, 국제학교 과외 비용, 국제학교 내신 관리, 외국인학교 과외, 국제학교 GPA 향상, 국제학교 과외 후기, 국제학교전문과외 소개, 국제학교 과외 업체 비교, 국제학교입학, 국제학교전학, 국제학교준비, 국제학교입시, GPA관리, 국제학교내신, 아이비리그준비, 아이비리그, 입학인터뷰, SSAT대비, MAP테스트, NLCS, Chadwick International, Korea International School, Branksome Hall Asia, Dulwich College Seoul, Seoul Foreign School, Yongsan International School" />
       <link rel="canonical" href={`${siteUrl}/about`} />
       <meta property="og:title" content="소개 | 국제학교전문과외 2015년 설립 검증된 강사진" />
       <meta property="og:description" content="2015년 설립, 누적 학생 350명+ 국제학교 전문과외. IB·AP·IGCSE·SAT 커리큘럼에 특화된 8~15년 경력 강사진을 소개합니다." />
@@ -112,6 +112,37 @@ export default function AboutPage() {
                   {m.desc}
                 </p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Schools */}
+      <section className="section-pad py-16 md:py-20">
+        <div className="mx-auto max-w-4xl text-center">
+          <h4 className="font-heading text-3xl md:text-4xl text-foreground-950">
+            <a href="#" className="cursor-pointer">이런 학교 학생들이 함께합니다</a>
+          </h4>
+          <p className="mt-3 text-sm md:text-base text-foreground-700">
+            국내 국제학교 재학생부터 해외(싱가포르·상하이·홍콩 등) 국제학교 재학생까지, 국제학교 입학·전학을 준비하는 학생도 함께합니다
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-2.5">
+            {[
+              "NLCS 제주",
+              "Chadwick International (송도)",
+              "Korea International School (KIS)",
+              "Branksome Hall Asia",
+              "Dulwich College Seoul",
+              "Seoul Foreign School (SFS)",
+              "Yongsan International School (YISS)",
+              "St. Johnsbury Academy Jeju (SJA)",
+            ].map((school) => (
+              <span
+                key={school}
+                className="rounded-full border border-background-300/70 bg-background-100 px-4 py-2 text-xs md:text-sm font-medium text-foreground-800"
+              >
+                {school}
+              </span>
             ))}
           </div>
         </div>

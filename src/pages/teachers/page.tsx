@@ -18,7 +18,7 @@ export default function TeachersPage() {
     <main className="bg-background-50 text-foreground-950">
       <title>전담 강사진 | IB·AP·SAT 과목별 화상 과외 선생님</title>
       <meta name="description" content="IB Math·IB 영어·AP·IGCSE·SAT·ACT 과목별 전담 강사진. 평균 8~15년 경력, 1:1 맞춤 화상 과외로 성적 향상을 돕습니다." />
-      <meta name="keywords" content="국제학교 과외 강사, IB 과외 선생님, AP 과외 강사, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, AP 물리 과외, IB EE 과외, TOK 과외, 화상 과외 강사, 온라인 과외 강사, 국제학교 1:1 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외 강사, 국제학교 과목별 과외 선생님, 국제학교 과외 강사 매칭" />
+      <meta name="keywords" content="국제학교 과외 강사, IB 과외 선생님, AP 과외 강사, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, AP 물리 과외, IB EE 과외, TOK 과외, 화상 과외 강사, 온라인 과외 강사, 국제학교 1:1 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외 강사, 국제학교 과목별 과외 선생님, 국제학교 과외 강사 매칭, 국제학교수학, 국제학교영어, 에세이첨삭, SSAT대비, MAP테스트, 알지브라과외, 지오메트리 과외" />
       <link rel="canonical" href={`${siteUrl}/faculty`} />
       <meta property="og:title" content="전담 강사진 | IB·AP·SAT 과목별 화상 과외 선생님" />
       <meta property="og:description" content="IB Math·IB 영어·AP·IGCSE·SAT·ACT 과목별 전담 강사진. 평균 8~15년 경력, 1:1 맞춤 화상 과외로 성적 향상을 돕습니다." />
