@@ -76,6 +76,87 @@ const OVERSEAS_SCHOOLS: OverseasRegion[] = [
   },
 ];
 
+interface DomesticRegion {
+  code: string;
+  name: string;
+  schools: string[];
+}
+
+const DOMESTIC_SCHOOLS: DomesticRegion[] = [
+  {
+    code: "seoul-gg",
+    name: "서울·경기",
+    schools: [
+      "서울외국인학교 (SFS)",
+      "서울용산국제학교 (YISS)",
+      "서울드와이트외국인학교 (Dwight)",
+      "덜위치칼리지서울영국학교 (Dulwich)",
+      "한국외국인학교 (KIS 서울/판교캠퍼스)",
+      "서울국제학교 (SIS)",
+      "경기수원외국인학교 (GSIS)",
+      "아시아퍼시픽국제외국인학교 (APIS)",
+      "코리아외국인학교 (KFS)",
+      "한국켄트외국인학교 (KKFS)",
+      "페이스튼 용산캠퍼스",
+      "베일러국제학교 (안성)",
+      "세인트폴 아카데미 (강남·대치)",
+      "코너스톤 서울아카데미",
+      "한국외대 HIFS",
+    ],
+  },
+  {
+    code: "incheon",
+    name: "인천",
+    schools: ["채드윅 송도국제학교 (Chadwick International)", "청라달튼외국인학교 (CDS)"],
+  },
+  {
+    code: "jeju",
+    name: "제주",
+    schools: [
+      "NLCS 제주 (North London Collegiate School Jeju)",
+      "브랭섬홀 아시아 (BHA)",
+      "세인트존스베리아카데미 제주 (SJA Jeju)",
+      "한국국제학교 제주캠퍼스 (KIS Jeju)",
+      "칼빈매니토바국제학교",
+    ],
+  },
+  {
+    code: "daejeon",
+    name: "대전",
+    schools: ["대전외국인학교 (TCIS)"],
+  },
+  {
+    code: "daegu",
+    name: "대구",
+    schools: ["대구국제학교 (DIS)"],
+  },
+  {
+    code: "busan",
+    name: "부산",
+    schools: ["부산국제외국인학교 (ISB)"],
+  },
+  {
+    code: "gwangju",
+    name: "광주",
+    schools: ["광주외국인학교 (GIS)"],
+  },
+  {
+    code: "ulsan-gn",
+    name: "울산·경남",
+    schools: ["현대외국인학교 (울산)", "경남국제외국인학교 (사천)", "애서튼국제외국인학교 (거제)"],
+  },
+  {
+    code: "sejong",
+    name: "세종",
+    schools: ["페이스튼 세종캠퍼스"],
+  },
+  {
+    code: "etc",
+    name: "기타",
+    schools: ["글로벌비전크리스천학교 (GVCS)"],
+  },
+];
+
 const MISSION = [
   {
     icon: "ri-user-heart-line",
@@ -92,17 +173,6 @@ const MISSION = [
     title: "성과 중심",
     desc: "수업만으로 끝내지 않습니다. 매 수업 후 진도 체크, 학습 관리, 학부모 소통을 통해 체계적으로 성과를 관리합니다.",
   },
-];
-
-const SCHOOLS = [
-  "NLCS 제주",
-  "Chadwick International (송도)",
-  "Korea International School (KIS)",
-  "Branksome Hall Asia",
-  "Dulwich College Seoul",
-  "Seoul Foreign School (SFS)",
-  "Yongsan International School (YISS)",
-  "St. Johnsbury Academy Jeju (SJA)",
 ];
 
 const HISTORY = [
@@ -129,8 +199,10 @@ const HISTORY = [
 ];
 
 export default function AboutSection() {
-  const [active, setActive] = useState(OVERSEAS_SCHOOLS[0].code);
-  const activeRegion = OVERSEAS_SCHOOLS.find((c) => c.code === active)!;
+  const [activeDomestic, setActiveDomestic] = useState(DOMESTIC_SCHOOLS[0].code);
+  const activeDomesticRegion = DOMESTIC_SCHOOLS.find((c) => c.code === activeDomestic)!;
+  const [activeOverseas, setActiveOverseas] = useState(OVERSEAS_SCHOOLS[0].code);
+  const activeOverseasRegion = OVERSEAS_SCHOOLS.find((c) => c.code === activeOverseas)!;
 
   return (
     <section id="about" className="bg-background-50 section-pad py-20 md:py-24">
@@ -173,23 +245,42 @@ export default function AboutSection() {
         </div>
       </div>
 
-      {/* Schools */}
+      {/* Domestic schools */}
       <div className="mx-auto mt-16 max-w-4xl text-center">
         <h5 className="font-heading text-2xl md:text-3xl text-foreground-950">
           이런 학교 학생들이 함께합니다
         </h5>
         <p className="mt-3 text-sm md:text-base text-foreground-700">
-          국내 국제학교 재학생부터 해외 국제학교 재학생까지, 국제학교 입학·전학을 준비하는 학생도 함께합니다
+          지역을 눌러보시면 현재 수업 중인 국내 국제학교를 확인하실 수 있습니다.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-2.5">
-          {SCHOOLS.map((school) => (
-            <span
-              key={school}
-              className="rounded-full border border-background-300/70 bg-background-100 px-4 py-2 text-xs md:text-sm font-medium text-foreground-800"
+          {DOMESTIC_SCHOOLS.map((r) => (
+            <button
+              key={r.code}
+              type="button"
+              onClick={() => setActiveDomestic(r.code)}
+              className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition cursor-pointer whitespace-nowrap ${
+                activeDomestic === r.code
+                  ? "border-primary-500 bg-primary-500 text-foreground-950"
+                  : "border-background-300 bg-background-100 text-foreground-800 hover:border-primary-400 hover:bg-primary-50"
+              }`}
             >
-              {school}
-            </span>
+              {r.name}
+            </button>
           ))}
+        </div>
+        <div className="mt-6 text-left rounded-3xl border border-background-300/70 bg-background-100 p-6 md:p-8">
+          <h3 className="font-heading text-xl md:text-2xl text-foreground-950">{activeDomesticRegion.name}</h3>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {activeDomesticRegion.schools.map((school) => (
+              <span
+                key={school}
+                className="rounded-full border border-background-300/70 bg-background-50 px-3.5 py-1.5 text-xs md:text-sm font-medium text-foreground-800"
+              >
+                {school}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -206,9 +297,9 @@ export default function AboutSection() {
             <button
               key={r.code}
               type="button"
-              onClick={() => setActive(r.code)}
+              onClick={() => setActiveOverseas(r.code)}
               className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition cursor-pointer whitespace-nowrap ${
-                active === r.code
+                activeOverseas === r.code
                   ? "border-primary-500 bg-primary-500 text-foreground-950"
                   : "border-background-300 bg-background-100 text-foreground-800 hover:border-primary-400 hover:bg-primary-50"
               }`}
@@ -219,11 +310,11 @@ export default function AboutSection() {
         </div>
         <div className="mt-6 text-left rounded-3xl border border-background-300/70 bg-background-100 p-6 md:p-8">
           <div className="flex items-center gap-3">
-            <span className="text-3xl">{activeRegion.flag}</span>
-            <h3 className="font-heading text-xl md:text-2xl text-foreground-950">{activeRegion.name}</h3>
+            <span className="text-3xl">{activeOverseasRegion.flag}</span>
+            <h3 className="font-heading text-xl md:text-2xl text-foreground-950">{activeOverseasRegion.name}</h3>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
-            {activeRegion.schools.map((school) => (
+            {activeOverseasRegion.schools.map((school) => (
               <span
                 key={school}
                 className="rounded-full border border-background-300/70 bg-background-50 px-3.5 py-1.5 text-xs md:text-sm font-medium text-foreground-800"
