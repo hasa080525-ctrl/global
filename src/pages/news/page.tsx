@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { NEWS_ITEMS, NEWS_CATEGORIES } from "@/mocks/news";
 import JsonLd from "@/components/base/JsonLd";
+import Navbar from "@/pages/home/components/Navbar";
+import Footer from "@/pages/home/components/Footer";
 
 const siteUrl = import.meta.env.VITE_SITE_URL || "https://example.com";
 
@@ -150,6 +152,7 @@ export default function NewsPage() {
         }}
       />
 
+      <Navbar />
       {/* Hero */}
       <section className="relative h-[320px] md:h-[440px] overflow-hidden">
         <img
@@ -246,6 +249,7 @@ export default function NewsPage() {
           )}
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

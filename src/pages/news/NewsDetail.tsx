@@ -1,6 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { NEWS_ITEMS } from "@/mocks/news";
 import JsonLd from "@/components/base/JsonLd";
+import Navbar from "@/pages/home/components/Navbar";
+import Footer from "@/pages/home/components/Footer";
 
 const siteUrl = import.meta.env.VITE_SITE_URL || "https://example.com";
 
@@ -11,8 +13,9 @@ export default function NewsDetail() {
 
   if (!item) {
     return (
-      <main className="bg-background-50 text-foreground-950 min-h-screen flex flex-col items-center justify-center">
-        <div className="text-center">
+      <main className="bg-background-50 text-foreground-950 min-h-screen flex flex-col">
+        <Navbar />
+        <div className="flex flex-1 flex-col items-center justify-center text-center">
           <i className="ri-error-warning-line text-5xl text-foreground-500 mb-5 block" />
           <h1 className="font-heading text-3xl font-medium text-foreground-950 tracking-tight">
             뉴스를 찾을 수 없습니다
@@ -119,6 +122,7 @@ export default function NewsDetail() {
         }}
       />
 
+      <Navbar />
       {/* Hero */}
       <section className="relative h-[320px] md:h-[440px] overflow-hidden">
         <img
@@ -199,6 +203,7 @@ export default function NewsDetail() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

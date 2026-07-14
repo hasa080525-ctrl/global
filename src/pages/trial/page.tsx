@@ -1,5 +1,7 @@
 import { useState, type FormEvent } from "react";
 import JsonLd from "@/components/base/JsonLd";
+import Navbar from "@/pages/home/components/Navbar";
+import Footer from "@/pages/home/components/Footer";
 
 const siteUrl = import.meta.env.VITE_SITE_URL || "https://example.com";
 
@@ -130,6 +132,7 @@ export default function TrialPage() {
           { "@type": "ListItem", "position": 2, "name": "무료 모의수업 신청", "item": `${siteUrl}/trial` }
         ]
       }} />
+      <Navbar />
       {/* Hero */}
       <section className="relative overflow-hidden bg-foreground-950 text-background-50 section-pad pt-32 pb-20 md:pt-40 md:pb-24">
         <div className="absolute inset-0 bg-polka opacity-80" />
@@ -380,6 +383,7 @@ export default function TrialPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

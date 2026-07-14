@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Traits from "./components/Traits";
@@ -22,6 +24,17 @@ const siteUrl = import.meta.env.VITE_SITE_URL || "https://example.com";
 const OG_IMAGE = `${import.meta.env.VITE_SITE_URL || "https://kukje-gwaoe.co.kr"}/og-image.jpg`;
 
 export default function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const target = document.querySelector(location.hash);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  }, [location]);
+
   return (
     <main className="bg-background-50 text-foreground-950">
       <title>국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험</title>
