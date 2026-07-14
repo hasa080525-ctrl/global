@@ -15,6 +15,38 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "19",
+    title: "2026년 5월 IB 시험 결과 발표 — 전 세계 평균 30.88점",
+    category: "입시",
+    date: "2026-07-14",
+    summary:
+      "7월 6일 발표된 2026년 5월 IB 세션 결과, 전 세계 응시생 20만 9,607명의 평균 점수는 30.88점이었습니다. 지역별 평균과 내 점수 해석법, 재채점 절차를 정리했습니다.",
+    sections: [
+      {
+        heading: "2026년 5월 세션, 이렇게 마감됐다",
+        body: "159개국 20만 9,607명이 응시한 이번 5월 세션의 전 세계 평균 점수는 30.88점(45점 만점)으로 집계됐습니다. 결과는 7월 6일 오후(GMT 기준 낮 12시)부터 IBIS 응시생 웹사이트를 통해 개인 코드와 PIN으로 확인할 수 있었습니다.",
+      },
+      {
+        heading: "지역별 평균 점수, 왜 차이가 클까",
+        body: "홍콩 37.02점, 싱가포르 35.67점, 영국 35.11점으로 전 세계 평균을 크게 웃돈 반면, UAE는 34.5점(통과율 98.32%)을 기록했습니다. 이런 차이는 학교 유형(사립 국제학교 비중), 응시생 선발 기준, 응시 규모가 달라 생기는 것으로, 절대적인 국가 간 실력 비교로 해석하기보다는 각 지역 상위 국제학교군의 평균으로 이해하는 것이 정확합니다.",
+      },
+      {
+        heading: "내 점수, 어떻게 해석해야 할까",
+        body: "30점대 초중반이면 전 세계 평균 이상으로, 대부분의 상위권 대학 지원 요건을 충족하는 수준입니다. 다만 대학별 최소 요구 점수와 특정 과목 성적 조건이 다르므로, 총점만이 아니라 지원 대학의 세부 요건과 비교해 판단해야 합니다.",
+      },
+      {
+        heading: "기대보다 낮게 나왔다면",
+        body: "결과 발표 후 3주 이내에 'Enquiry upon Results(EuR)'로 재채점을 신청할 수 있습니다. 재채점은 점수가 오르거나 내려갈 수 있는 양방향 절차이므로, 조건부 합격 대학의 최소 요구 점수와의 격차, EE·TOK 보너스 포인트 반영 여부를 먼저 확인한 뒤 신청 여부를 결정하는 것이 좋습니다.",
+      },
+      {
+        heading: "대학 제출, 잊지 말아야 할 것",
+        body: "조건부 합격(Conditional Offer)을 받은 학생은 요구 점수 충족 여부를 즉시 확인하고, IBIS를 통해 성적 증명서를 지원 대학에 공식 발송해야 합니다. 대학마다 제출 마감일이 다르므로 입학처 안내를 다시 한번 확인하세요.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20checking%20IB%20diploma%20exam%20results%20on%20laptop%20with%20relieved%20expression%2C%20world%20map%20and%20statistics%20chart%20on%20screen%2C%20clean%20modern%20desk%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-19&orientation=landscape",
+  },
+  {
     id: "18",
     title: "2026-27학년도 SAT, 대기자 명단·Bluebook 신기능 도입",
     category: "입시",
