@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Traits from "./components/Traits";
 import AboutSection from "./components/AboutSection";
+import CountryGuide from "./components/CountryGuide";
 import Teachers from "./components/Teachers";
 import Subjects from "./components/Subjects";
 import Ranking from "./components/Ranking";
@@ -42,7 +43,7 @@ export default function Home() {
     <main className="bg-background-50 text-foreground-950">
       <title>국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험</title>
       <meta name="description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
-      <meta name="keywords" content="국제학교 과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, 국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, 국제학교 에세이 과외, IB EE 과외, TOK 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 1:1 맞춤 과외, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상, 국제학교 과외 비용, 무료 체험 수업, 국제학교 전문과외, 국제학교 1:1 과외, IB 과외 추천, 국제학교 편입 과외, 국제학교 유학 상담, 국제학교 온라인 과외 후기, 국제학교입학, 국제학교전학, 국제학교준비, 국제학교입시, 국제학교내신, GPA관리, 국제학교수학, 국제학교영어, 에세이첨삭, 아이비리그준비, 아이비리그, 입학인터뷰, SSAT대비, SSAT 과외, MAP테스트, MAP 테스트 대비, 알지브라과외, 지오메트리 과외" />
+      <meta name="keywords" content="국제학교 과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, ACT 과외, A-Level 과외, 국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB 영어 과외, 국제학교 에세이 과외, IB EE 과외, TOK 과외, IB DP 과외, IB MYP 과외, 화상 과외, 온라인 과외, 1:1 맞춤 과외, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, NLCS 과외, 채드윅 과외, KIS 과외, SJA 과외, BFS 과외, GSIS 과외, 외국인학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상, 국제학교 과외 비용, 무료 체험 수업, 국제학교 전문과외, 국제학교 1:1 과외, IB 과외 추천, 국제학교 편입 과외, 국제학교 유학 상담, 국제학교 온라인 과외 후기, 국제학교입학, 국제학교전학, 국제학교준비, 국제학교입시, 국제학교내신, GPA관리, 국제학교수학, 국제학교영어, 에세이첨삭, 아이비리그준비, 아이비리그, 입학인터뷰, SSAT대비, SSAT 과외, MAP테스트, MAP 테스트 대비, 알지브라과외, 지오메트리 과외, 미국 국제학교, 영국 보딩스쿨, 싱가포르 국제학교, 홍콩 국제학교, 베트남 국제학교, 말레이시아 국제학교, 두바이 국제학교, UAE 국제학교, 캐나다 국제학교, 해외 국제학교 과외, 유학 커리큘럼 가이드" />
       <link rel="canonical" href={siteUrl} />
       <meta property="og:title" content="국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험" />
       <meta property="og:description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
@@ -208,6 +209,7 @@ export default function Home() {
       <Hero />
       <Traits />
       <AboutSection />
+      <CountryGuide />
       <Teachers />
       <Subjects />
       <Ranking />
