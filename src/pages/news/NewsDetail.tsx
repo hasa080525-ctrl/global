@@ -177,10 +177,10 @@ export default function NewsDetail() {
           <div className="mt-12 rounded-2xl border border-background-300/70 bg-background-100 p-6 md:p-8">
             <h3 className="font-heading text-lg text-foreground-950">관련 정보 더 보기</h3>
             <div className="mt-4 flex flex-wrap gap-3">
-              <a href="/faculty" className="inline-flex items-center gap-2 rounded-full bg-background-50 border border-background-300/70 px-4 py-2.5 text-sm font-bold text-foreground-800 hover:border-primary-500 hover:text-primary-600 transition whitespace-nowrap cursor-pointer">
+              <a href="/#teachers" className="inline-flex items-center gap-2 rounded-full bg-background-50 border border-background-300/70 px-4 py-2.5 text-sm font-bold text-foreground-800 hover:border-primary-500 hover:text-primary-600 transition whitespace-nowrap cursor-pointer">
                 <i className="ri-team-line" /> 전문 강사진 보기
               </a>
-              <a href="/success" className="inline-flex items-center gap-2 rounded-full bg-background-50 border border-background-300/70 px-4 py-2.5 text-sm font-bold text-foreground-800 hover:border-primary-500 hover:text-primary-600 transition whitespace-nowrap cursor-pointer">
+              <a href="/#success" className="inline-flex items-center gap-2 rounded-full bg-background-50 border border-background-300/70 px-4 py-2.5 text-sm font-bold text-foreground-800 hover:border-primary-500 hover:text-primary-600 transition whitespace-nowrap cursor-pointer">
                 <i className="ri-trophy-line" /> 성적 향상 사례
               </a>
               <a href="/trial" className="inline-flex items-center gap-2 rounded-full bg-background-50 border border-background-300/70 px-4 py-2.5 text-sm font-bold text-foreground-800 hover:border-primary-500 hover:text-primary-600 transition whitespace-nowrap cursor-pointer">

@@ -3,11 +3,12 @@ import { useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Traits from "./components/Traits";
+import AboutSection from "./components/AboutSection";
 import Teachers from "./components/Teachers";
 import Subjects from "./components/Subjects";
 import Ranking from "./components/Ranking";
 import Reviews from "./components/Reviews";
-import Chart from "./components/Chart";
+import ResultsSection from "./components/ResultsSection";
 import Pain from "./components/Pain";
 import Process from "./components/Process";
 import Story from "./components/Story";
@@ -18,6 +19,8 @@ import Footer from "./components/Footer";
 import StickyBar from "./components/StickyBar";
 import JsonLd from "@/components/base/JsonLd";
 import { FAQS } from "@/mocks/faq";
+import { TEACHERS } from "@/mocks/teachers";
+import { RESULTS } from "@/mocks/results";
 
 const siteUrl = import.meta.env.VITE_SITE_URL || "https://example.com";
 
@@ -158,14 +161,58 @@ export default function Home() {
           }
         }))
       }} />
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "서울 국제학교전문과외 - 과목별 전담 강사진",
+        "description": "서울 국제학교전문과외 - IB, AP, IGCSE, SAT 등 국제학교 커리큘럼에 특화된 평균 8~15년 경력의 검증된 전문 강사진. 1:1 화상 맞춤 과외.",
+        "url": `${siteUrl}/#teachers`,
+        "numberOfItems": TEACHERS.length,
+        "itemListElement": TEACHERS.map((t, idx) => ({
+          "@type": "ListItem",
+          "position": idx + 1,
+          "item": {
+            "@type": "Person",
+            "name": t.name.replace(" 선생님", ""),
+            "jobTitle": `${t.subject} 전담 강사`,
+            "description": t.tagline,
+            "image": t.image,
+            "url": `${siteUrl}/#teachers`
+          }
+        }))
+      }} />
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "서울 국제학교전문과외 합격생 및 성적 향상 사례",
+        "description": "서울 국제학교전문과외와 함께한 학생들의 실제 성적 변화와 입시 결과. 누적 수업 학생 350명, Top 20 대학 합격 120건 이상. IB·AP·IGCSE·SAT 맞춤 화상 과외.",
+        "url": `${siteUrl}/#success`,
+        "hasPart": RESULTS.map((r) => ({
+          "@type": "Review",
+          "name": `${r.student} - ${r.subject} 성적 향상`,
+          "reviewBody": r.testimonial,
+          "author": { "@type": "Person", "name": r.testimonialBy },
+          "itemReviewed": {
+            "@type": "Service",
+            "name": "국제학교 전문과외",
+            "description": r.subject
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "bestRating": "5",
+            "ratingValue": "5"
+          }
+        }))
+      }} />
       <Navbar />
       <Hero />
       <Traits />
+      <AboutSection />
       <Teachers />
       <Subjects />
       <Ranking />
       <Reviews />
-      <Chart />
+      <ResultsSection />
       <Pain />
       <Process />
       <Story />

@@ -65,7 +65,7 @@ export default function Reviews() {
         </div>
         <div className="mt-10">
           <a
-            href="/success"
+            href="#success"
             className="inline-flex items-center gap-2 rounded-full bg-foreground-950 px-6 py-3 text-sm font-bold text-primary-500 transition hover:bg-foreground-900 whitespace-nowrap cursor-pointer"
           >
             더 많은 성공 사례 보기 <i className="ri-arrow-right-line" />

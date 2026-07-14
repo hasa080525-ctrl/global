@@ -1,9 +1,7 @@
 import type { RouteObject } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import NotFound from "../pages/NotFound";
 import Home from "../pages/home/page";
-import TeachersPage from "../pages/teachers/page";
-import ResultsPage from "../pages/results/page";
-import AboutPage from "../pages/about/page";
 import ContactPage from "../pages/contact/page";
 import TrialPage from "../pages/trial/page";
 import NewsPage from "../pages/news/page";
@@ -16,23 +14,23 @@ const routes: RouteObject[] = [
   },
   {
     path: "/about",
-    element: <AboutPage />,
+    element: <Navigate to="/#about" replace />,
   },
   {
     path: "/faculty",
-    element: <TeachersPage />,
+    element: <Navigate to="/#teachers" replace />,
   },
   {
     path: "/teachers",
-    element: <TeachersPage />,
+    element: <Navigate to="/#teachers" replace />,
   },
   {
     path: "/success",
-    element: <ResultsPage />,
+    element: <Navigate to="/#success" replace />,
   },
   {
     path: "/results",
-    element: <ResultsPage />,
+    element: <Navigate to="/#success" replace />,
   },
   {
     path: "/contact",
