@@ -15,6 +15,38 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "20",
+    title: "2027년 5월부터 바뀌는 IB DP 커리큘럼 — EE·심리·컴공·디자인테크·미술",
+    category: "커리큘럼",
+    date: "2026-07-15",
+    summary:
+      "IB가 심리학·컴퓨터과학·디자인테크놀로지·미술 4개 과목과 Extended Essay를 개편해 2027년 5월 시험부터 적용합니다. 지금 DP2이거나 올가을 DP1을 시작하는 학생이 해당됩니다.",
+    sections: [
+      {
+        heading: "무엇이, 누구부터 바뀌나",
+        body: "2027년 5월이 새 지침의 첫 평가입니다. 즉 2025년 8월 DP1을 시작해 지금 DP2인 학생과, 올가을 DP1을 새로 시작하는 학생 모두 해당됩니다. 2026년 5월 시험은 기존 지침 그대로 치러지므로, 지금 DP2를 마무리하는 학생은 이번 개편과 무관합니다.",
+      },
+      {
+        heading: "Extended Essay, 가장 큰 변화",
+        body: "기존 World Studies EE가 없어지고, 한 과목을 깊이 파는 'Subject-Focused EE'와 5개 프레임워크 중 하나를 골라 두 과목을 엮는 'Interdisciplinary EE' 중 선택하는 구조로 바뀝니다. 지도교사 면담은 여전히 3회지만, 기존 3개였던 성찰 진술서가 하나의 최종 성찰 진술서로 통합됩니다.",
+      },
+      {
+        heading: "컴퓨터과학·디자인테크놀로지",
+        body: "컴퓨터과학은 Java·Python을 모두 지원하도록 바뀌고 기존 선택 옵션이 폐지되며, 내부평가 시간이 5시간 늘어납니다. 디자인테크놀로지는 2020년 이후 가장 큰 개편으로, 지속가능성·포용적 설계·자동화 등 실제 산업 실무 관행에 맞춰 재설계됩니다.",
+      },
+      {
+        heading: "심리학·미술",
+        body: "심리학은 과목 내용 자체는 크게 바뀌지 않지만, 평가 강조점이 단순 암기에서 응용과 주제 간 연결로 옮겨가고 실습 활동이 새로 추가됩니다. 미술은 전통과 혁신의 균형을 다시 맞춰, 실천·맥락·성찰을 통합한 진정성 있는 예술 활동을 더 중요하게 평가합니다.",
+      },
+      {
+        heading: "지금 무엇을 준비해야 할까",
+        body: "위 4개 과목을 수강 중이거나 EE를 준비하는 학생이라면, 학교 IB 코디네이터에게 신·구 지침 중 어느 쪽이 적용되는지 먼저 확인하세요. EE는 주제를 정하기 전에 Subject-Focused와 Interdisciplinary 중 자신의 관심사·강점에 맞는 경로를 미리 가늠해보는 것이 좋습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20reviewing%20updated%20IB%20Diploma%20curriculum%20documents%20with%20laptop%2C%20focused%20planning%20session%2C%20modern%20study%20desk%20with%20notebook%2C%20warm%20natural%20lighting%2C%20professional%20educational%20photography&width=400&height=250&seq=news-20&orientation=landscape",
+  },
+  {
     id: "19",
     title: "2026년 5월 IB 시험 결과 발표 — 전 세계 평균 30.88점",
     category: "입시",
