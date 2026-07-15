@@ -15,6 +15,134 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "24",
+    title: "2026-27학년도 Common App, 8월 1일 오픈 — 에세이 문항은 그대로",
+    category: "입시",
+    date: "2026-07-15",
+    summary:
+      "미국 대학 지원 플랫폼 Common App이 8월 1일 새 학년도 원서 접수를 시작합니다. 에세이 7개 문항은 이번에도 변경 없이 유지됩니다.",
+    sections: [
+      {
+        heading: "8월 1일, 새 사이클 오픈",
+        body: "2026-27학년도(2027년 가을 입학) Common App이 8월 1일 열립니다. 개설 당일은 접속자가 몰려 사이트 지연·오류가 흔하니 여유를 두고 접속하는 것이 좋습니다.",
+      },
+      {
+        heading: "에세이 문항 7개, 이번에도 동일",
+        body: "Common App은 학생·카운슬러·대학 모두의 긍정적 반응을 이유로 기존 7개 에세이 문항을 그대로 유지한다고 공식 발표했습니다. 분량은 250~650단어이며 650단어가 상한입니다.",
+      },
+      {
+        heading: "이월되는 것과 안 되는 것",
+        body: "아이디·비밀번호, 대학 리스트, 'My Common Application' 답변, 카운슬러 초대 내역은 새 사이클로 이월됩니다. 반면 추천서 초대 내역, FERPA 동의, 다이렉트 어드미션 제안, 대학별 추가 질문 답변은 이월되지 않아 다시 작성해야 합니다.",
+      },
+      {
+        heading: "얼리 지원 일정 되짚기",
+        body: "대부분 대학의 ED·EA 마감은 11월 1일, 정시(RD)는 1월 1일~15일 사이에 몰려 있어, 에세이 초안은 8월 안에 시작해두는 것이 안전합니다.",
+      },
+      {
+        heading: "지금부터 준비할 것",
+        body: "8월 1일 전에 개인정보·학교 정보를 미리 정리해두고, 추천서를 부탁할 교사·카운슬러 명단을 확정해두면 개설 당일 바로 초대장을 보낼 수 있어 시간을 아낄 수 있습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20filling%20out%20college%20application%20on%20laptop%20with%20Common%20App%20website%20open%2C%20organized%20desk%20with%20notes%20and%20checklist%2C%20focused%20planning%20atmosphere%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-24&orientation=landscape",
+  },
+  {
+    id: "23",
+    title: "영국 A-Level·GCSE 결과 발표일 확정 — 8월 13일·20일",
+    category: "입시",
+    date: "2026-07-15",
+    summary:
+      "2026년 A-Level 결과는 8월 13일, GCSE 결과는 8월 20일 발표됩니다. Ofqual은 채점 기준이 2025년과 동일하게 유지된다고 밝혔습니다.",
+    sections: [
+      {
+        heading: "확정된 결과 발표 일정",
+        body: "A-Level(GCE) 결과는 8월 13일(목), GCSE 결과는 8월 20일(목) 발표됩니다. 학교·칼리지에는 각각 하루 전(8월 12일, 8월 19일) 제한적으로 먼저 공개됩니다.",
+      },
+      {
+        heading: "시험 일정 되짚어보기",
+        body: "응시 접수 마감은 2월 21일이었고, 시험은 GCE 5월 7일~6월 17일, GCSE 5월 7일~6월 23일 진행되었습니다(예비일 6월 24일).",
+      },
+      {
+        heading: "채점 기준, 올해와 동일",
+        body: "Ofqual은 2026년 등급 산정 기준이 2025년 여름 수준과 동일하게 유지된다고 공식 발표했고, 특정 등급에 정원(쿼터)을 두지 않는다는 점도 재확인했습니다.",
+      },
+      {
+        heading: "클리어링(Clearing) 준비",
+        body: "A-Level 결과 발표 당일부터 대학 미충원 정원을 배정받는 클리어링 절차가 시작되므로, 목표 대학의 최소 요구 성적을 다시 확인하고 대안 리스트를 미리 준비해두는 것이 안전합니다.",
+      },
+      {
+        heading: "국제학교 학생이 챙길 것",
+        body: "영국 대학을 UCAS로 지원한 학생은 결과 발표 당일 UCAS Track에서 합격 확정 여부를 바로 확인할 수 있으니, 발표일 아침 로그인 정보를 미리 점검해두는 것이 좋습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20opening%20A-Level%20exam%20results%20envelope%20with%20anxious%20excited%20expression%2C%20UK%20school%20setting%2C%20clean%20modern%20background%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-23&orientation=landscape",
+  },
+  {
+    id: "22",
+    title: "College Board, 2026-27학년도 AP 신규 과목 2개 출시 — 비즈니스·사이버보안",
+    category: "커리큘럼",
+    date: "2026-07-15",
+    summary:
+      "College Board가 'AP Career Kickstart' 트랙의 일환으로 AP Business with Personal Finance, AP Cybersecurity 2개 신규 과목을 2026-27학년도부터 정식 도입합니다. 코딩 지식이 없어도 수강 가능합니다.",
+    sections: [
+      {
+        heading: "AP Career Kickstart, 새 진로 연계 트랙",
+        body: "2025-26학년도 파일럿을 거쳐 2026-27학년도부터 전국 정식 도입됩니다. 대학 전공 탐색과 실무 역량을 동시에 익히는 새로운 AP 계열입니다.",
+      },
+      {
+        heading: "AP Business with Personal Finance",
+        body: "프로젝트 기반 수업으로 창업·마케팅·재무·회계·경영을 다루며, 학생이 직접 사업계획서를 작성하고 재무설계사 역할을 시뮬레이션합니다.",
+      },
+      {
+        heading: "AP Cybersecurity",
+        body: "코딩 사전지식이 필요 없는 입문형 과목으로, 위험 분석과 사이버 공격 탐지 등 실무 역량을 배웁니다. College Board는 상시 사이버보안 관련 일자리가 50만 개에 달한다는 점을 도입 배경으로 제시했습니다.",
+      },
+      {
+        heading: "2026년 시험 형식도 계속 디지털화",
+        body: "계산기 허용 AP 시험(AP Statistics 포함) 전체에 Bluebook 내장 Desmos 계산기가 제공되며, 2027년 5월부터는 AP 중국어·프랑스어·독일어·이탈리아어·일본어·스페인어와 AP Statistics가 완전 디지털로 전환됩니다.",
+      },
+      {
+        heading: "국제학교 학생에게 의미",
+        body: "전통적 STEM·인문계열 외에 실무형 진로를 대학 지원 전부터 탐색하고 싶다면 새 과목을 검토할 만합니다. 다만 신규 과목이라 학교별 개설 여부가 다르므로 담당 카운슬러에게 개설 계획을 먼저 확인해야 합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20working%20on%20business%20plan%20and%20cybersecurity%20project%20on%20laptop%2C%20modern%20classroom%20setting%20with%20charts%20and%20code%20on%20screen%2C%20engaged%20focused%20expression%2C%20professional%20educational%20photography%2C%20bright%20lighting&width=400&height=250&seq=news-22&orientation=landscape",
+  },
+  {
+    id: "21",
+    title: "TOEFL iBT, 2026년 1월부터 대개편 — 시험시간 단축·새 밴드 점수제",
+    category: "입시",
+    date: "2026-07-15",
+    summary:
+      "ETS가 2026년 1월 21일부터 TOEFL iBT를 전면 개편합니다. 리딩·리스닝이 적응형(adaptive) 방식으로 바뀌고, 기존 120점 만점과 함께 1~6 밴드 점수가 병행 표기됩니다.",
+    sections: [
+      {
+        heading: "언제, 무엇이 바뀌나",
+        body: "2026년 1월 21일부터 시험장 응시와 자택 응시 모두 새 형식이 적용됩니다. 리딩·리스닝이 응시자의 정답률에 따라 문제 난이도가 조정되는 적응형(multistage adaptive) 방식으로 바뀝니다.",
+      },
+      {
+        heading: "새로운 밴드 점수제, 2년간 병행",
+        body: "기존 0~120점과 함께 CEFR 기준에 맞춘 1~6 밴드 점수가 함께 표기되며, 2026~2028년 2년간 두 점수 체계를 동시 운영해 학교들이 비교할 수 있게 합니다.",
+      },
+      {
+        heading: "시험시간 단축, 결과는 더 빨리",
+        body: "전체 응시 시간이 크게 줄어들고, 성적은 응시 후 72시간 이내에 발표됩니다(기존 4~6일에서 단축).",
+      },
+      {
+        heading: "문항 구성도 달라진다",
+        body: "그룹 토론·프로젝트형 시나리오 등 협업 중심 문항이 강의·지문 독해 문항과 함께 출제되어, 특정 문화권에 유리하지 않도록 설계되었습니다.",
+      },
+      {
+        heading: "국제학교 학생이 준비할 것",
+        body: "응시 예정이라면 1월 21일 전후로 시험 일정을 잡을 때 신·구 버전 여부를 확인하고, 정답률에 따라 문제 난이도가 바뀌는 새 적응형 방식에 맞춘 실전 연습을 미리 익혀두는 것이 좋습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20taking%20TOEFL%20test%20on%20computer%20with%20headphones%2C%20focused%20concentration%20in%20quiet%20test%20center%2C%20clean%20minimalist%20background%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-21&orientation=landscape",
+  },
+  {
     id: "20",
     title: "2027년 5월부터 바뀌는 IB DP 커리큘럼 — EE·심리·컴공·디자인테크·미술",
     category: "커리큘럼",
