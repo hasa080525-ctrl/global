@@ -28,6 +28,11 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
+                  <a href="/schools/" className="hover:text-primary-300 cursor-pointer">
+                    학교별 과외 전체 목록
+                  </a>
+                </li>
+                <li>
                   <a href="/news" className="hover:text-primary-300 cursor-pointer">
                     뉴스
                   </a>

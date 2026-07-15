@@ -324,6 +324,11 @@ export default function AboutSection() {
             ))}
           </div>
         </div>
+        <p className="mt-4 text-sm">
+          <a href="/schools/" className="font-semibold text-primary-600 hover:text-primary-700">
+            학교별 과외 전체 목록 보기 →
+          </a>
+        </p>
       </div>
 
       {/* History */}
