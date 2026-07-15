@@ -1,3 +1,16 @@
+import { DOMESTIC_SCHOOLS, OVERSEAS_SCHOOLS } from "./AboutSection";
+
+function shortName(name: string) {
+  return name.replace(/\s*\([^)]*\)\s*/g, "").trim();
+}
+
+const SCHOOL_TICKER = Array.from(
+  new Set([
+    ...DOMESTIC_SCHOOLS.flatMap((r) => r.schools.map(shortName)),
+    ...OVERSEAS_SCHOOLS.flatMap((r) => r.schools.map(shortName)),
+  ])
+);
+
 export default function Hero() {
   return (
     <section
@@ -42,6 +55,30 @@ export default function Hero() {
             무료 모의수업 신청
             <i className="ri-arrow-right-line" />
           </a>
+        </div>
+      </div>
+
+      <div className="relative overflow-hidden border-t border-background-50/10 bg-foreground-950/60 py-4">
+        <p className="text-center text-xs md:text-sm font-medium text-background-300 mb-3">
+          이런 학교 학생들이 함께합니다
+        </p>
+        <div
+          className="flex w-max animate-marquee gap-x-8 whitespace-nowrap will-change-transform"
+          aria-hidden="false"
+        >
+          {[0, 1].map((dup) => (
+            <div key={dup} className="flex items-center gap-x-8 pr-8" aria-hidden={dup === 1}>
+              {SCHOOL_TICKER.map((school, i) => (
+                <span
+                  key={`${dup}-${school}-${i}`}
+                  className="flex items-center gap-x-8 text-sm md:text-base font-medium text-background-100/80"
+                >
+                  {school}
+                  <span className="text-primary-500/50">·</span>
+                </span>
+              ))}
+            </div>
+          ))}
         </div>
       </div>
     </section>

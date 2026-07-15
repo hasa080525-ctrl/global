@@ -95,12 +95,17 @@ export default {
           "0%, 100%": { transform: "rotate(-1deg)" },
           "50%": { transform: "rotate(1deg)" },
         },
+        "marquee": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "fade-up": "fade-up 0.7s ease-out both",
         "fade-in": "fade-in 0.6s ease-out both",
         "bar-rise": "bar-rise 1.2s ease-out both",
         "wiggle": "wiggle 3s ease-in-out infinite",
+        "marquee": "marquee 40s linear infinite",
       },
     },
   },

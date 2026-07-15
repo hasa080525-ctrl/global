@@ -7,7 +7,7 @@ interface OverseasRegion {
   schools: string[];
 }
 
-const OVERSEAS_SCHOOLS: OverseasRegion[] = [
+export const OVERSEAS_SCHOOLS: OverseasRegion[] = [
   {
     code: "vn",
     flag: "🇻🇳",
@@ -82,7 +82,7 @@ interface DomesticRegion {
   schools: string[];
 }
 
-const DOMESTIC_SCHOOLS: DomesticRegion[] = [
+export const DOMESTIC_SCHOOLS: DomesticRegion[] = [
   {
     code: "seoul-gg",
     name: "서울·경기",
