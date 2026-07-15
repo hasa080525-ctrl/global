@@ -123,7 +123,7 @@ const DOMESTIC_SCHOOLS: DomesticRegion[] = [
   {
     code: "daejeon",
     name: "대전",
-    schools: ["대전외국인학교 (TCIS)"],
+    schools: ["외국인학교 (TCIS)"],
   },
   {
     code: "daegu",
