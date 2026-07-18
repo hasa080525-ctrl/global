@@ -284,7 +284,7 @@ export default function TrialPage() {
             <fieldset className="block">
               <legend className="text-sm font-semibold">관심 과목 (복수 선택)</legend>
               <div className="mt-2 grid grid-cols-2 sm:grid-cols-4 gap-2">
-                {["수학", "영어", "과학", "제2외국어", "에세이 첨삭", "입시", "내신", "SAT", "입학·전학 준비", "SSAT/MAP 테스트", "아이비리그 준비", "입학 인터뷰"].map(
+                {["수학", "영어", "과학", "제2외국어", "에세이 첨삭", "입시", "내신", "SAT", "입학·전학 준비", "SSAT/MAP 테스트", "아이비리그 준비", "입학 인터뷰", "유학상품"].map(
                   (s) => (
                     <label
                       key={s}
