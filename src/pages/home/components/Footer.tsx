@@ -33,6 +33,11 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
+                  <a href="/camp" className="hover:text-primary-300 cursor-pointer">
+                    2027 겨울캠프
+                  </a>
+                </li>
+                <li>
                   <a href="/news" className="hover:text-primary-300 cursor-pointer">
                     뉴스
                   </a>

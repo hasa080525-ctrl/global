@@ -13,6 +13,7 @@ interface NavLinkItem {
 const NAV_LINKS: NavLinkItem[] = [
   { label: "홈", href: "#hero" },
   { label: "수업중인 학교", href: "#about" },
+  { label: "겨울캠프", href: "/camp", isPage: true },
   { label: "뉴스", href: "/news", isPage: true, hasNewsDropdown: true },
   { label: "FAQ", href: "#faq" },
   { label: "문의", href: "/contact", isPage: true },

@@ -15,6 +15,118 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "28",
+    title: "컬럼비아대 SAT·ACT 필수 부활 — 아이비리그 8개교 전원 표준시험 요구",
+    category: "입시",
+    date: "2026-07-18",
+    summary:
+      "컬럼비아대학교가 2027-28학년도 입시부터 SAT·ACT 제출을 다시 의무화하며, 팬데믹 이후 시험선택제를 유지해온 아이비리그 8개교가 모두 표준화 시험을 필수 요건으로 되돌렸습니다.",
+    sections: [
+      {
+        heading: "2027-28학년도부터 시험 의무화",
+        body: "컬럼비아대는 6월 중순 공식 발표를 통해 SAT 또는 ACT 점수 제출을 다시 필수화한다고 밝혔습니다. 다만 시행은 2027년 8월 지원분(2027-28학년도)부터이며, 그 전인 2026-27 입시 사이클까지는 기존 시험선택제가 유지됩니다.",
+      },
+      {
+        heading: "아이비리그 8개교 전원 시험 필수화",
+        body: "컬럼비아는 코로나19 이후 시험선택제를 유지해 온 아이비리그 중 마지막으로 시험 필수 요건을 되돌린 학교입니다. 이로써 하버드·예일·프린스턴·브라운·코넬·다트머스·유펜에 이어 아이비리그 8개교 모두가 SAT·ACT 점수를 다시 요구하게 됐습니다.",
+      },
+      {
+        heading: "예외(waiver) 신청 제도는 유지",
+        body: "재정적 어려움, 시험장 접근성 문제, 자연재해 등 개인 사정이 있는 지원자는 점수 제출 예외를 신청할 수 있으며, 신청 자체가 불이익으로 이어지지는 않는다고 학교 측은 밝혔습니다.",
+      },
+      {
+        heading: "국제학교 재학생이 챙길 것",
+        body: "2027-28 입시(현재 고1~고2 학생)를 목표로 하는 국제학교 재학생이라면 SAT·ACT 응시 계획을 다시 세워야 합니다. IB·AP 내신뿐 아니라 표준화 시험 준비를 병행하는 학습 전략이 다시 중요해졌습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Ivy%20League%20university%20campus%20building%20with%20students%20walking%2C%20autumn%20academic%20atmosphere%2C%20SAT%20test%20preparation%20books%20on%20desk%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-28&orientation=landscape",
+  },
+  {
+    id: "27",
+    title: "IB 5월 2026 시험 결과 발표 — 역대 최대 20만 9천여 명 응시, 평균점수 상승",
+    category: "입시",
+    date: "2026-07-18",
+    summary:
+      "국제바칼로레아(IB)가 5월 시험 세션 결과를 발표했습니다. 전 세계 20만 9,607명이 결과를 받아 전년 대비 3.7% 증가했고, 평균 점수와 합격률도 함께 올랐습니다.",
+    sections: [
+      {
+        heading: "역대 최대 규모, 점수도 상승",
+        body: "전 세계 3,442개교 소속 20만 9,607명의 DP·CP 학생이 결과를 받아 전년 대비 3.7% 늘었습니다. 전 세계 평균 점수는 45점 만점에 30.88점으로 2025년 30.58점보다 소폭 상승했고, 합격률은 82.61%를 기록했습니다.",
+      },
+      {
+        heading: "40점 이상 최상위권 1만 명 돌파",
+        body: "1만 526명이 40점 이상을 받아 최상위권 성과를 냈습니다. 특히 영국 학생 평균은 35.11점, 합격률 94.8%로 전 세계 평균을 크게 웃돌았습니다.",
+      },
+      {
+        heading: "중동 지역은 비시험 비상조치 적용",
+        body: "지역 분쟁으로 정상적인 시험 응시가 어려웠던 중동 일부 학교 학생들은 IB의 '비시험 비상조치(NECM)'를 통해 과제물·교사 예측 등급 등을 종합한 방식으로 성적을 받았습니다.",
+      },
+      {
+        heading: "대입 지원 앞둔 학생이 확인할 것",
+        body: "5월 시험 응시생은 이미 결과를 확인했겠지만, 대입 지원 시 성적표 제출 시점과 지원 대학별 IB 점수 환산 기준을 다시 점검해볼 시점입니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Diploma%20certificate%20and%20graduation%20cap%20on%20desk%20with%20world%20map%2C%20international%20baccalaureate%20exam%20results%20concept%2C%20professional%20educational%20photography%2C%20soft%20natural%20lighting&width=400&height=250&seq=news-27&orientation=landscape",
+  },
+  {
+    id: "26",
+    title: "케임브리지 인터내셔널, 2026년 디지털 시험 도입 및 실라버스 25개 이상 개정",
+    category: "커리큘럼",
+    date: "2026-07-18",
+    summary:
+      "케임브리지 인터내셔널이 2026년 6월부터 일부 IGCSE·AS 레벨 과목에 디지털 시험을 처음 도입했고, 2026년부터 25개 이상의 개정 실라버스로 수업을 시작합니다.",
+    sections: [
+      {
+        heading: "디지털 시험 1단계 시행",
+        body: "케임브리지는 2026년 6월부터 유럽·중동·북아프리카·미국 지역 학교를 시작으로 AS 레벨 English General Paper와 IGCSE 회계·경제·생물·화학·물리의 객관식 문항을 노트북으로 응시하는 방식을 단계적으로 도입했습니다. 2033년까지 주요 자격시험의 85%에 디지털 응시 옵션이 도입될 예정입니다.",
+      },
+      {
+        heading: "25개 이상 실라버스 개정, 첫 시험은 2028년",
+        body: "IGCSE 현대외국어 11개 과목을 포함해 25개 이상의 실라버스가 2026년부터 개정판으로 수업을 시작하며, 해당 과목들의 첫 시험은 2028년에 치러집니다. 디자인&테크놀로지 과목은 지속가능성 관련 내용이 강화됐습니다.",
+      },
+      {
+        heading: "영문학, 오픈텍스트 시험으로 전환",
+        body: "IGCSE·O 레벨 영문학 과목은 산문·희곡 원문을 시험장에 가져갈 수 있는 오픈텍스트 방식으로 바뀝니다. 케임브리지는 개방형·폐쇄형 시험 간 성취도 차이가 없었고, 학생들이 암기보다 본문 분석 역량을 더 잘 보여줬다는 연구 결과를 근거로 들었습니다.",
+      },
+      {
+        heading: "IGCSE·A-Level 재학생이 확인할 것",
+        body: "소속 학교가 디지털 응시 얼리어답터 프로그램에 참여하는지, 2026학년도부터 개정 실라버스가 적용되는 과목이 있는지 학교 측에 미리 확인해두는 것이 좋습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20taking%20digital%20exam%20on%20laptop%20in%20classroom%2C%20modern%20international%20school%20testing%20environment%2C%20focused%20studying%20atmosphere%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-26&orientation=landscape",
+  },
+  {
+    id: "25",
+    title: "美 유학생 '체류기간' 제도 폐지 — 최대 4년 고정기간, 출국유예 30일로 단축",
+    category: "유학",
+    date: "2026-07-18",
+    summary:
+      "미국 국토안보부가 F-1 학생비자 등에 적용되던 '체류기간' 제도를 폐지하고, 최대 4년의 고정 체류기간과 30일 출국유예기간을 도입하는 최종 규정을 7월 17일 공식 게재했습니다.",
+    sections: [
+      {
+        heading: "무기한 체류에서 최대 4년 고정기간으로",
+        body: "기존에는 F-1(학생)·J-1(교환방문) 비자 소지자가 프로그램이 끝날 때까지 별도 기한 제한 없이 체류할 수 있었습니다. 새 규정에서는 재학 기간에 맞춰 최대 4년의 고정 체류기간이 부여되며, 이를 넘는 프로그램(학·석사 통합과정, 박사과정 등)에 등록한 학생은 이민국에 별도로 체류연장을 신청해야 합니다.",
+      },
+      {
+        heading: "출국유예기간 60일 → 30일로 단축",
+        body: "학업 종료 후 미국을 떠나야 하는 유예기간이 기존 60일에서 30일로 줄었습니다. 취업연수(OPT) 신청, 짐 정리, 졸업 행사 참석 등을 준비할 시간이 그만큼 빠듯해졌습니다.",
+      },
+      {
+        heading: "시행일은 9월 15일",
+        body: "이번 규정은 2026년 7월 17일 연방관보에 게재됐으며, 실제 시행일은 2026년 9월 15일입니다.",
+      },
+      {
+        heading: "미국 유학 준비생이 챙길 것",
+        body: "프로그램 기간이 4년을 넘을 가능성이 있다면 체류연장 절차와 필요 서류를 미리 확인해두어야 하며, 졸업·OPT 신청 일정도 단축된 유예기간에 맞춰 다시 계획하는 것이 안전합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=US%20passport%20and%20student%20visa%20documents%20on%20desk%20with%20American%20flag%2C%20international%20student%20immigration%20concept%2C%20professional%20editorial%20photography%2C%20clean%20lighting&width=400&height=250&seq=news-25&orientation=landscape",
+  },
+  {
     id: "24",
     title: "2026-27학년도 Common App, 8월 1일 오픈 — 에세이 문항은 그대로",
     category: "입시",

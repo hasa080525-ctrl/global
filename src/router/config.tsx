@@ -6,6 +6,7 @@ import ContactPage from "../pages/contact/page";
 import TrialPage from "../pages/trial/page";
 import NewsPage from "../pages/news/page";
 import NewsDetail from "../pages/news/NewsDetail";
+import CampPage from "../pages/camp/page";
 
 const routes: RouteObject[] = [
   {
@@ -47,6 +48,10 @@ const routes: RouteObject[] = [
   {
     path: "/news/:id",
     element: <NewsDetail />,
+  },
+  {
+    path: "/camp",
+    element: <CampPage />,
   },
   {
     path: "*",
