@@ -9,6 +9,8 @@ export interface NewsItem {
   category: string;
   date: string;
   summary: string;
+  /** Short (<=80 char) description for meta/OG tags. Falls back to `summary` when omitted. */
+  metaDescription?: string;
   sections: NewsSection[];
   image: string;
 }
@@ -21,6 +23,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-18",
     summary:
       "컬럼비아대학교가 2027-28학년도 입시부터 SAT·ACT 제출을 다시 의무화하며, 팬데믹 이후 시험선택제를 유지해온 아이비리그 8개교가 모두 표준화 시험을 필수 요건으로 되돌렸습니다.",
+    metaDescription:
+      "컬럼비아대가 2027-28학년도 입시부터 SAT·ACT를 재의무화하며 아이비리그 8개교 전원이 표준시험을 요구합니다.",
     sections: [
       {
         heading: "2027-28학년도부터 시험 의무화",
@@ -49,6 +53,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-18",
     summary:
       "국제바칼로레아(IB)가 5월 시험 세션 결과를 발표했습니다. 전 세계 20만 9,607명이 결과를 받아 전년 대비 3.7% 증가했고, 평균 점수와 합격률도 함께 올랐습니다.",
+    metaDescription:
+      "IB 5월 2026 시험, 전 세계 20만 9,607명 응시로 역대 최대 규모를 기록하며 평균 점수도 상승했습니다.",
     sections: [
       {
         heading: "역대 최대 규모, 점수도 상승",
@@ -77,6 +83,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-18",
     summary:
       "케임브리지 인터내셔널이 2026년 6월부터 일부 IGCSE·AS 레벨 과목에 디지털 시험을 처음 도입했고, 2026년부터 25개 이상의 개정 실라버스로 수업을 시작합니다.",
+    metaDescription:
+      "케임브리지 인터내셔널이 2026년 디지털 시험을 첫 도입하고 실라버스 25개 이상을 개정합니다.",
     sections: [
       {
         heading: "디지털 시험 1단계 시행",
@@ -105,6 +113,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-18",
     summary:
       "미국 국토안보부가 F-1 학생비자 등에 적용되던 '체류기간' 제도를 폐지하고, 최대 4년의 고정 체류기간과 30일 출국유예기간을 도입하는 최종 규정을 7월 17일 공식 게재했습니다.",
+    metaDescription:
+      "美 국토안보부가 유학생 체류기간 제도를 폐지, 최대 4년 고정기간과 30일 출국유예를 도입합니다.",
     sections: [
       {
         heading: "무기한 체류에서 최대 4년 고정기간으로",
@@ -165,6 +175,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-15",
     summary:
       "2026년 A-Level 결과는 8월 13일, GCSE 결과는 8월 20일 발표됩니다. Ofqual은 채점 기준이 2025년과 동일하게 유지된다고 밝혔습니다.",
+    metaDescription:
+      "2026년 A-Level 결과는 8월 13일, GCSE 결과는 8월 20일 발표되며 채점 기준은 작년과 동일합니다.",
     sections: [
       {
         heading: "확정된 결과 발표 일정",
@@ -197,6 +209,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-15",
     summary:
       "College Board가 'AP Career Kickstart' 트랙의 일환으로 AP Business with Personal Finance, AP Cybersecurity 2개 신규 과목을 2026-27학년도부터 정식 도입합니다. 코딩 지식이 없어도 수강 가능합니다.",
+    metaDescription:
+      "College Board가 2026-27학년도 AP 신규 과목 2개(비즈니스·사이버보안)를 도입합니다.",
     sections: [
       {
         heading: "AP Career Kickstart, 새 진로 연계 트랙",
@@ -229,6 +243,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-15",
     summary:
       "ETS가 2026년 1월 21일부터 TOEFL iBT를 전면 개편합니다. 리딩·리스닝이 적응형(adaptive) 방식으로 바뀌고, 기존 120점 만점과 함께 1~6 밴드 점수가 병행 표기됩니다.",
+    metaDescription:
+      "ETS가 2026년 1월부터 TOEFL iBT를 전면 개편, 적응형 시험과 새 밴드 점수제를 도입합니다.",
     sections: [
       {
         heading: "언제, 무엇이 바뀌나",
@@ -261,6 +277,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-15",
     summary:
       "IB가 심리학·컴퓨터과학·디자인테크놀로지·미술 4개 과목과 Extended Essay를 개편해 2027년 5월 시험부터 적용합니다. 지금 DP2이거나 올가을 DP1을 시작하는 학생이 해당됩니다.",
+    metaDescription:
+      "IB가 2027년 5월부터 심리학·컴공·디자인테크·미술·EE 등 DP 커리큘럼을 개편합니다.",
     sections: [
       {
         heading: "무엇이, 누구부터 바뀌나",
@@ -293,6 +311,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-14",
     summary:
       "7월 6일 발표된 2026년 5월 IB 세션 결과, 전 세계 응시생 20만 9,607명의 평균 점수는 30.88점이었습니다. 지역별 평균과 내 점수 해석법, 재채점 절차를 정리했습니다.",
+    metaDescription:
+      "2026년 5월 IB 시험 결과, 전 세계 평균 30.88점 — 지역별 평균과 재채점 절차를 정리했습니다.",
     sections: [
       {
         heading: "2026년 5월 세션, 이렇게 마감됐다",
@@ -325,6 +345,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-13",
     summary:
       "College Board가 2026년 가을 SAT부터 대기자 명단 자동 배정, Bluebook 계산기 크기 조절 등 새 기능을 도입합니다. 국제학교 학생이 응시 전 미리 알아둬야 할 변경사항을 정리했습니다.",
+    metaDescription:
+      "College Board가 2026-27학년도 SAT에 대기자 자동배정, Bluebook 신기능을 도입합니다.",
     sections: [
       {
         heading: "가을 학기부터 달라지는 SAT",
@@ -357,6 +379,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-07",
     summary:
       "College Board가 예고했던 2026 AP 성적이 오늘부터 My AP 포털에서 순차 공개됩니다. 발표 당일 학생과 학부모가 놓치지 말아야 할 사항을 정리했습니다.",
+    metaDescription:
+      "2026 AP 성적이 오늘부터 My AP 포털에서 공개됩니다. 발표 당일 체크리스트를 정리했습니다.",
     sections: [
       {
         heading: "성적 확인, 지금 바로 해야 할 일",
@@ -421,6 +445,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-07-01",
     summary:
       "IBO가 2026년 5월 시험 성적을 7월 첫째 주에 발표합니다. 점수 확인부터 이의신청, 대학 합격자 성적 제출까지 단계별 대응법을 정리했습니다.",
+    metaDescription:
+      "IB가 2026년 5월 시험 성적을 7월 첫째 주 발표합니다. 점수 확인부터 이의신청까지 정리했습니다.",
     sections: [
       {
         heading: "IB 5월 시험 결과, 언제 어떻게 확인하나",
@@ -485,6 +511,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-06-29",
     summary:
       "하버드·예일·스탠퍼드 등 주요 대학의 2027학년도 조기전형(ED/EA) 일정이 발표됐습니다. 7월부터 본격 시작해야 할 원서 준비 로드맵을 공개합니다.",
+    metaDescription:
+      "하버드·예일·스탠퍼드 등 2027학년도 조기전형 일정 발표 — 7월부터 준비할 것들을 정리했습니다.",
     sections: [
       {
         heading: "2027학년도 조기전형 주요 마감일",
@@ -517,6 +545,8 @@ export const NEWS_ITEMS: NewsItem[] = [
     date: "2026-06-28",
     summary:
       "2026년 하반기, 국제학교 교실에 AI 기반 맞춤형 학습과 에듀테크 도구가 본격 도입되고 있습니다. 변화하는 교육 환경에 적응하는 법을 알아보세요.",
+    metaDescription:
+      "2026년 하반기 국제학교 교실에 AI 기반 맞춤 학습과 에듀테크 도구가 본격 도입되고 있습니다.",
     sections: [
       {
         heading: "AI가 바꾸는 국제학교 교실",

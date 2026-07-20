@@ -10,6 +10,7 @@ export default function NewsDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
   const item = NEWS_ITEMS.find((n) => n.id === id);
+  const metaDesc = item?.metaDescription ?? item?.summary;
 
   if (!item) {
     return (
@@ -38,18 +39,18 @@ export default function NewsDetail() {
   return (
     <main className="bg-background-50 text-foreground-950">
       <title>{item.title} | 서울 국제학교전문과외</title>
-      <meta name="description" content={item.summary} />
+      <meta name="description" content={metaDesc} />
       <meta name="keywords" content={`국제학교, ${item.category}, IB, AP, SAT, 화상 과외, 국제학교전문과외`} />
       <link rel="canonical" href={`${siteUrl}/news/${item.id}`} />
       <meta property="og:title" content={`${item.title} | 서울 국제학교전문과외`} />
-      <meta property="og:description" content={item.summary} />
+      <meta property="og:description" content={metaDesc} />
       <meta property="og:url" content={`${siteUrl}/news/${item.id}`} />
       <meta property="og:image" content={item.image} />
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="국제학교전문과외" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={`${item.title} | 서울 국제학교전문과외`} />
-      <meta name="twitter:description" content={item.summary} />
+      <meta name="twitter:description" content={metaDesc} />
       <meta name="twitter:image" content={item.image} />
       <JsonLd
         data={{
@@ -58,7 +59,7 @@ export default function NewsDetail() {
           headline: item.title,
           datePublished: item.date,
           dateModified: item.date,
-          description: item.summary,
+          description: metaDesc,
           articleSection: item.category,
           keywords: [
             item.category,
