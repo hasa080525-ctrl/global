@@ -17,6 +17,66 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "30",
+    title: "ETS, ACT 인수 완료 — SAT·ACT 두 시험 모두 한 회사 손에",
+    category: "입시",
+    date: "2026-06-30",
+    summary:
+      "ETS가 6월 30일 ACT를 인수했습니다. 시험 형식·응시료·일정에 당장의 변화는 없지만, SAT와 ACT를 사실상 한 회사가 함께 운영하게 되는 첫 사례입니다.",
+    metaDescription:
+      "ETS가 6월 30일 ACT를 인수했습니다. 시험 형식·응시료·일정에 당장의 변화는 없습니다.",
+    sections: [
+      {
+        heading: "인수 배경 — 흔들리는 응시자 수와 SAT 위탁 상실",
+        body: "ACT 응시자는 2019년 178만 명에서 2025년 138만 명으로 줄었고, 2023년 대규모 감원과 2024년 사모펀드 넥서스캐피탈 인수를 거쳤습니다. ETS 역시 2년 전 College Board와의 SAT 운영 위탁 계약을 잃고 GRE·TOEFL 응시자도 줄어드는 상황이라, 두 기관 모두 표준화 시험 시장 재편 압박을 받아왔습니다.",
+      },
+      {
+        heading: "당장 바뀌는 것은 없다",
+        body: "ETS는 이번 인수로 시험 형식, 응시료, 일정에 즉각적인 변화는 없다고 밝혔습니다. ETS CEO는 '교육 접근성과 취업 기회 확대'를 목표로 한다고 언급했지만, 구체적인 통합 계획은 아직 공개되지 않았습니다.",
+      },
+      {
+        heading: "ACT는 이미 'Enhanced ACT'로 개편 중",
+        body: "ACT는 이번 인수와 별개로 2025년 9월(전국 주말 시험) 및 2026년 4월(스쿨데이 시험)부터 과학 영역을 완전 선택과목으로 전환했습니다. 새 종합점수는 과학을 제외한 영어·수학·독해 3개 영역 평균으로 계산되며, 과학을 추가로 응시하면 별도 점수와 STEM 점수를 받습니다.",
+      },
+      {
+        heading: "국제학교 학생이 지켜볼 것",
+        body: "당장 응시 전략을 바꿀 필요는 없지만, SAT와 ACT를 모두 보유하게 된 ETS가 향후 두 시험을 어떻게 통합하거나 차별화할지에 따라 선택의 셈법이 달라질 수 있습니다. 올해 응시를 앞둔 학생은 우선 현재 발표된 일정과 형식 그대로 준비하면 됩니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=SAT%20and%20ACT%20exam%20answer%20sheets%20side%20by%20side%20on%20desk%20with%20pencil%2C%20standardized%20testing%20concept%2C%20clean%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-30&orientation=landscape",
+  },
+  {
+    id: "29",
+    title: "옥스포드, 2027학년도 입시부터 자체 입학시험 폐지 — UAT-UK 공통시험으로",
+    category: "유학",
+    date: "2026-02-06",
+    summary:
+      "옥스포드가 2027학년도 입시부터 MAT·PAT 등 8개 자체 시험을 없애고, 임페리얼·케임브리지와 함께 만든 UAT-UK 공통시험(ESAT·TARA·TMUA)으로 전환합니다.",
+    metaDescription:
+      "옥스포드가 2027학년도 입시부터 자체 시험을 없애고 UAT-UK 공통시험으로 전환합니다.",
+    sections: [
+      {
+        heading: "8개 자체 시험 폐지, UAT-UK로 통합",
+        body: "AHCAAT, BMSAT, CAT, MAT, MLAT, PAT, PhilAT, TSA 등 옥스포드가 자체 운영해온 8개 입학시험이 2026학년도를 끝으로 폐지됩니다. 대신 임페리얼 칼리지 런던과 케임브리지 대학이 설립한 비영리 UAT-UK(University Admissions Test UK)의 컴퓨터 기반 시험으로 전환하며, 최소 3년간 이 체제로 운영될 예정입니다.",
+      },
+      {
+        heading: "전공별로 ESAT·TARA·TMUA 중 하나",
+        body: "16개 과정 지원자는 전공에 따라 공학·과학 계열은 ESAT, 학문적 추론 역량을 보는 TARA, 수학 계열은 TMUA 중 하나를 응시하게 됩니다. 의학·의학대학원 전형은 기존대로 UCAT을, 법학 전형은 LNAT을 그대로 유지합니다.",
+      },
+      {
+        heading: "시험은 Pearson VUE 센터에서, 응시는 1회로 충분",
+        body: "새 시험은 전 세계 Pearson VUE 시험장에서 온라인으로 치러집니다. 같은 UAT-UK 시험을 요구하는 여러 대학에 동시 지원하는 경우, 시험을 한 번만 봐도 모든 지원 대학에 그대로 인정됩니다.",
+      },
+      {
+        heading: "2027학년도 지원생이 확인할 것",
+        body: "2026년 10월 시험 응시가 필수이며, 전형별 세부 등록·예약 절차는 UAT-UK 공식 사이트에서 확인해야 합니다. 국제학교 재학생 중 옥스포드 공학·자연과학·수학 계열을 목표로 한다면 여름 방학 중 새 시험 유형(ESAT/TARA/TMUA)에 맞춘 기출문제 연습을 시작하는 것이 좋습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Oxford%20University%20historic%20building%20with%20students%20walking%2C%20UK%20university%20admissions%20concept%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-29&orientation=landscape",
+  },
+  {
     id: "28",
     title: "컬럼비아대 SAT·ACT 필수 부활 — 아이비리그 8개교 전원 표준시험 요구",
     category: "입시",
