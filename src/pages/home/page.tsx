@@ -188,20 +188,10 @@ export default function Home() {
         "description": "서울 국제학교전문과외와 함께한 학생들의 실제 성적 변화와 입시 결과. 누적 수업 학생 350명, Top 20 대학 합격 120건 이상. IB·AP·IGCSE·SAT 맞춤 화상 과외.",
         "url": `${siteUrl}/#success`,
         "hasPart": RESULTS.map((r) => ({
-          "@type": "Review",
+          "@type": "CreativeWork",
           "name": `${r.student} - ${r.subject} 성적 향상`,
-          "reviewBody": r.testimonial,
-          "author": { "@type": "Person", "name": r.testimonialBy },
-          "itemReviewed": {
-            "@type": "Service",
-            "name": "국제학교 전문과외",
-            "description": r.subject
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "bestRating": "5",
-            "ratingValue": "5"
-          }
+          "text": r.testimonial,
+          "author": { "@type": "Person", "name": r.testimonialBy }
         }))
       }} />
       <Navbar />
