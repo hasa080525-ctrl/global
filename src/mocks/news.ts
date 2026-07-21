@@ -17,6 +17,40 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "31",
+    title: "美 연방 학자금대출 개편 7월 시행 — 페어런트 플러스 첫 상한, 그래드 플러스 폐지",
+    category: "유학",
+    date: "2026-07-21",
+    summary:
+      "2025년 제정된 '하나의 크고 아름다운 법안(OBBBA)'에 따른 미국 연방 학자금대출 개편이 7월 1일부터 시행됐습니다. 부모 대상 페어런트 플러스 대출에 사상 최초로 상한이 생기고, 대학원생용 그래드 플러스 대출은 신규 차입이 폐지됩니다.",
+    metaDescription:
+      "美 페어런트 플러스 대출에 첫 상한이 생기고 그래드 플러스는 폐지됩니다. 7월 1일 시행된 변경사항을 정리했습니다.",
+    sections: [
+      {
+        heading: "무엇이 바뀌었나 — 7월 1일부로 시행",
+        body: "2025년 7월 서명된 '하나의 크고 아름다운 법안(One Big Beautiful Bill Act)'에 따른 연방 학자금대출 개편이 2026년 7월 1일부터 실제 적용되기 시작했습니다. 기존에는 등록금 총액(Cost of Attendance) 한도까지 제한 없이 빌릴 수 있었던 부모 대상 '페어런트 플러스(Parent PLUS)' 대출에 사상 처음으로 상한이 생겼고, 대학원생이 직접 빌리는 '그래드 플러스(Grad PLUS)' 대출은 신규 차입이 아예 막혔습니다.",
+      },
+      {
+        heading: "페어런트 플러스, 연 2만 달러·평생 6만 5천 달러로 제한",
+        body: "새 규정에서 페어런트 플러스 대출은 자녀 1인당 연 2만 달러, 평생 누적 6만 5천 달러까지만 빌릴 수 있습니다. 학비가 이보다 높은 사립대·기숙형 유학 비용을 대출로 메워온 가정이라면, 부족분을 저축이나 다른 재원으로 대체할 계획을 다시 세워야 합니다.",
+      },
+      {
+        heading: "그래드 플러스 폐지, 기존 차입자는 최대 3년 경과규정",
+        body: "그래드 플러스 대출은 2026년 7월부로 신규 대출이 전면 폐지됩니다. 이미 대출을 받아온 재학생은 기존 조건으로 최대 3년, 또는 과정을 마칠 때까지 중 먼저 도래하는 시점까지는 계속 대출받을 수 있는 경과 규정이 적용됩니다.",
+      },
+      {
+        heading: "F-1 유학생과는 무관 — 대상은 시민권·영주권자",
+        body: "이번 개편은 미국 연방 학자금대출 제도 자체의 변경으로, F-1 학생비자로 유학하는 국제학생은 애초에 연방 대출 자격이 없어 직접적인 영향이 없습니다. 다만 미국 시민권·영주권을 보유한 국제학교 재학생이나 그 부모가 시민권·영주권자인 가정이라면 새 상한선이 실제 학비 조달 계획에 영향을 줄 수 있습니다.",
+      },
+      {
+        heading: "국제학교 학생·학부모가 확인할 것",
+        body: "자녀가 미국 시민권·영주권을 보유해 미국 대학 진학을 계획 중이라면, 목표 대학의 예상 등록금과 새로 제한된 대출 한도의 차액을 미리 계산해 저축·장학금·민간 학자금 대출 등 대체 재원 계획을 세워두는 것이 안전합니다. 신분에 따라 적용 여부가 달라지므로 정확한 자격은 지원 대학 재정지원처(Financial Aid Office)에 직접 확인하는 것이 가장 확실합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=US%20federal%20student%20loan%20documents%20and%20calculator%20on%20desk%20with%20American%20flag%2C%20financial%20aid%20planning%20concept%2C%20professional%20editorial%20photography%2C%20clean%20natural%20lighting&width=400&height=250&seq=news-31&orientation=landscape",
+  },
+  {
     id: "30",
     title: "ETS, ACT 인수 완료 — SAT·ACT 두 시험 모두 한 회사 손에",
     category: "입시",
@@ -600,381 +634,363 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "10",
-    title: "2026 하반기 국제학교 교육 트렌드: AI·에듀테크가 바꾸는 교실",
+    title: "IB, 영국서 10년 새 급성장 — 128개교 10만 명 재학, 3분의 2가 비선발형",
     category: "커리큘럼",
-    date: "2026-06-28",
+    date: "2026-06-30",
     summary:
-      "2026년 하반기, 국제학교 교실에 AI 기반 맞춤형 학습과 에듀테크 도구가 본격 도입되고 있습니다. 변화하는 교육 환경에 적응하는 법을 알아보세요.",
+      "국제바칼로레아기구(IBO)의 새 보고서에 따르면 영국 내 IB 학교가 128곳, 재학생은 약 10만 명으로 늘었습니다. 남동부 지역은 2015년 이후 70% 성장했습니다.",
     metaDescription:
-      "2026년 하반기 국제학교 교실에 AI 기반 맞춤 학습과 에듀테크 도구가 본격 도입되고 있습니다.",
+      "영국 내 IB 학교가 128곳, 재학생 약 10만 명으로 늘었다는 IBO 새 보고서가 나왔습니다.",
     sections: [
       {
-        heading: "AI가 바꾸는 국제학교 교실",
-        body: "2026년 하반기, 국제학교 교육 현장에 AI 기반 학습 도구가 전면 도입되기 시작했습니다. 기존의 일률적인 강의식 수업에서 벗어나, 학생 개개인의 학습 속도와 이해도에 맞춘 적응형 학습이 가능해졌습니다. 특히 ChatGPT, Khanmigo, Duolingo Max 같은 AI 튜터 도구들은 학생들이 수업 시간 외에도 개인 맞춤형 피드백을 받을 수 있게 해줍니다.",
+        heading: "IBO 보고서 개요",
+        body: "국제바칼로레아기구(IBO)는 2026년 6월 'Growth, Access and Outcomes: The International Baccalaureate in the United Kingdom' 보고서를 발표했습니다. 영국 내 IB 월드스쿨은 128곳, 운영 프로그램은 179개(PYP·MYP·DP·CP 포함)이며, 재학생은 약 10만 명에 달합니다.",
       },
       {
-        heading: "IB·AP 평가에도 AI 활용 본격화",
-        body: "IB와 AP 평가에서도 AI 활용이 늘어나는 추세입니다. IB는 2026년부터 일부 과목의 IA 평가에 AI 유사도 검사 도구를 도입했으며, 학생들에게도 연구 보조 도구로서의 AI 사용을 제한적으로 허용하기 시작했습니다. 단순히 AI가 쓴 글을 제출하는 것이 아니라, AI를批判적으로 활용하는 능력 자체가 평가 요소로 자리잡고 있습니다.",
+        heading: "남동부 지역이 가장 빠르게 성장",
+        body: "잉글랜드가 영국 전체 IB 학교의 약 95%를 차지하며, 그중 남동부(South East) 지역이 가장 빠르게 성장해 2015년 이후 IB 프로그램 수가 70% 늘었습니다. 스코틀랜드(4%)와 웨일스(2%)는 비중이 낮고, 북아일랜드에는 아직 IB 월드스쿨이 없습니다.",
       },
       {
-        heading: "에듀테크 도구, 선택이 아닌 필수",
-        body: "Notion, Obsidian, Quizlet, Anki 같은 디지털 학습 도구들은 이제 국제학교 학생들에게 선택이 아닌 필수가 되었습니다. 특히 IB Extended Essay나 AP 리서치 페이퍼를 작성할 때, 디지털 노트 정리 도구와 인용 관리 도구(Zotero, Mendeley)를 능숙하게 다루는 능력이 학업 성취도를 크게 좌우합니다. 학교 측에서도 디지털 리터러시 교육을 정규 커리큘럼에 포함하는 추세입니다.",
+        heading: "IB는 더 이상 '소수 사립학교의 전유물'이 아니다",
+        body: "IB가 소수 사립·국제학교만의 프로그램이라는 통념과 달리, 보고서는 영국 내 IB 월드스쿨의 67%가 비선발형(non-selective) 입학 정책을 운영하며, 무상급식 대상 학생도 8,400명 이상 재학 중이라고 밝혔습니다.",
       },
       {
-        heading: "개인 맞춤형 학습 경로의 시대",
-        body: "AI와 러닝 애널리틱스의 결합으로, 학생 개인에게 최적화된 학습 경로를 제공하는 것이 가능해졌습니다. 학생의 강점과 약점을 데이터로 분석하여, 어떤 과목에서 어떤 유형의 추가 학습이 필요한지 자동으로 추천해주는 시스템이 국제학교에 도입되고 있습니다. 이는 기존의 '모두가 같은 진도를 따라가는' 교육 모델을 근본적으로 바꾸는 변화입니다.",
-      },
-      {
-        heading: "학부모가 알아야 할 디지털 학습 전략",
-        body: "에듀테크 도구가 넘쳐나는 시대일수록, 학부모의 역할은 더 중요해집니다. 무분별한 도구 사용보다는, 학생의 학습 스타일과 목표에 맞는 도구를 선택하는 안목이 필요합니다. 또한 화면 시간 관리와 전통적인 독서·필사 학습의 균형을 유지하는 것도 중요합니다. 학교와의 소통을 통해 학교에서 권장하는 에듀테크 도구와 활용법을 숙지하는 것이 좋습니다.",
+        heading: "국제학교 IB 재학생이 참고할 점",
+        body: "IB DP 졸업생이 A-Level 이수자보다 영국 상위 20위권 대학 진학률이 3배 높다는 기존 조사 결과에 더해, 이번 보고서로 영국 내 IB 학교 인프라와 대학의 수용 기반도 꾸준히 넓어지고 있음이 확인됐습니다. 국제학교에서 IB DP를 이수 중인 학생에게는 영국 대입 경로로서의 신뢰도를 뒷받침하는 소식입니다.",
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Modern%20international%20school%20classroom%20with%20AI%20learning%20tools%20on%20tablets%20and%20laptops%2C%20diverse%20students%20collaborating%20with%20technology%2C%20bright%20futuristic%20educational%20environment%2C%20clean%20design%2C%20natural%20daylight%2C%20professional%20educational%20photography%20with%20warm%20tones&width=400&height=250&seq=news-10&orientation=landscape",
+      "https://readdy.ai/api/search-image?query=British%20international%20school%20students%20studying%20together%20in%20classroom%2C%20UK%20school%20building%20exterior%2C%20growth%20of%20international%20baccalaureate%20programme%2C%20professional%20educational%20photography%2C%20natural%20daylight&width=400&height=250&seq=news-10-v2&orientation=landscape",
   },
   {
     id: "11",
-    title: "국제학교 여름방학 캠프 & 인턴십 완벽 가이드 2026",
-    category: "학교 소식",
-    date: "2026-06-27",
+    title: "QS 2027 세계대학순위 발표 — MIT 15년 연속 1위, 中·홍콩 대약진",
+    category: "유학",
+    date: "2026-06-18",
     summary:
-      "방학을 알차게 보내기 위한 국제학교 추천 여름 캠프, 인턴십, 봉사활동 프로그램을 총정리했습니다. 대학 원서에 강력한 스토리를 더하세요.",
+      "QS가 2026년 6월 발표한 2027 세계대학순위에서 MIT가 15년 연속 1위를 지켰고, 중국·홍콩 대학의 순위 상승이 두드러졌습니다.",
+    metaDescription:
+      "QS 2027 세계대학순위에서 MIT가 15년 연속 1위, 중국·홍콩 대학이 큰 폭으로 순위를 올렸습니다.",
     sections: [
       {
-        heading: "방학 활동, 대학 원서의 숨은 무기",
-        body: "국제학교 학생들에게 여름방학은 단순한 휴식 기간이 아닙니다. 대학 입학사정관은 학생이 방학을 어떻게 보냈는지를 통해 학문적 열정, 리더십, 사회적 기여도를 평가합니다. 잘 선택한 여름 캠프나 인턴십 경험은 대학 원서에서 강력한 차별화 포인트가 됩니다. 중요한 것은 '무엇을 했는가'보다 '왜 했는지, 무엇을 배웠는지'입니다.",
+        heading: "발표 개요",
+        body: "QS(Quacquarelli Symonds)는 2026년 6월 18일 2027 세계대학순위를 공개했습니다. 이번 판에는 106개국 고등교육 시스템에서 1,504개 대학이 포함됐으며, 신규 진입 대학은 98개교였습니다.",
       },
       {
-        heading: "STEM 분야 추천 프로그램",
-        body: "과학·기술·공학·수학에 관심 있는 학생이라면 MIT RSI(Research Science Institute), Stanford SIMR(Summer Institutes in Medicine and Research), UC COSMOS 프로그램을 주목하세요. 국내에서는 KAIST 사이언스 캠프, 포스텍 영재 프로그램이 알차고 경쟁력 있습니다. 실제 연구실에서 멘토와 함께 프로젝트를 수행하는 경험은 대학 원서에서 가장 강력한 스토리가 됩니다.",
+        heading: "상위권 결과",
+        body: "MIT가 15년 연속 세계 1위를 유지했고, 스탠퍼드대(2위)와 임페리얼칼리지런던(2위, 공동)이 뒤를 이었습니다. 옥스퍼드대 4위, 하버드대 5위, 케임브리지대 6위 순이었으며, 예일대(16위)와 존스홉킨스대(20위)가 20위권에 재진입했습니다.",
       },
       {
-        heading: "인문·사회·비즈니스 분야 프로그램",
-        body: "인문사회 분야에서는 Yale Young Global Scholars, Georgetown Summer High School Programs, UPenn Social Justice Research Academy가 대표적입니다. 비즈니스와 리더십에 관심 있다면 Wharton Leadership in the Business World, Brown Leadership Institute를 추천합니다. 이 프로그램들은 해당 대학의 실제 교수진이 강의를 진행하여, 진학 후에도 큰 도움이 됩니다.",
+        heading: "아시아권의 부상",
+        body: "중국 본토 대학의 72%가 순위 상승을 기록했고 신규 진입 13개교를 배출해 전 세계에서 가장 많은 상승 사례를 만들어냈습니다. 홍콩도 대학의 78%가 순위 상승했으며 일부는 20위권에 진입했습니다.",
       },
       {
-        heading: "지역사회 봉사와 자체 프로젝트",
-        body: "꼭 해외 명문 프로그램이 아니더라도, 지역사회에서 의미 있는 활동을 기획하고 실행하는 것도 큰 가치가 있습니다. 지역 도서관에서 영어 독서 멘토링을 운영하거나, 환경 보호 캠페인을 기획하거나, 코딩을 가르치는 무료 워크숍을 여는 등 스스로 기획한 프로젝트는 오히려 더 진정성 있게 평가됩니다. 중요한 것은 '지속성'과 '영향력'입니다.",
-      },
-      {
-        heading: "프로그램 선택 시 체크리스트",
-        body: "프로그램을 선택할 때는 다음을 확인하세요: ① 자신의 진로 목표와 연결되는가, ② 단순 체험이 아닌 실질적인 배움이 있는가, ③ 지원 마감일과 준비 기간은 충분한가, ④ 프로그램 수료 후 대학 원서에 어떻게 녹여낼 수 있는가. 또한 프로그램 비용 대비 가치도 고려해야 합니다. 무료이거나 장학금이 있는 프로그램도 많으니, 적극적으로 찾아보세요.",
+        heading: "국제학교 학생이 참고할 점",
+        body: "전체 순위에 포함된 미국 대학은 184개교로 국가별 최다였고 영국(93개교), 중국 본토(85개교)가 뒤를 이었습니다. 미국이 여전히 최상위권을 지배하지만, 진학 대상 국가를 넓혀 아시아·유럽 상위권 대학까지 폭넓게 검토해볼 만한 시점입니다.",
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Diverse%20high%20school%20students%20participating%20in%20summer%20camp%20program%2C%20collaborative%20outdoor%20learning%20environment%2C%20bright%20summer%20atmosphere%2C%20engaging%20educational%20activities%2C%20modern%20campus%20setting%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting%20with%20vibrant%20colors&width=400&height=250&seq=news-11&orientation=landscape",
+      "https://readdy.ai/api/search-image?query=World%20university%20ranking%20concept%2C%20prestigious%20campus%20building%20with%20global%20map%20overlay%2C%20graduation%20cap%20on%20desk%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-11-v2&orientation=landscape",
   },
   {
     id: "12",
-    title: "해외 대학 2027 입시 에세이 트렌드: '진정성'이 키워드다",
-    category: "유학",
-    date: "2026-06-26",
-    summary:
-      "2027학년도 해외 대학 입시 에세이의 핵심 키워드는 '진정성'입니다. 스펙 나열보다 개인의 이야기를 담아내는 에세이 전략을 공개합니다.",
-    sections: [
-      {
-        heading: "2027 입시 에세이, 무엇이 달라졌나",
-        body: "2027학년도 해외 대학 입시에서 에세이의 중요성이 그 어느 때보다 커졌습니다. 팬데믹 이후 표준화 시험의 비중이 줄어들면서, 입학사정관은 에세이를 통해 지원자의 인성, 가치관, 성장 가능성을 더 깊이 평가하고 있습니다. 특히 AI가 쓴 에세이를 걸러내기 위한 검증 시스템이 강화되며, '진정성'이 합격을 가르는 결정적 요소가 되었습니다.",
-      },
-      {
-        heading: "입학사정관이 찾는 3가지 요소",
-        body: "2027년 입시에서 입학사정관이 에세이에서 찾는 핵심 요소는 세 가지입니다. 첫째, 자기 인식 — 자신의 강점과 약점을 솔직하게 이해하고 있는가. 둘째, 지적 호기심 — 단순한 성적 이상으로 배움을 향한 진정한 열정이 있는가. 셋째, 기여 의지 — 캠퍼스 커뮤니티에 어떤 방식으로 기여할 수 있는가. 이 세 가지를 자신만의 구체적인 경험과 연결하여 풀어내는 것이 중요합니다.",
-      },
-      {
-        heading: "AI 시대의 에세이, 절대 하면 안 되는 것",
-        body: "ChatGPT 같은 AI 도구에 에세이를 대신 쓰게 하는 것은 절대 금물입니다. 대학들은 이미 AI 생성 텍스트를 탐지하는 시스템을 도입했으며, 적발 시 불합격은 물론 블랙리스트에 오를 수도 있습니다. AI는 브레인스토밍 파트너나 문법 교정 도구로만 제한적으로 활용하고, 에세이의 핵심 내용은 반드시 자신의 경험과 생각으로 채워야 합니다.",
-      },
-      {
-        heading: "성공적인 에세이를 위한 5단계 전략",
-        body: "효과적인 에세이 작성을 위한 5단계 전략을 소개합니다: ① 자신의 인생에서 전환점이 된 순간 5개 리스트업하기, ② 각 순간에서 배운 교훈과 성장 포인트 정리하기, ③ 그 경험이 왜 지원하는 대학과 전공으로 이어졌는지 연결하기, ④ 초안을 3개 이상 버전으로 작성한 후 비교하기, ⑤ 최소 3명 이상에게 피드백을 받은 후 최종 수정하기. 이 과정에 최소 4~6주를 투자해야 완성도 높은 에세이가 나옵니다.",
-      },
-      {
-        heading: "국제학교 학생만의 강점 살리기",
-        body: "국제학교 학생들은 다문화 환경에서 자란 독특한 경험을 가지고 있습니다. 여러 언어와 문화를 넘나들며 형성된 유연한 사고방식, 다양한 국적의 친구들과 협업한 경험, 글로벌 이슈에 대한 폭넓은 시야는 강력한 에세이 소재입니다. 자신의 문화적 배경을 '핸디캡'이 아닌 '자산'으로 바라보고, 그것이 캠퍼스에 어떤 다양성을 더할 수 있을지 설득력 있게 풀어내세요.",
-      },
-    ],
-    image:
-      "https://readdy.ai/api/search-image?query=International%20student%20thoughtfully%20writing%20college%20application%20essay%20in%20cozy%20modern%20study%20room%2C%20warm%20ambient%20lighting%2C%20notebook%20and%20pen%20on%20wooden%20desk%2C%20plants%20and%20bookshelves%20in%20background%2C%20calm%20and%20reflective%20atmosphere%2C%20professional%20editorial%20photography%20with%20natural%20tones&width=400&height=250&seq=news-12&orientation=landscape",
-  },
-  {
-    id: "7",
-    title: "2026 여름방학, 국제학교 학생을 위한 학습 로드맵",
-    category: "커리큘럼",
-    date: "2026-06-25",
-    summary:
-      "국제학교 학생들에게 여름방학은 다음 학기를 준비하는 골든타임입니다. IB, AP, SAT 과목별 여름방학 학습 전략을 공개합니다.",
-    sections: [
-      {
-        heading: "여름방학, 왜 중요한가",
-        body: "국제학교 학생들에게 여름방학은 단순한 휴식 기간이 아닙니다. 평소 학기 중에는 시간이 부족해 깊이 있게 다루지 못했던 과목을 보충하고, 다음 학기 커리큘럼을 미리 준비할 수 있는 전략적 시기입니다. 특히 IB 디플로마 과정이나 AP 과목을 앞둔 학생이라면 이 방학을 어떻게 보내느냐에 따라 2학기 성적이 크게 달라질 수 있습니다.",
-      },
-      {
-        heading: "IB 학생: IA·EE 집중 대비",
-        body: "IB 학생들은 여름방학을 이용해 내부 평가 과제를 먼저 준비하는 것이 효과적입니다. 과학 과목 실험 주제를 선정하고 예비 조사를 진행하거나, 수학 IA의 데이터 수집과 분석 방향을 설계하세요. 확장 에세이의 경우 주제를 확정하고 최소 1,000단어 이상의 초안을 작성해두면 개학 후 큰 부담을 덜 수 있습니다.",
-      },
-      {
-        heading: "AP 학생: 취약 과목 집중 보강",
-        body: "AP 시험을 앞둔 학생들은 취약 과목에 집중하는 것이 핵심입니다. AP Calculus, AP Physics 같은 계산 중심 과목은 매일 1시간씩 꾸준히 문제를 풀며 개념을 복습하고, AP English, AP History 같은 읽기·쓰기 중심 과목은 매주 에세이 1편씩 작성하며 표현력을 키우세요. 여름방학 8주 동안 하루 2~3시간의 집중 학습만으로도 큰 차이를 만들 수 있습니다.",
-      },
-      {
-        heading: "SAT·ACT: 여름이 최적의 준비 시기",
-        body: "SAT나 ACT를 준비하는 학생에게 여름방학은 최적의 시기입니다. 학기 중에는 학교 과제와 병행하기 어려웠던 모의시험을 주 1회 이상 풀고, 오답 패턴을 분석하여 취약 유형을 파악하세요. 특히 2024년부터 디지털 전환된 SAT의 경우, 새로운 시험 환경에 익숙해지는 것이 중요하므로 디지털 플랫폼에서의 실전 연습을 충분히 해야 합니다.",
-      },
-      {
-        heading: "균형 잡힌 방학 계획의 비결",
-        body: "여름방학 학습 계획은 과하지 않아야 합니다. 하루 3~4시간의 집중 학습과 충분한 휴식을 병행하는 것이 장기적인 학습 효율을 높입니다. 주말에는 리딩 리스트에 있는 책을 읽거나, 관심 분야의 온라인 코스를 수강하며 지적 호기심을 키우는 것도 좋습니다. 중요한 것은 '꾸준함'이지 '양'이 아닙니다.",
-      },
-    ],
-    image:
-      "https://readdy.ai/api/search-image?query=Student%20planning%20summer%20study%20schedule%20with%20colorful%20calendar%20and%20notebook%20on%20desk%2C%20organized%20academic%20workspace%2C%20bright%20natural%20lighting%20through%20window%2C%20warm%20and%20clean%20modern%20interior%2C%20educational%20planning%20concept%2C%20professional%20educational%20photography%2C%20bright%20atmosphere&width=400&height=250&seq=news-7-v2&orientation=landscape",
-  },
-  {
-    id: "8",
-    title: "2027학년도 국제학교 입시 일정 총정리",
-    category: "입시",
-    date: "2026-06-24",
-    summary:
-      "2027학년도 국제학교 입시 일정이 속속 발표되고 있습니다. 주요 국제학교별 원서 마감일과 전형 일정을 확인하고 미리 준비하세요.",
-    sections: [
-      {
-        heading: "2027학년도 입시, 벌써 시작됐다",
-        body: "2027학년도 국제학교 입시 일정이 주요 학교들을 중심으로 발표되기 시작했습니다. 많은 학부모들이 입시를 연말부터 준비하지만, 실제로는 여름방학이 시작되는 7월부터 본격적인 준비에 들어가야 합니다. 서류 준비, 면접 대비, 영어 인터뷰 연습 등 준비할 것이 많기 때문에 미리 일정을 파악하는 것이 중요합니다.",
-      },
-      {
-        heading: "주요 국제학교 원서 마감일",
-        body: "대부분의 주요 국제학교는 1차 원서 마감일을 11월에서 12월 사이에 설정합니다. 학교에 따라 9~10월에 조기 전형을 실시하는 곳도 있고, 1~2월에 2차 추가 모집을 진행하는 곳도 있습니다. 희망하는 학교의 홈페이지를 통해 공식 일정을 반드시 확인하고, 원서 마감 최소 2주 전에는 모든 서류를 준비 완료하는 것이 안전합니다.",
-      },
-      {
-        heading: "서류 준비 체크리스트",
-        body: "입시 서류 준비는 생각보다 많은 시간이 소요됩니다. 영문 성적 증명서, 재학 증명서, 추천서, 자기소개서, 포트폴리오, 공인 영어 성적까지 준비해야 합니다. 특히 추천서는 담임 선생님과 과목 선생님께 최소 한 달 전에 요청하는 것이 예의이며, 자기소개서는 여러 번의 퇴고를 거쳐 완성도를 높여야 합니다.",
-      },
-      {
-        heading: "면접과 배치고사 대비 전략",
-        body: "국제학교 입시에서는 면접과 배치고사가 핵심 전형입니다. 면접은 주로 영어로 진행되며, 학생의 의사소통 능력, 사고력, 학교와의 적합성을 평가합니다. 배치고사는 영어, 수학을 중심으로 학교별 난이도가 다르므로, 지원 학교의 기출 유형을 사전에 파악하고 대비하는 것이 효과적입니다.",
-      },
-      {
-        heading: "합격 가능성을 높이는 조기 준비",
-        body: "입시 성공의 핵심은 조기 준비에 있습니다. 여름방학 동안 자기소개서 초안을 작성하고, 영어 인터뷰 연습을 시작하며, 부족한 과목을 보강하세요. 또한 학교 설명회와 캠퍼스 투어에 참석하여 학교에 대한 이해도를 높이고, 지원 동기를 구체화하는 것도 면접에서 큰 도움이 됩니다.",
-      },
-    ],
-    image:
-      "https://readdy.ai/api/search-image?query=Modern%20international%20school%20admission%20office%20with%20application%20documents%20on%20desk%2C%20organized%20professional%20setting%2C%20warm%20natural%20lighting%2C%20clean%20educational%20environment%2C%20school%20brochure%20and%20forms%2C%20professional%20photography%20with%20bright%20atmosphere&width=400&height=250&seq=news-8&orientation=landscape",
-  },
-  {
-    id: "9",
-    title: "해외 대학 서머 프로그램, 국제학교 학생이 꼭 알아야 할 5가지",
-    category: "유학",
-    date: "2026-06-22",
-    summary:
-      "아이비리그와 명문대에서 제공하는 서머 프로그램은 대학 진학에 큰 도움이 됩니다. 선정 기준과 지원 전략을 알아보세요.",
-    sections: [
-      {
-        heading: "서머 프로그램, 왜 중요한가",
-        body: "해외 명문대가 주최하는 서머 프로그램은 단순한 체험 이상의 가치를 가집니다. 대학 진학 원서에서 지원자의 학문적 열정과 탐구 정신을 입증할 수 있는 강력한 증거가 되며, 해당 대학의 학풍과 커리큘럼을 미리 경험할 수 있는 기회이기도 합니다. 특히 아이비리그와 Oxbridge의 서머 프로그램은 입학사정관에게 긍정적인 인상을 남깁니다.",
-      },
-      {
-        heading: "어떤 프로그램이 가치 있을까",
-        body: "단순한 투어나 문화 체험 위주의 프로그램보다는, 실제 대학 강의를 수강하거나 연구 프로젝트에 참여하는 학술 중심 프로그램이 가치가 높습니다. Harvard Secondary School Program, Stanford Summer Session, Yale Young Global Scholars, MIT LaunchX 등은 대학 진학에 실질적인 도움이 되는 대표적인 프로그램입니다.",
-      },
-      {
-        heading: "지원 자격과 선정 기준",
-        body: "대부분의 명문대 서머 프로그램은 에세이, 추천서, 학교 성적, 공인 영어 점수를 요구합니다. TOEFL 100점 이상 또는 IELTS 7.0 이상이 기본 요건이며, 프로그램에 따라 SAT 점수나 포트폴리오를 추가로 요구하기도 합니다. 선정 과정은 실제 대학 입시와 유사한 수준으로 진행되므로 철저한 준비가 필요합니다.",
-      },
-      {
-        heading: "지원 시기와 마감일",
-        body: "서머 프로그램 지원은 보통 전년도 11월부터 당해 2월까지 진행됩니다. 인기 프로그램은 조기 마감되거나 경쟁률이 높으므로, 12월까지 지원을 완료하는 것이 유리합니다. 합격자 발표는 3~4월에 이루어지며, 이후 비자 발급과 항공 예약 등의 실무 준비에 최소 2개월이 소요됩니다.",
-      },
-      {
-        heading: "참가 경험을 원서에 활용하는 법",
-        body: "서머 프로그램 참가 경험은 단순히 '참가했다'는 사실만으로는 부족합니다. 프로그램에서 무엇을 배웠고, 어떤 프로젝트를 수행했으며, 그 경험이 자신의 진로 목표와 어떻게 연결되는지 구체적으로 서술할 수 있어야 합니다. 프로그램 수료 후에는 반드시 참가 소감과 배운 점을 기록해두고, 대학 원서 작성 시 구체적인 사례로 활용하세요.",
-      },
-    ],
-    image:
-      "https://readdy.ai/api/search-image?query=International%20students%20participating%20in%20summer%20academic%20program%20at%20prestigious%20university%20campus%2C%20collaborative%20learning%20environment%2C%20bright%20summer%20atmosphere%2C%20modern%20classroom%20with%20diverse%20students%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-9&orientation=landscape",
-  },
-  {
-    id: "1",
-    title: "2026년 IB 시험 개편안 발표... 주목해야 할 변화 3가지",
-    category: "커리큘럼",
-    date: "2026-06-20",
-    summary:
-      "2026년부터 IB 디플로마 프로그램 일부 과목에서 평가 방식이 변경됩니다. 학생과 학부모가 미리 알아야 할 핵심 변경사항을 정리했습니다.",
-    sections: [
-      {
-        heading: "개편 개요",
-        body: "2026년 IB 시험 개편안이 발표되었습니다. 이번 개편에서는 주로 과목별 내부 평가(IA) 비중 조정과 일부 과목의 시험 형식 변경이 포함됩니다. 과학, 수학, 영어 등 주요 과목에서 중요한 변화가 예고되어 있어, 학생과 학부모의 주목이 필요합니다.",
-      },
-      {
-        heading: "과학 과목: 실험 평가 방식 개선",
-        body: "과학 과목(물리, 화학, 생물)의 실험 평가 방식이 개선됩니다. 기존의 단순 실험 보고서에서 벗어나, 문제 해결 중심의 탐구 과제로 전환됩니다. 학생들은 단순히 실험 결과를 기록하는 것이 아니라, 주어진 문제를 분석하고 해결 방안을 제시하는 능력을 평가받게 됩니다.",
-      },
-      {
-        heading: "수학: 실생활 적용 문제 강화",
-        body: "수학 AA 및 AI의 시험 문제 유형이 다양화됩니다. 실생활 적용 문제 비중이 늘어나고, 단순 계산보다는 해석과 분석 능력을 평가하는 방향으로 변화합니다. 학생들은 수학적 개념을 실제 상황에 적용하고, 데이터를 해석하여 결론을 도출하는 능력이 더 중요해집니다.",
-      },
-      {
-        heading: "영어 A: 비평적 관점 평가 강화",
-        body: "영어 A 문학 에세이의 평가 기준이 더 세분화됩니다. 텍스트 분석의 깊이와 비평적 관점의 제시가 더 중요하게 평가됩니다. 학생들은 단순한 줄거리 요약이 아닌, 문학적 장치와 작가의 의도를 심층적으로 분석하고 자신만의 비평적 관점을 제시해야 합니다.",
-      },
-      {
-        heading: "대비 전략",
-        body: "이러한 변화에 대비하기 위해서는 학생들이 평가 기준을 정확히 이해하고, 새로운 유형의 문제에 익숙해질 필요가 있습니다. 선행 학습보다는 비판적 사고와 분석 능력을 키우는 것이 핵심이며, 평가 기준 변화에 맞춰 학습 전략을 조정해야 합니다.",
-      },
-    ],
-    image:
-      "https://readdy.ai/api/search-image?query=Students%20taking%20international%20exam%20in%20modern%20classroom%2C%20focused%20academic%20atmosphere%2C%20test%20papers%20on%20desk%2C%20professional%20educational%20photography%2C%20clean%20neutral%20background%2C%20bright%20lighting&width=400&height=250&seq=news-1&orientation=landscape",
-  },
-  {
-    id: "2",
-    title: "국제학교 입시, 2026년 상반기 합격 전략 가이드",
+    title: "AP 캡스톤 응시료, 일반 AP와 동일하게 인하 — 해외 응시생 최대 48달러 절감",
     category: "입시",
     date: "2026-06-15",
     summary:
-      "2026년 상반기 국제학교 입시가 시작됩니다. 서류 전형과 면접에서 높은 평가를 받기 위한 핵심 전략을 공개합니다.",
+      "2025-26학년도부터 AP 세미나·AP 리서치 응시료가 일반 AP와 같아져, 해외 국제학교 응시생은 과목당 최대 48달러를 절감하게 됐습니다.",
+    metaDescription:
+      "AP 캡스톤 응시료가 2025-26학년도부터 일반 AP와 동일해져 해외 응시생 부담이 줄었습니다.",
     sections: [
       {
-        heading: "2026년 입시 전망",
-        body: "2026년 상반기 국제학교 입시가 본격적으로 시작됩니다. 올해 입시는 전년 대비 경쟁률이 다소 상승할 것으로 예상되며, 특히 영재학급과 IB 프로그램 지원자가 증가하고 있습니다. 학교별 정원 변화와 새로운 선발 기준을 미리 파악하는 것이 중요합니다.",
+        heading: "인하 내용",
+        body: "College Board는 2025-26학년도부터 AP 캡스톤(AP 세미나·AP 리서치) 응시료를 다른 모든 AP 시험과 동일하게 조정했다고 공지했습니다. 그동안 두 과목은 별도의 더 높은 응시료가 부과돼 왔습니다.",
       },
       {
-        heading: "서류 전형: 학업 역량을 입증하라",
-        body: "서류 전형에서 핵심은 학생의 학업적 역량과 잠재력을 명확히 보여주는 것입니다. 단순한 성적 나열이 아닌, 과목별 학습 성취도와 개선 과정을 구체적으로 서술해야 합니다. 특히 IB나 AP 과목에서의 성과, 학교 내외 대회 수상 경력, 그리고 학생의 학습 태도를 보여줄 수 있는 추천서가 중요합니다.",
+        heading: "구체적 금액",
+        body: "미국·캐나다·미국령·DoDEA 소재 학교는 과목당 99달러, 그 외 지역(한국 등 해외 국제학교 포함)은 과목당 129달러로 통일됐습니다. 기존 캡스톤 응시료 대비 최대 48달러 인하된 금액입니다.",
       },
       {
-        heading: "면접 준비: 의사소통과 사고력",
-        body: "면접 준비에서는 학생의 의사소통 능력과 비판적 사고력을 평가합니다. 학교의 교육 철학과 커리큘럼에 대한 이해를 바탕으로, 자신의 학습 목표와 연결 지어 설명하는 것이 중요합니다. 암기식 답변보다는 자신의 경험과 생각을 논리적으로 표현하는 연습이 필요합니다.",
+        heading: "첫 적용 시점",
+        body: "인하된 요금이 처음 적용된 것은 2026년 5월 시험이며, 2026-27학년도 수강생에게도 동일하게 적용됩니다.",
       },
       {
-        heading: "과외 활동: 깊이 있는 경험",
-        body: "과외 활동과 봉사 활동의 질도 평가 요소입니다. 다양한 활동을 나열하는 것보다는 한 분야에서 깊이 있는 경험과 성과를 보여주는 것이 유리합니다. 예술, 스포츠, 학술, 봉사 등 한 분야에서 2년 이상 지속한 활동과 그 과정에서의 성장과 성과를 구체적으로 서술하세요.",
+        heading: "AP 캡스톤이란",
+        body: "AP 캡스톤은 세미나·리서치를 모두 이수하고 다른 AP 시험 4개 이상에서 3점 이상을 받으면 'AP 캡스톤 디플로마'를 받는 프로그램입니다. 이번 인하로 국제학교 학생의 참여 문턱이 한층 낮아질 전망입니다.",
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20and%20parent%20meeting%20with%20school%20counselor%2C%20professional%20consultation%2C%20modern%20office%20setting%2C%20educational%20guidance%2C%20warm%20lighting%2C%20neutral%20background%2C%20professional%20photography&width=400&height=250&seq=news-2&orientation=landscape",
+      "https://readdy.ai/api/search-image?query=Student%20reviewing%20AP%20exam%20registration%20receipt%20and%20payment%20on%20laptop%2C%20academic%20planning%20desk%2C%20clean%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-12-v2&orientation=landscape",
+  },
+  {
+    id: "7",
+    title: "美 F-1 학생비자 비용 785달러로 급증 — '비자 진실성 수수료' 250달러 신설",
+    category: "유학",
+    date: "2026-05-19",
+    summary:
+      "2026년 신설된 '비자 진실성 수수료' 250달러가 F-1 학생비자에 추가되며 총 발급 비용이 785달러로 늘었습니다.",
+    metaDescription:
+      "美 신설 '비자 진실성 수수료' 250달러로 F-1 학생비자 총 비용이 785달러로 늘었습니다.",
+    sections: [
+      {
+        heading: "새 수수료의 배경",
+        body: "2025년 7월 서명된 예산조정법에 따라 미국 국토안보부가 신설한 '비자 진실성 수수료(Visa Integrity Fee)' 250달러가 F-1, J-1, H-1B 등 거의 모든 비이민 비자에 부과됩니다. 이 수수료는 2026 회계연도(2025년 10월 1일)부터 시행됐으며 매년 소비자물가지수에 따라 인상됩니다.",
+      },
+      {
+        heading: "실제 부과 현황",
+        body: "보스턴대 국제학생처(ISSO)가 2026년 5월 19일 공지한 바에 따르면, 일부 영사관에서 이미 이 수수료를 실제로 징수하기 시작했으나 시행 시기와 절차는 공관마다 차이가 있습니다. 기존 SEVIS·MRV 수수료와 달리 인터뷰 이전이 아니라 비자가 최종 승인된 시점에 징수됩니다.",
+      },
+      {
+        heading: "총 비용 증가",
+        body: "F-1 학생비자 신청자는 이제 SEVIS 수수료 350달러, MRV(비자 신청) 수수료 185달러, 비자 진실성 수수료 250달러를 합쳐 총 785달러를 준비해야 합니다. 규정상 비자 조건을 준수하면 만료 시 환급받을 수 있다고 명시돼 있지만, 구체적 환급 절차는 아직 완전히 확정되지 않았습니다.",
+      },
+      {
+        heading: "인터뷰 면제 축소도 동시 진행",
+        body: "2025년 10월 1일부터 미 국무부는 F/M/J 비자 신청자에 대한 인터뷰 면제 제도를 사실상 폐지해, 갱신 신청자를 포함한 대다수가 영사 대면 인터뷰를 다시 거쳐야 합니다. 비용 증가와 함께 인터뷰 예약 대기까지 길어질 수 있어 조기 준비가 더욱 중요해졌습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=US%20student%20visa%20application%20documents%20and%20passport%20on%20desk%20with%20American%20flag%2C%20international%20student%20immigration%20fee%20concept%2C%20professional%20editorial%20photography%2C%20clean%20lighting&width=400&height=250&seq=news-7-v3&orientation=landscape",
+  },
+  {
+    id: "8",
+    title: "美 대학 신규 유학생 등록 20% 급감 — 조사 대학 84% '비자 정책이 원인'",
+    category: "유학",
+    date: "2026-05-11",
+    summary:
+      "2026년 봄학기 미국 대학 신규 유학생 등록이 전년 대비 20% 줄었고, 조사 대상 대학의 84%가 비자 정책을 주요 원인으로 꼽았습니다.",
+    metaDescription:
+      "美 대학 신규 유학생 등록이 20% 감소, 84%가 비자 정책을 주요 원인으로 지목했습니다.",
+    sections: [
+      {
+        heading: "조사 개요",
+        body: "국제교육자협회(NAFSA)가 149개 미국 대학을 대상으로 실시한 조사 결과가 2026년 5월 11일 발표됐습니다. 이는 2025년 11월 IIE '오픈도어스' 보고서가 밝힌 신규 유학생 등록 17% 감소에 이은 후속 조사로, 감소세가 더 뚜렷해졌음을 보여줍니다.",
+      },
+      {
+        heading: "세부 수치",
+        body: "조사에 따르면 2026년 봄학기 신규 학부 유학생 등록은 평균 20% 감소했고, 대학원 신규 등록은 24% 줄었습니다. 전미학생정보센터 자료로는 2026년 봄학기 국제 대학원생 등록이 전년 대비 4.3% 감소했으며, 특히 주립 4년제 대학에서는 9.2% 급감했습니다.",
+      },
+      {
+        heading: "원인 분석",
+        body: "조사 대상 149개 대학 중 84%가 '제한적인 비자 정책'을 유학생 유치의 주요 장애 요인으로 꼽았습니다. 이는 5개월 전 조사에서 같은 응답을 한 68%보다 크게 늘어난 수치입니다.",
+      },
+      {
+        heading: "한국 학생에게 시사점",
+        body: "경쟁 구도가 바뀌는 국면인 만큼, 지원 대학의 국제학생 비율 변화나 장학금 정책을 미리 확인할 필요가 있습니다. 인터뷰 면제 축소와 맞물려 비자 신청·인터뷰 일정을 예년보다 훨씬 여유 있게 준비하는 것이 중요해졌습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Empty%20lecture%20hall%20with%20declining%20enrollment%20concept%2C%20university%20campus%20building%2C%20international%20student%20statistics%20chart%20overlay%2C%20professional%20editorial%20photography%2C%20clean%20lighting&width=400&height=250&seq=news-8-v2&orientation=landscape",
+  },
+  {
+    id: "9",
+    title: "서울 IB 후보학교 106곳으로 확대 — '한국형 바칼로레아' 본격 추진",
+    category: "입시",
+    date: "2026-04-14",
+    summary:
+      "서울시교육청이 2026년 IB 후보학교 91곳을 신규 지정, 참여 학교가 106곳으로 늘며 '한국형 바칼로레아' 도입을 본격화했습니다.",
+    metaDescription:
+      "서울 IB 후보학교가 106곳으로 늘며 '한국형 바칼로레아' 도입이 본격화되고 있습니다.",
+    sections: [
+      {
+        heading: "확대 규모",
+        body: "서울시교육청은 2026년 91개 학교를 IB 후보학교로 신규 지정했으며, 관심·후보·인증 단계를 합쳐 IB 프로그램에 참여하는 서울 소재 학교는 총 106곳으로 늘었습니다.",
+      },
+      {
+        heading: "'한국형 바칼로레아' 구상",
+        body: "서울시교육청은 IB 프레임워크를 한국 공교육에 맞게 현지화한 '한국형 바칼로레아'를 추진 중이며, 미래 역량 중심으로 교육과정·수업·평가 방식을 개편하는 것이 목표입니다.",
+      },
+      {
+        heading: "교사·학교 지원 방안",
+        body: "교육과정 개발을 위한 대학원 수준 교사 연구 트랙 신설, IB 교육자 자격증 프로그램 확대, 4개 권역별 학교 네트워크 구축, 과목·급별 맞춤 연수 제공 등이 제시됐습니다.",
+      },
+      {
+        heading: "국제학교 재학생·학부모가 참고할 점",
+        body: "공교육에서도 IB 후보학교가 빠르게 늘면서, 국제학교의 IB DP 교육과정에 대한 국내 대입·인식 기반도 함께 넓어지는 흐름입니다. 앞으로 국내 대학의 IB 성적 활용 전형이 확대될 가능성에도 주목할 만합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Korean%20high%20school%20building%20exterior%20in%20Seoul%2C%20students%20in%20classroom%20discussion%2C%20international%20baccalaureate%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-9-v2&orientation=landscape",
+  },
+  {
+    id: "1",
+    title: "AP 세계 언어 6과목, 2027년 전면 디지털 전환 — 필수 '코스 프로젝트' 신설",
+    category: "커리큘럼",
+    date: "2026-03-16",
+    summary:
+      "프랑스어·독일어·이탈리아어·일본어·중국어·스페인어 AP가 2027년 5월부터 종이 없이 전면 디지털로 전환되고 필수 코스 프로젝트가 새로 추가됩니다.",
+    metaDescription:
+      "AP 세계 언어 6과목이 2027년 5월부터 전면 디지털로 전환되고 코스 프로젝트가 신설됩니다.",
+    sections: [
+      {
+        heading: "대상 과목과 시점",
+        body: "College Board는 6개 AP 세계 언어와 문화 과목의 프레임워크를 개정합니다. 2026-27학년도부터 새 커리큘럼이 적용되고, 2027년 5월 시험부터 Bluebook을 통한 전면 디지털 시험으로 전환되며 종이 시험은 폐지됩니다.",
+      },
+      {
+        heading: "새로운 '코스 프로젝트'",
+        body: "실제 원어 자료를 활용하는 필수 코스 프로젝트가 신설됩니다. 2026-27학년도 주제는 '예술과 창의성'(Unit 3)으로, 음악을 통해 목표 언어권의 문화적 산물·관행·관점을 탐구합니다.",
+      },
+      {
+        heading: "시험 방식 변화",
+        body: "학생은 CD플레이어 대신 마이크 달린 유선 헤드셋으로 Bluebook에 말하기 답변을 녹음합니다. 기존 자유응답형 말하기 문항은 새 말하기 과제로 대체되며, 시험 전에는 '개인 프로젝트 개요서(PPR)'만 제출합니다.",
+      },
+      {
+        heading: "세부 일정",
+        body: "2026년 여름 새 모의고사가 배포되고, 2027년 1월 코스 프로젝트 패킷이 공개되며, 2027년 4월 30일 PPR 제출이 마감됩니다. 해당 언어 AP를 준비 중인 국제학교 학생은 새 형식에 맞춘 말하기·프로젝트 연습을 미리 시작하는 것이 좋습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20practicing%20language%20speaking%20test%20with%20headset%20and%20laptop%2C%20digital%20exam%20preparation%2C%20modern%20study%20desk%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-1-v2&orientation=landscape",
+  },
+  {
+    id: "2",
+    title: "캐나다, 2026년 유학허가서 발급 대폭 축소 — 대학원생은 예외",
+    category: "유학",
+    date: "2025-12-20",
+    summary:
+      "캐나다 이민부가 2026년 스터디퍼밋 신청 상한을 30만9670건으로 정하고, 석·박사 과정생은 주정부 승인서 없이 신청 가능하도록 예외를 뒀습니다.",
+    metaDescription:
+      "캐나다가 2026년 스터디퍼밋 상한을 축소했지만, 석·박사 과정생은 예외를 인정했습니다.",
+    sections: [
+      {
+        heading: "2026년 쿼터 개요",
+        body: "캐나다 관보가 2025년 12월 20일 게재한 공식 고시에 따르면, 2026년 스터디퍼밋 신청 상한은 30만9670건입니다. IRCC는 신규 15만5000건, 갱신 25만3000건 등 총 40만8000건의 퍼밋 발급을 목표로 하며, 이는 2025년 대비 7%, 2024년 대비 16% 감소한 수치입니다.",
+      },
+      {
+        heading: "석·박사 과정 예외 신설",
+        body: "2026년 1월 1일부터 공립 지정교육기관(DLI)의 석사·박사 과정에 지원하는 유학생은 주/준주 승인서(PAL) 제출 의무에서 면제됩니다. 초·중·고교생, 교환학생 등도 예외 대상에 포함됐습니다.",
+      },
+      {
+        heading: "근로·동반비자 관련 변경",
+        body: "2026년 4월 1일부터는 프로그램 필수 실습이 전체 과정의 50% 이하인 경우 코업(co-op) 워크퍼밋 없이 현장 실습이 가능해집니다. 배우자 동반취업허가는 특정 석사·박사·전문학위 과정에만 적용되며, 단기 디플로마·컬리지 과정은 더 이상 대상이 아닙니다.",
+      },
+      {
+        heading: "국제학교 학생에게 의미",
+        body: "캐나다 정부가 일시체류자 비중을 줄이려는 정책 기조 속에 나온 조치로, 학부보다 대학원 유학을 계획 중인 학생에게는 행정 부담이 줄어드는 반면 전체 신규 발급 규모는 계속 축소되는 추세입니다. 캐나다 학부 유학을 준비한다면 지원을 서두르는 것이 안전합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Canadian%20university%20campus%20with%20maple%20leaf%20flag%2C%20study%20permit%20documents%20on%20desk%2C%20international%20student%20visa%20concept%2C%20professional%20editorial%20photography%2C%20clean%20natural%20lighting&width=400&height=250&seq=news-2-v2&orientation=landscape",
   },
   {
     id: "3",
-    title: "AP 과목 선택 가이드: 미래 전공과 연계하는 방법",
-    category: "커리큘럼",
-    date: "2026-06-10",
+    title: "영국 명문 사립교 3곳, 2026년 8월 나란히 방콕 신규 진출",
+    category: "학교 소식",
+    date: "2025-12-09",
     summary:
-      "AP 과목은 단순히 많이 응시하는 것보다, 미래 전공과 연계하여 전략적으로 선택하는 것이 중요합니다.",
+      "덜위치칼리지, 하이게이트, 위컴애비 등 영국 명문 사립학교 3곳이 2026년 8월 방콕·촌부리에 잇따라 신규 캠퍼스를 엽니다.",
+    metaDescription:
+      "영국 명문 사립교 3곳이 2026년 8월 나란히 방콕·촌부리에 신규 캠퍼스를 엽니다.",
     sections: [
       {
-        heading: "AP 과목 선택의 핵심 원칙",
-        body: "AP 과목 선택은 미국 대학 진학을 준비하는 학생에게 매우 중요한 결정입니다. 단순히 AP 과목을 많이 응시한다고 해서 유리한 것은 아닙니다. 대학은 학생이 선택한 과목의 난이도와 미래 전공과의 연계성을 평가합니다. 전략적인 선택이 필요합니다.",
+        heading: "덜위치칼리지 방콕",
+        body: "덜위치칼리지 인터내셔널이 방콕 방나 지역에 2026년 8월 개교하는 신규 캠퍼스로, 1단계에서는 만 3~11세 유아·초등 과정 최대 1000명을 수용하며 이후 중고등 과정을 더해 최대 1800명 규모로 확대할 계획입니다.",
       },
       {
-        heading: "공학·자연과학 계열",
-        body: "미래 전공이 공학이나 자연과학 계열이라면 AP Calculus BC와 AP Physics C가 필수적입니다. AP Chemistry나 AP Biology도 강력한 추천 과목입니다. 특히 AP Physics C는 대학에서 물리학 기초 과목을 면제받을 수 있어, 공학 진학을 준비하는 학생에게 매우 유리합니다.",
+        heading: "하이게이트 인터내셔널 스쿨 타일랜드",
+        body: "영국 하이게이트 스쿨의 첫 해외 캠퍼스로, 태국 시암모터스그룹과의 협력으로 촌부리 시암컨트리클럽 인근에 2026년 8월 개교합니다. 만 2~18세를 대상으로 향후 최대 1400명까지 수용 가능하며 IGCSE·A레벨 등 영국 교육과정을 따릅니다.",
       },
       {
-        heading: "경영학·경제학 계열",
-        body: "경영학이나 경제학을 희망한다면 AP Microeconomics, AP Macroeconomics, AP Statistics를 추천합니다. AP Psychology도 인문·사회 계열 전공과 연계하여 유용합니다. AP Statistics는 데이터 분석 능력을 보여줄 수 있어, 현대 경영학과 경제학에서 필수적인 역량을 입증할 수 있습니다.",
+        heading: "위컴애비 인터내셔널 스쿨 방콕",
+        body: "영국 위컴애비, BE Education, 태국 래빗홀딩스 3자 협력으로 설립되는 이 학교는 수완나품 국제공항 인근 기존 VERSO 인터내셔널 스쿨 부지에서 2026년 8월 개교하며, 유아부터 만 18세까지 통학·기숙 과정을 모두 제공합니다.",
       },
       {
-        heading: "인문학·예술 계열",
-        body: "인문학이나 예술 계열을 지망하는 학생은 AP English Literature, AP History 계열, AP Art History 등을 선택하여 학문적 깊이를 보여줄 수 있습니다. AP English Literature는 대학 에세이 작성 능력을 향상시키는 데도 큰 도움이 됩니다.",
-      },
-      {
-        heading: "균형 잡힌 수업 계획",
-        body: "과목 선택 시 학생의 현재 학업 수준과 시간 관리 능력도 고려해야 합니다. 한 학기에 3~4과목을 준비하면서 기존 학교 과목 학습을 소홀히 하지 않도록 균형 잡힌 계획이 필요합니다. 학교 성적과 AP 성적의 균형이 중요합니다.",
+        heading: "시사점",
+        body: "세 학교 모두 영국식 IGCSE·A레벨 커리큘럼을 표방하며 같은 달 동시에 방콕·촌부리 지역에 문을 열어, 태국 내 영국계 사립 국제학교 선택지가 단기간에 크게 늘어나는 것으로 확인됩니다. 동남아 국제학교 유학을 고려하는 가정이라면 참고할 만한 소식입니다.",
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20planning%20academic%20courses%20on%20laptop%2C%20course%20selection%20screen%2C%20modern%20study%20desk%2C%20organized%20planner%2C%20educational%20planning%2C%20bright%20clean%20background%2C%20professional%20photography&width=400&height=250&seq=news-3&orientation=landscape",
+      "https://readdy.ai/api/search-image?query=British%20international%20boarding%20school%20campus%20in%20Southeast%20Asia%2C%20tropical%20setting%20with%20modern%20school%20building%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-3-v2&orientation=landscape",
   },
   {
     id: "4",
-    title: "해외 명문대 진학, 조기 준비가 핵심입니다",
+    title: "美 유학생 117만 명 역대 최다 — 인도, 처음으로 중국 제치고 1위",
     category: "유학",
-    date: "2026-06-05",
+    date: "2025-11-17",
     summary:
-      "아이비리그, Oxbridge 등 해외 명문대 진학을 목표로 한다면 10학년부터 체계적인 준비가 필요합니다.",
+      "IIE 오픈도어스 2025 보고서에 따르면 2024/25학년도 미국 내 외국인 유학생이 117만 7,766명으로 전년 대비 5% 늘어 역대 최고치를 기록했습니다.",
+    metaDescription:
+      "美 유학생이 117만 7,766명으로 역대 최다를 기록, 인도가 처음 중국을 제쳤습니다.",
     sections: [
       {
-        heading: "명문대 진학, 종합적인 평가",
-        body: "해외 명문대 진학은 단순히 좋은 성적만으로 가능한 것이 아닙니다. 학업 역량, 과외 활동, 리더십, 사회적 기여도 등 다양한 요소를 종합적으로 평가합니다. 각 요소를 균형 있게 준비하는 전략이 필요합니다.",
+        heading: "전체 규모",
+        body: "국제교육연구소(IIE)가 2025년 11월 17일 발표한 오픈도어스 2025 보고서에 따르면, 2024/25학년도 미국 고등교육기관에 재학한 외국인 유학생은 200여 개국 출신 117만 7,766명으로 전년 대비 5% 증가해 역대 최다치를 경신했습니다.",
       },
       {
-        heading: "10학년: 기초 학업 역량 다지기",
-        body: "10학년부터는 기초 학업 역량을 다지는 시기입니다. IB나 AP 과목에서 높은 예상 등급을 받을 수 있도록 수학과 영어 기초를 확실히 다져야 합니다. 또한, 다양한 과외 활동을 탐색하며 자신의 관심 분야를 찾는 것이 중요합니다.",
+        heading: "출신국 순위 변화",
+        body: "인도 출신이 36만 3,019명(전년 대비 10%↑)으로 처음으로 중국을 제치고 1위에 올랐고, 중국은 26만 5,919명(4%↓)으로 2위를 기록했습니다. 상위 25개 출신국 중 인도, 베트남, 방글라데시 등 12개국이 역대 최다치를 새로 썼습니다.",
       },
       {
-        heading: "11학년: 본격적인 준비 시작",
-        body: "11학년은 본격적인 준비 시기입니다. SAT/ACT 시험 준비, 과외 활동 심화, 학교 리더십 활동, 그리고 진학 상담을 시작해야 합니다. 이 시기에 선택한 활동과 성과가 대학 원서의 핵심 소재가 됩니다.",
+        heading: "전공 및 학위과정 동향",
+        body: "유학생의 57%가 STEM 전공이며, 수학·컴퓨터과학이 26%로 가장 큰 비중을 차지했습니다. 학사과정은 4% 증가해 팬데믹 이후 처음으로 유의미하게 늘었고, 대학원과정은 3년 연속 증가 후 처음 3% 감소했습니다.",
       },
       {
-        heading: "12학년: 원서 작성과 마무리",
-        body: "12학년 1학기에는 대학 원서 작성이 집중됩니다. 에세이는 학생의 개성과 성장 과정을 보여주는 핵심 자료이므로, 여러 차례 수정을 거쳐 완성도를 높여야 합니다. 또한, 대학 방문과 입학 설명회 참석, 현지 학생 인터뷰 등을 통해 학교에 대한 깊은 이해를 보여주는 것도 중요합니다.",
+        heading: "2025년 가을학기 조짐",
+        body: "보고서에 포함된 '2025 가을학기 스냅샷'에서는 2025/26학년도 초반 유학생 총수가 전년 대비 1% 감소한 것으로 나타나, 최근 비자 심사 강화에 대한 우려가 반영된 것으로 분석됩니다. 역대 최고치를 찍은 뒤 꺾이기 시작한 흐름이므로, 미국 유학을 준비 중이라면 최신 동향을 계속 확인하는 것이 좋습니다.",
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=International%20students%20researching%20university%20applications%20in%20modern%20academic%20counseling%20center%2C%20college%20brochures%20and%20laptops%20on%20desk%2C%20focused%20collaborative%20atmosphere%2C%20warm%20natural%20lighting%20through%20large%20windows%2C%20clean%20modern%20interior%2C%20professional%20educational%20photography%2C%20bright%20academic%20environment&width=400&height=250&seq=news-4-v2&orientation=landscape",
+      "https://readdy.ai/api/search-image?query=Diverse%20international%20students%20walking%20on%20US%20university%20campus%2C%20autumn%20academic%20atmosphere%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-4-v3&orientation=landscape",
   },
   {
     id: "5",
-    title: "국제학교 vs 일반고: 어떤 선택이 내게 맞을까?",
-    category: "학교 소식",
-    date: "2026-05-28",
+    title: "영국 졸업생 취업비자, 2027년부터 2년→18개월로 단축",
+    category: "유학",
+    date: "2025-10-14",
     summary:
-      "국제학교와 일반 고등학교의 교육 방식, 커리큘럼, 진학 경로를 비교하여 학생에게 맞는 선택을 도와드립니다.",
+      "영국 정부가 2025년 10월 이민규칙 개정을 통해 학사·석사 졸업생의 그래주에이트 비자를 2027년 1월부터 2년에서 18개월로 줄입니다.",
+    metaDescription:
+      "영국 그래주에이트 비자가 2027년부터 2년에서 18개월로 단축됩니다.",
     sections: [
       {
-        heading: "두 학교의 근본적인 차이",
-        body: "국제학교와 일반 고등학교는 전혀 다른 교육 철학과 학습 환경을 제공합니다. 학생의 성향, 학업 목표, 향후 진학 계획에 따라 적합한 선택이 달라집니다. 객관적인 비교를 통해 본인에게 맞는 환경을 찾아보세요.",
+        heading: "개정 내용",
+        body: "영국 내무부는 2025년 10월 14일 발표한 이민규칙 개정안(HC 1333)을 통해 그래주에이트 루트 비자의 체류 기간을 학사·석사 학위 취득자 기준 기존 2년에서 18개월로 단축한다고 밝혔습니다. 박사 학위 취득자는 기존과 같이 3년이 유지됩니다.",
       },
       {
-        heading: "국제학교: 자기 주도 학습",
-        body: "국제학교는 IB, AP, A-Level 등 국제 인증 커리큘럼을 기반으로 합니다. 비판적 사고, 자기 주도 학습, 토론 중심 수업이 특징이며, 영어로 모든 수업이 진행됩니다. 해외 대학 진학을 목표로 하는 학생에게 최적화된 환경입니다.",
+        heading: "적용 시점",
+        body: "새 규정은 2027년 1월 1일 이후 접수되는 그래주에이트 비자 신청부터 적용됩니다. 2026년 12월 31일까지 신청하는 졸업생은 기존과 같이 2년 체류 자격을 그대로 인정받습니다.",
       },
       {
-        heading: "일반 고등학교: 체계적 수능 대비",
-        body: "일반 고등학교는 한국 교육과정을 따르며, 수능 중심의 체계적인 학습이 강점입니다. 내신 관리와 수능 대비에 최적화되어 있으며, 교육비가 상대적으로 저렴합니다. 국내 대학 진학을 목표로 하는 학생에게 안정적인 선택입니다.",
+        heading: "배경",
+        body: "이번 조치는 2025년 5월 영국 정부가 발표한 이민 백서의 후속 조치로, 그래주에이트 비자 취득자 상당수가 취지에 맞는 전문직 일자리로 이어지지 못하고 있다는 정부 분석이 배경으로 제시됐습니다. 같은 개정안에는 학생비자 신청자의 생활비 증빙 기준 인상도 포함됐습니다.",
       },
       {
-        heading: "학생의 역량과 목표에 따른 선택",
-        body: "국제학교 진학을 고려한다면, 학생의 영어 능력과 자기 주도 학습 능력이 중요합니다. 또한, 해외 대학 진학을 목표로 한다면 국제학교의 커리큘럼이 더 유리할 수 있습니다. 반면, 국내 대학을 목표로 하고 체계적인 관리와 안정적인 학습 환경을 선호한다면 일반 고등학교가 적합할 수 있습니다.",
-      },
-      {
-        heading: "결론: 장기 목표에 맞춰 선택하라",
-        body: "결국 중요한 것은 학생의 장기적인 목표와 현재 역량을 객관적으로 분석하여, 그에 맞는 환경을 선택하는 것입니다. 학교의 명성보다는 학생의 성장과 발전에 가장 적합한 환경을 선택하는 것이 중요합니다.",
+        heading: "유학 준비생에게 의미",
+        body: "2026년 안에 영국 학위를 마치고 졸업 후 취업을 노리는 학생은 기존 2년 체류 혜택을 받을 수 있지만, 2027년 이후 졸업 예정자는 취업 준비 기간이 18개월로 줄어드는 점을 감안해 인턴십·취업 연계가 강한 대학·전공을 미리 살펴볼 필요가 있습니다.",
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Students%20studying%20in%20modern%20international%20school%20library%20with%20diverse%20learning%20materials%2C%20collaborative%20study%20environment%2C%20bookshelves%20and%20digital%20screens%2C%20warm%20natural%20lighting%2C%20clean%20modern%20interior%2C%20professional%20educational%20photography%2C%20bright%20academic%20atmosphere&width=400&height=250&seq=news-5-v2&orientation=landscape",
+      "https://readdy.ai/api/search-image?query=UK%20graduate%20student%20holding%20visa%20documents%2C%20London%20skyline%20in%20background%2C%20professional%20editorial%20photography%2C%20clean%20natural%20lighting&width=400&height=250&seq=news-5-v3&orientation=landscape",
   },
   {
     id: "6",
-    title: "영어 에세이 쓰기, 국제학교 학생의 필수 역량",
-    category: "커리큘럼",
-    date: "2026-05-20",
+    title: "호주, 2026년 국제학생 입학 계획수준 29만5000명으로 확대",
+    category: "유학",
+    date: "2025-08-04",
     summary:
-      "IB나 AP 영어 과목에서 높은 점수를 받기 위한 에세이 작성 노하우와 학습 전략을 공개합니다.",
+      "호주 정부가 2026년 국제학생 신규 입학 계획수준을 29만5000명으로 발표, 2025년보다 2만5000명 늘렸습니다.",
+    metaDescription:
+      "호주가 2026년 국제학생 입학 계획수준을 29만5000명으로 확대 발표했습니다.",
     sections: [
       {
-        heading: "에세이: 학문적 역량의 핵심",
-        body: "영어 에세이 작성은 국제학교 학생에게 필수적인 학문적 역량입니다. IB English A나 AP English Language에서 높은 점수를 받기 위해서는 단순히 문법을 잘하는 것만으로는 부족합니다. 비판적 사고, 분석 능력, 그리고 논리적 표현력이 모두 필요합니다.",
+        heading: "발표 개요",
+        body: "호주 정부는 2025년 8월 4일, 2026년 국가계획수준(National Planning Level)을 29만5000명으로 발표했습니다. 이는 2025년(27만 명) 대비 2만5000명, 약 9% 증가한 수치입니다.",
       },
       {
-        heading: "텍스트 분석 능력 기르기",
-        body: "첫째, 텍스트 분석 능력을 키워야 합니다. 문학 작품이나 비문학 텍스트의 주제, 문체,修辭적 장치를 식별하고, 이를 작품의 전반적인 의미와 연결하여 분석할 수 있어야 합니다. 텍스트의 겉으로 드러난 내용뿐만 아니라, 작가가 전달하려는 깊은 의미와 사회적 맥락을 파악하는 능력이 중요합니다.",
+        heading: "NPL의 실제 성격",
+        body: "NPL은 학생비자 발급을 제한하는 '쿼터'가 아니라 비자 심사의 우선순위를 정하는 장치입니다. 각 교육기관이 배정된 NPL 물량에 도달하기 전까지는 신속 심사가 이뤄지고, 물량 소진 후 신청도 계속 접수되지만 심사 속도가 느려지는 구조입니다.",
       },
       {
-        heading: "논리적 구성의 중요성",
-        body: "둘째, 논리적 구성이 중요합니다. 서론에서 논제를 명확히 제시하고, 본론에서 근거와 분석을 체계적으로 전개하며, 결론에서 논의를 정리하는 구조를 익혀야 합니다. 각 단락이 하나의 중심 주제를 다루고, 단락 간 전환이 자연스럽게 이루어지도록 연습해야 합니다.",
+        heading: "대학 대상 신규 예외",
+        body: "2026년부터 호주 내에서 고등학교를 마치고 진학하는 학생, 인가된 경로기관이나 TAFE를 거쳐 대학에 진학하는 학생은 해당 대학의 NPL 산정에서 제외됩니다.",
       },
       {
-        heading: "학술적 어휘와 표현력",
-        body: "셋째, 학술적 어휘와 표현을 사용해야 합니다. 일상적인 표현보다는 정확하고 학술적인 언어를 사용하여 논증의 설득력을 높여야 합니다. 텍스트 분석에 특화된 전문 용어를 적절히 사용하고, 다양한 문장 구조를 활용하여 글의 품격을 높이는 연습이 필요합니다.",
-      },
-      {
-        heading: "지속적인 연습과 피드백",
-        body: "에세이 실력은 단기간에 향상되지 않습니다. 꾸준한 독서, 분석 연습, 그리고 피드백을 반영한 수정 과정을 통해 점진적으로 발전시켜야 합니다. 전문 강사의 피드백을 받으며 작성한 에세이를 여러 번 다듬는 과정이 실력 향상에 가장 효과적입니다.",
+        heading: "국제학교 학생에게 의미",
+        body: "태평양 도서국·동티모르 출신 학생, 호주 정부 장학생 등은 계속 우선 비자 심사 대상으로 유지됩니다. 미국·영국 비자 정책이 까다로워지는 가운데, 호주는 상대적으로 입학 규모를 늘리는 흐름이어서 대안 유학지로 검토해볼 만합니다.",
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20writing%20essay%20in%20notebook%2C%20creative%20writing%20process%2C%20academic%20desk%20with%20pen%20and%20paper%2C%20focused%20study%20atmosphere%2C%20clean%20modern%20background%2C%20professional%20educational%20photography%2C%20warm%20lighting&width=400&height=250&seq=news-6&orientation=landscape",
+      "https://readdy.ai/api/search-image?query=Australian%20university%20campus%20building%20with%20Sydney%20skyline%2C%20international%20students%20walking%20on%20campus%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-6-v2&orientation=landscape",
   },
 ];
 
