@@ -17,6 +17,92 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "34",
+    title: "UAT-UK(ESAT·TARA·TMUA) 예약 7월 20일 시작 — 옥스포드·케임브리지·임페리얼 공통시험",
+    category: "입시",
+    date: "2026-07-21",
+    summary:
+      "옥스포드가 자체 입학시험을 폐지하고 도입하는 UAT-UK 공통시험(ESAT·TARA·TMUA)의 예약 접수가 7월 20일 시작됐습니다. 계정 생성은 6월 1일부터 가능했고, 예약 마감은 9월 28일, 시험은 10월에 치러집니다.",
+    metaDescription:
+      "UAT-UK(ESAT·TARA·TMUA) 시험 예약이 7월 20일 시작됐습니다. 마감은 9월 28일, 시험은 10월입니다.",
+    sections: [
+      {
+        heading: "예약 접수, 7월 20일부터",
+        body: "옥스포드·케임브리지·임페리얼 칼리지 런던이 공동 도입하는 UAT-UK(University Admissions Test UK) 시험의 예약 접수가 2026년 7월 20일 시작됐습니다. 앞서 6월 1일부터 계정 생성은 가능했지만, 실제 시험 일정 예약은 이번 주부터 가능해진 것입니다.",
+      },
+      {
+        heading: "예약 마감 9월 28일, 시험은 10월",
+        body: "예약은 9월 28일 마감되며, 응시가 필요한 모든 지원자는 2026년 10월 중 Pearson VUE 시험장에서 컴퓨터 기반으로 응시합니다. 옥스포드 지원 시 UCAS 마감(10월 15일)보다 시험 예약 마감이 먼저 돌아오므로, 지원 대학과 전공을 이미 정했다면 예약을 서두르는 것이 안전합니다.",
+      },
+      {
+        heading: "전공별로 셋 중 하나",
+        body: "공학·과학 계열은 ESAT(Engineering and Science Admissions Test), 학문적 추론 역량을 보는 전형은 TARA(Test of Academic Reasoning for Admissions), 수학 계열은 TMUA(Test of Mathematics for University Admission) 중 지원 전공에 맞는 시험을 응시합니다. 의학·법학 전형에 쓰이는 UCAT·LNAT는 이번 개편과 무관하게 기존대로 유지됩니다.",
+      },
+      {
+        heading: "국제학교 학생이 지금 할 것",
+        body: "옥스포드·케임브리지·임페리얼 등 UAT-UK 시험을 요구하는 대학에 지원할 예정이라면, 계정을 아직 만들지 않았다면 지금 바로 만들고 전공에 맞는 시험 종류(ESAT/TARA/TMUA)를 확인한 뒤 예약을 진행하세요. 같은 시험을 요구하는 여러 대학에 지원하더라도 응시는 1회로 충분합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20registering%20for%20university%20admissions%20test%20on%20laptop%20with%20UK%20university%20brochures%2C%20Oxford%20Cambridge%20application%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-34&orientation=landscape",
+  },
+  {
+    id: "33",
+    title: "U.S. News 2026-27 세계대학순위 발표 — 옥스퍼드 4위·칭화대 첫 톱10 진입",
+    category: "유학",
+    date: "2026-07-21",
+    summary:
+      "U.S. News & World Report가 6월 16일 발표한 2026-27 Best Global Universities 순위에서 옥스퍼드(4위)·케임브리지(5위)가 톱10을 지켰고, 칭화대가 처음으로 톱10에 진입했습니다. QS 순위와는 평가 기준이 달라 함께 참고할 만합니다.",
+    metaDescription:
+      "U.S. News 2026-27 세계대학순위, 옥스퍼드 4위·칭화대 첫 톱10 진입 — QS와 평가 기준이 다릅니다.",
+    sections: [
+      {
+        heading: "무엇이 발표됐나",
+        body: "U.S. News & World Report가 6월 16일 2026-27 Best Global Universities 순위를 발표했습니다. 100개국 이상 2,250개 이상 대학을 연구 실적과 학술 평판 중심으로 평가한 순위로, 앞서 소개된 QS 순위(취업률·평판 등 종합 지표 중심)와는 평가 방법론이 다릅니다.",
+      },
+      {
+        heading: "상위권, 대체로 안정적",
+        body: "상위 5개교는 전년과 큰 변화가 없었습니다. 옥스퍼드가 4위, 케임브리지가 5위로 톱10을 유지했습니다. 다만 그 아래 순위권에서는 상당한 변동이 있었습니다.",
+      },
+      {
+        heading: "칭화대, 첫 톱10 진입 — 아시아권 강세",
+        body: "칭화대가 처음으로 톱10에 진입해 UC버클리·예일·컬럼비아 등을 제치고 6위를 차지했습니다. 미국 대학 대부분이 순위를 낮춘 반면, 아시아·중동 소재 대학들이 두드러진 상승세를 보였습니다.",
+      },
+      {
+        heading: "두 순위를 함께 보는 법",
+        body: "이 순위는 연구·학술 실적에 무게를 둔 지표라, 학부 입시나 실제 학업 환경을 보려면 QS·THE 등 다른 순위와 함께 비교하는 것이 정확합니다. 대학원·연구 중심 진로를 고려하는 학생이라면 이번 U.S. News 순위의 학과별·분야별 세부 순위도 참고할 만합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=World%20university%20rankings%20report%20on%20laptop%20screen%20with%20global%20map%2C%20academic%20research%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-33&orientation=landscape",
+  },
+  {
+    id: "32",
+    title: "케임브리지 인터내셔널 6월 시험 결과, 8월 11일 발표 — 디지털 응시 얼리어답터 확대",
+    category: "커리큘럼",
+    date: "2026-07-21",
+    summary:
+      "케임브리지 인터내셔널의 2026년 6월 시험 세션 결과가 8월 11일(영국 서머타임 기준 오전 6시) 발표됩니다. IGCSE 일부 과목의 디지털 응시 얼리어답터 프로그램도 유럽·중동·북아프리카·미국 지역으로 확대되고 있습니다.",
+    metaDescription:
+      "케임브리지 인터내셔널 6월 시험 결과가 8월 11일 발표됩니다. 디지털 응시 얼리어답터도 확대됩니다.",
+    sections: [
+      {
+        heading: "결과 발표, 8월 11일",
+        body: "2026년 6월 시험 세션에 응시한 케임브리지 IGCSE·AS/A 레벨 학생들의 성적이 8월 11일(화) 영국 서머타임 기준 오전 6시부터 순차 공개됩니다. 학교를 통해 성적을 확인할 수 있으며, 재채점(Enquiry about Results) 신청 마감일도 함께 안내되므로 학교 공지를 미리 확인해두는 것이 좋습니다.",
+      },
+      {
+        heading: "디지털 응시, 얼리어답터 프로그램 확대",
+        body: "앞서 도입이 발표된 디지털 시험이 얼리어답터 프로그램(Early Adopter Programme)을 통해 유럽·중동·북아프리카(MENA)·미국 지역 학교로 확대되고 있습니다. IGCSE 생물·화학·물리·회계·경제 객관식 문항을 노트북으로 응시하는 방식이며, 참여는 학교가 신청한 경우에만 적용됩니다.",
+      },
+      {
+        heading: "국제학교 학생이 확인할 것",
+        body: "6월 시험에 응시했다면 8월 11일 성적 발표 전까지 학교의 EAR(재채점) 신청 마감일을 미리 확인해두세요. 소속 학교가 디지털 응시 얼리어답터 프로그램에 참여하는지도 학교 측에 문의해두면, 다음 시험 준비 방식을 미리 계획할 수 있습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20checking%20Cambridge%20IGCSE%20exam%20results%20on%20laptop%20with%20calendar%2C%20international%20school%20results%20day%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-32&orientation=landscape",
+  },
+  {
     id: "31",
     title: "美 연방 학자금대출 개편 7월 시행 — 페어런트 플러스 첫 상한, 그래드 플러스 폐지",
     category: "유학",
