@@ -20,7 +20,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     id: "34",
     title: "UAT-UK(ESAT·TARA·TMUA) 예약 7월 20일 시작 — 옥스포드·케임브리지·임페리얼 공통시험",
     category: "입시",
-    date: "2026-07-21",
+    date: "2026-07-22",
     summary:
       "옥스포드가 자체 입학시험을 폐지하고 도입하는 UAT-UK 공통시험(ESAT·TARA·TMUA)의 예약 접수가 7월 20일 시작됐습니다. 계정 생성은 6월 1일부터 가능했고, 예약 마감은 9월 28일, 시험은 10월에 치러집니다.",
     metaDescription:
@@ -50,7 +50,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     id: "33",
     title: "U.S. News 2026-27 세계대학순위 발표 — 옥스퍼드 4위·칭화대 첫 톱10 진입",
     category: "유학",
-    date: "2026-07-21",
+    date: "2026-07-22",
     summary:
       "U.S. News & World Report가 6월 16일 발표한 2026-27 Best Global Universities 순위에서 옥스퍼드(4위)·케임브리지(5위)가 톱10을 지켰고, 칭화대가 처음으로 톱10에 진입했습니다. QS 순위와는 평가 기준이 달라 함께 참고할 만합니다.",
     metaDescription:
@@ -80,7 +80,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     id: "32",
     title: "케임브리지 인터내셔널 6월 시험 결과, 8월 11일 발표 — 디지털 응시 얼리어답터 확대",
     category: "커리큘럼",
-    date: "2026-07-21",
+    date: "2026-07-22",
     summary:
       "케임브리지 인터내셔널의 2026년 6월 시험 세션 결과가 8월 11일(영국 서머타임 기준 오전 6시) 발표됩니다. IGCSE 일부 과목의 디지털 응시 얼리어답터 프로그램도 유럽·중동·북아프리카·미국 지역으로 확대되고 있습니다.",
     metaDescription:
@@ -106,7 +106,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     id: "31",
     title: "美 연방 학자금대출 개편 7월 시행 — 페어런트 플러스 첫 상한, 그래드 플러스 폐지",
     category: "유학",
-    date: "2026-07-21",
+    date: "2026-07-22",
     summary:
       "2025년 제정된 '하나의 크고 아름다운 법안(OBBBA)'에 따른 미국 연방 학자금대출 개편이 7월 1일부터 시행됐습니다. 부모 대상 페어런트 플러스 대출에 사상 최초로 상한이 생기고, 대학원생용 그래드 플러스 대출은 신규 차입이 폐지됩니다.",
     metaDescription:
