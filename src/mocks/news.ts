@@ -17,10 +17,40 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "35",
+    title: "예일대, 'Test-Flexible' 정책 폐지 — 2026-27 입시부터 SAT·ACT 다시 필수",
+    category: "입시",
+    date: "2026-07-24",
+    summary:
+      "예일대가 2024년부터 운영해온 'Test-Flexible' 정책(SAT·ACT 대신 IB·AP 점수로 대체 제출 가능)을 폐지한다고 5월 27일 공식 발표했습니다. 2026-27 입시(2031년 입학생)부터 SAT 또는 ACT 점수 제출이 다시 필수가 됩니다.",
+    metaDescription:
+      "예일대가 'Test-Flexible' 정책을 폐지, 2026-27 입시부터 SAT·ACT 제출이 다시 필수입니다.",
+    sections: [
+      {
+        heading: "무엇이 바뀌나",
+        body: "예일대는 5월 27일 공식 발표를 통해 2024년 도입했던 'Test-Flexible' 정책을 폐지한다고 밝혔습니다. 이 정책은 지원자가 SAT·ACT 점수 대신 AP 시험 점수나 IB 점수를 제출해도 되도록 허용해온 제도로, 아이비리그 중 유일하게 IB·AP를 표준화 시험의 대체 수단으로 인정해온 학교였습니다.",
+      },
+      {
+        heading: "적용 시점 — 2031년 입학생부터",
+        body: "이번 변경은 2026-27 입시 사이클(2027년 가을 입학 지원)부터 적용되며, 실제로는 2031년 졸업 예정 입학생(현재 고1)부터 SAT 또는 ACT 점수 제출이 다시 필수가 됩니다. 그 이전 사이클까지는 기존 Test-Flexible 정책이 유지됩니다.",
+      },
+      {
+        heading: "아이비리그 전원 표준시험 필수로 회귀",
+        body: "하버드·예일·프린스턴·브라운·코넬·다트머스·유펜에 이어 컬럼비아까지 이미 표준시험을 재의무화한 상태였는데, 그중 유일하게 'IB·AP로 SAT 대체 가능'이라는 예외를 뒀던 예일마저 이번 발표로 그 예외를 없앴습니다. 사실상 아이비리그 8개교 전원이 SAT·ACT를 예외 없이 요구하게 된 셈입니다.",
+      },
+      {
+        heading: "국제학교 IB·AP 학생이 챙길 것",
+        body: "그동안 예일 지원 시 IB·AP 점수만으로 표준시험을 대체하려던 계획이 있었다면 전략을 다시 세워야 합니다. 현재 고1 이하 학생이라면 IB·AP 내신 관리와 별개로 SAT 또는 ACT 응시 계획을 미리 잡아두는 것이 안전합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Yale%20University%20campus%20building%20with%20students%20walking%2C%20Ivy%20League%20admissions%20concept%2C%20SAT%20test%20prep%20books%20on%20desk%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-35&orientation=landscape",
+  },
+  {
     id: "34",
     title: "UAT-UK(ESAT·TARA·TMUA) 예약 7월 20일 시작 — 옥스포드·케임브리지·임페리얼 공통시험",
     category: "입시",
-    date: "2026-07-22",
+    date: "2026-07-24",
     summary:
       "옥스포드가 자체 입학시험을 폐지하고 도입하는 UAT-UK 공통시험(ESAT·TARA·TMUA)의 예약 접수가 7월 20일 시작됐습니다. 계정 생성은 6월 1일부터 가능했고, 예약 마감은 9월 28일, 시험은 10월에 치러집니다.",
     metaDescription:
@@ -50,7 +80,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     id: "33",
     title: "U.S. News 2026-27 세계대학순위 발표 — 옥스퍼드 4위·칭화대 첫 톱10 진입",
     category: "유학",
-    date: "2026-07-22",
+    date: "2026-07-24",
     summary:
       "U.S. News & World Report가 6월 16일 발표한 2026-27 Best Global Universities 순위에서 옥스퍼드(4위)·케임브리지(5위)가 톱10을 지켰고, 칭화대가 처음으로 톱10에 진입했습니다. QS 순위와는 평가 기준이 달라 함께 참고할 만합니다.",
     metaDescription:
@@ -80,7 +110,7 @@ export const NEWS_ITEMS: NewsItem[] = [
     id: "32",
     title: "케임브리지 인터내셔널 6월 시험 결과, 8월 11일 발표 — 디지털 응시 얼리어답터 확대",
     category: "커리큘럼",
-    date: "2026-07-22",
+    date: "2026-07-24",
     summary:
       "케임브리지 인터내셔널의 2026년 6월 시험 세션 결과가 8월 11일(영국 서머타임 기준 오전 6시) 발표됩니다. IGCSE 일부 과목의 디지털 응시 얼리어답터 프로그램도 유럽·중동·북아프리카·미국 지역으로 확대되고 있습니다.",
     metaDescription:
