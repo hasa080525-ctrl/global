@@ -17,6 +17,36 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "36",
+    title: "전국 공교육 IB 학교 269개교로 확대 — 2년 만에 2.8배 증가",
+    category: "커리큘럼",
+    date: "2026-07-14",
+    summary:
+      "IB 한국에 따르면 2026년 7월 기준 전국 공립학교 269개교가 IB 후보학교 또는 월드스쿨로 운영되고 있습니다. 2024년 9월 95개교였던 것과 비교하면 1년 9개월 만에 약 2.8배 늘었습니다.",
+    metaDescription:
+      "전국 공교육 IB 참여 학교가 269개교로, 2024년 대비 약 2.8배 증가했습니다.",
+    sections: [
+      {
+        heading: "무엇이 발표됐나",
+        body: "IB 한국에 따르면 2026년 7월 기준 전국 공립학교 269개교가 IB 후보학교 또는 월드스쿨로 운영되고 있습니다. 2024년 9월 95개교와 비교하면 1년 9개월 만에 약 2.8배 늘어난 규모로, 공교육 내 IB 도입 속도가 빨라지고 있음을 보여줍니다.",
+      },
+      {
+        heading: "학교급별 현황 — 초등 PYP가 최다",
+        body: "학교급별로는 초등 과정인 PYP가 122개교로 가장 많고, 중학 과정 MYP가 94개교, 고교 과정 DP가 53개교로 뒤를 이었습니다. 아직은 초·중등 단계 도입이 중심이며, 대입과 직결되는 고교 DP 과정은 상대적으로 적은 편입니다.",
+      },
+      {
+        heading: "월드스쿨·후보학교·관심학교의 차이",
+        body: "정식 인증을 마친 '월드스쿨'은 126개교(2024년 34개교 대비 대폭 증가), 인증 심사 중인 '후보학교'는 143개교(61개교 대비 증가)입니다. 여기에 더해 도입을 준비 중인 '관심학교'도 423개교에 달해, 향후 몇 년간 공교육 IB 확산세는 더 이어질 것으로 보입니다.",
+      },
+      {
+        heading: "국제학교 학부모가 참고할 점",
+        body: "공교육 IB는 국어·사회 등 일부 과목을 한국어로 운영하는 경우가 많아, 영어 매체 수업이 기본인 국제학교 IB DP와는 커리큘럼 구성이 다릅니다. 다만 IB 특유의 에세이·탐구 중심 평가 방식과 EE·TOK 같은 핵심 요소는 공통되므로, 어느 트랙이든 IB 평가 체계에 맞춘 글쓰기·탐구 역량 관리는 동일하게 중요합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Korean%20public%20school%20classroom%20with%20students%20discussing%20International%20Baccalaureate%20curriculum%2C%20IB%20World%20School%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-36&orientation=landscape",
+  },
+  {
     id: "35",
     title: "예일대, 'Test-Flexible' 정책 폐지 — 2026-27 입시부터 SAT·ACT 다시 필수",
     category: "입시",
