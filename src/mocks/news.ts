@@ -17,6 +17,36 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "37",
+    title: "2026-27 Common App 8월 1일 오픈 — 2025-26 사이클은 7월 28일 마감",
+    category: "입시",
+    date: "2026-07-29",
+    summary:
+      "미국 대학 공통지원서 Common App의 2025-26 사이클이 7월 28일 마감되고, 2026-27 사이클(2027년 가을 입학 지원)이 8월 1일 새로 열립니다. 현재 고2(내년도 12학년) 학생이라면 계정 생성과 에세이 초안을 지금부터 준비하는 것이 좋습니다.",
+    metaDescription:
+      "Common App 2026-27 사이클이 8월 1일 오픈됩니다. 얼리 마감은 11월, 레귤러는 내년 1월입니다.",
+    sections: [
+      {
+        heading: "연례 전환 — 7월 28일 마감, 8월 1일 재오픈",
+        body: "미국 대학 지원에 널리 쓰이는 공통지원서 플랫폼 Common App은 매년 여름 사이클이 전환됩니다. 2025-26 사이클은 7월 28일 마감됐고, 2027년 가을 입학을 지원하는 2026-27 사이클이 8월 1일 새로 열립니다. 전환 기간 중에는 일부 기능이 일시적으로 제한될 수 있습니다.",
+      },
+      {
+        heading: "지금 해야 할 것",
+        body: "8월 1일 전이라도 계정 생성, 지원서 섹션 둘러보기, 개인 에세이(Personal Statement) 초안 작성은 미리 시작할 수 있습니다. 현재 고2(2027년 가을 입학 지원 예정) 학생이라면 여름방학 동안 에세이 초안을 잡아두고, 추천서를 써줄 선생님께도 미리 요청해두는 것이 안전합니다.",
+      },
+      {
+        heading: "얼리 vs 레귤러 데드라인",
+        body: "얼리 액션(EA)·얼리 디시전(ED) 마감은 대부분 11월 1일 또는 11월 15일이며, 레귤러 디시전(RD) 마감은 내년 1월 1일 또는 1월 15일인 대학이 많습니다. 정확한 날짜는 대학마다 다르므로 지원 예정 대학 목록의 마감일을 개별 확인해야 합니다.",
+      },
+      {
+        heading: "국제학교 IB·AP 학생이 챙길 것",
+        body: "Common App 에세이 프롬프트는 2025-26 사이클과 동일하게 유지됩니다. IB·AP 성적표, 학교 프로파일(School Profile), 카운슬러 추천서 등 국제학교 특유의 제출 서류는 학교 측 준비 기간이 필요할 수 있으니, 진학 담당 교사와 일정을 미리 조율해두는 것이 좋습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20filling%20out%20college%20application%20on%20laptop%2C%20Common%20App%20concept%2C%20calendar%20and%20deadline%20reminder%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-37&orientation=landscape",
+  },
+  {
     id: "36",
     title: "전국 공교육 IB 학교 269개교로 확대 — 2년 만에 2.8배 증가",
     category: "커리큘럼",
