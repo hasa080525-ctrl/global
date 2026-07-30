@@ -17,6 +17,36 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "38",
+    title: "영국 A-Level 결과 발표 8월 13일, GCSE는 8월 20일 — UCAS 확정 절차",
+    category: "커리큘럼",
+    date: "2026-07-31",
+    summary:
+      "JCQ(공동시험협의회) 지정에 따라 A-Level 결과는 8월 13일(목), GCSE 결과는 8월 20일(목) 발표됩니다. AQA·Edexcel·OCR·WJEC 등 모든 시험위원회 공통 일정이며, AS 레벨도 A-Level과 같은 날 발표됩니다.",
+    metaDescription:
+      "영국 A-Level 결과는 8월 13일, GCSE는 8월 20일 발표됩니다. UCAS Confirmation·Clearing 절차도 함께 안내합니다.",
+    sections: [
+      {
+        heading: "발표 일정 — A-Level 8월 13일, GCSE 8월 20일",
+        body: "영국 A-Level 결과는 8월 13일(목) 오전 8시부터, GCSE 결과는 그로부터 일주일 뒤인 8월 20일(목) 발표됩니다. AQA·Edexcel(Pearson)·OCR·WJEC 등 모든 시험위원회에 공통 적용되는 JCQ(Joint Council for Qualifications) 지정 일정입니다. AS 레벨 결과도 A-Level과 같은 날 함께 발표됩니다.",
+      },
+      {
+        heading: "왜 A-Level이 GCSE보다 일주일 빠른가",
+        body: "A-Level 결과가 먼저 발표되는 것은 대학 입학과 직결되기 때문입니다. UCAS Confirmation(합격 확정)과 Clearing(추가 모집) 절차를 학교·시험위원회가 먼저 처리한 뒤, 다음 주에 GCSE 업무를 진행하는 구조입니다.",
+      },
+      {
+        heading: "UCAS Confirmation·Clearing 절차",
+        body: "UCAS는 결과 발표 당일 오전 시스템을 갱신해 대학 합격이 확정됐는지 여부를 보여주지만, 실제 성적 자체는 UCAS에 표시되지 않습니다. 목표 대학의 조건부 합격(conditional offer) 조건을 충족하지 못한 경우 Clearing을 통해 다른 대학에 지원할 수 있으며, 각 과목의 등급 경계선(grade boundaries)도 발표 당일 오전 시험위원회 홈페이지에 공개됩니다.",
+      },
+      {
+        heading: "국제학교 A-Level·IGCSE 학생이 챙길 것",
+        body: "A-Level 결과를 앞둔 학생이라면 목표 대학의 conditional offer 조건과 Clearing 시 대안 대학 리스트를 미리 정리해두는 것이 안전합니다. 조건 미충족 시에는 발표 당일 학교 진학 담당 교사·과외 선생님과 즉시 상담해 Clearing 지원 여부를 빠르게 결정하는 것이 중요합니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Students%20checking%20A-Level%20exam%20results%20on%20laptop%2C%20UK%20university%20admissions%20UCAS%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-38&orientation=landscape",
+  },
+  {
     id: "37",
     title: "2026-27 Common App 8월 1일 오픈 — 2025-26 사이클은 7월 28일 마감",
     category: "입시",
