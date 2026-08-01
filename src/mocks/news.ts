@@ -17,6 +17,36 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "39",
+    title: "Common App 2026-27 시즌 공식 오픈 — Activities 섹션 명칭 변경",
+    category: "입시",
+    date: "2026-08-01",
+    summary:
+      "Common App이 8월 1일 2026-27 시즌을 공식 오픈했습니다. 1,200개 이상 대학이 참여하며, 신규 회원 대학 60여 곳(커뮤니티칼리지 23곳 포함)이 추가됐습니다. Activities 섹션은 'Activities and Experiences'로 명칭이 바뀌었습니다.",
+    metaDescription:
+      "Common App 2026-27 시즌이 8월 1일 공식 오픈했습니다. Activities 섹션 명칭이 변경되고 신규 회원 대학도 늘었습니다.",
+    sections: [
+      {
+        heading: "8월 1일 공식 오픈",
+        body: "미국 대학 공통지원서 플랫폼 Common App이 8월 1일(토) 2026-27 지원 시즌을 공식 오픈했습니다. 1,200개 이상의 대학이 참여하며, Common App CEO Jenny Rickard는 '지원 경험을 단순하고 즐겁게 만드는 것'을 이번 시즌의 목표로 강조했습니다.",
+      },
+      {
+        heading: "Activities → Activities and Experiences로 명칭 변경",
+        body: "기존 'Activities' 섹션이 'Activities and Experiences'로 이름이 바뀌었습니다. 명칭 변경은 방과 후 활동뿐 아니라 아르바이트·가족 돌봄·자기주도 프로젝트 등 더 폭넓은 경험을 포괄적으로 담을 수 있다는 점을 강조하기 위한 것으로, 항목 수나 글자 제한 등 실질적인 입력 방식 자체는 기존과 동일합니다.",
+      },
+      {
+        heading: "신규 회원 대학 60여 곳 추가",
+        body: "이번 시즌에는 커뮤니티칼리지 23곳을 포함해 60여 개 대학이 Common App 회원으로 새로 합류했습니다. 지원 예정 대학이 새로 추가된 회원교 목록에 있는지 확인해두면 지원 전략을 세우는 데 도움이 됩니다.",
+      },
+      {
+        heading: "국제학교 학생이 지금 챙길 것",
+        body: "8월 1일은 접속자가 몰려 일시적 오류나 지연이 발생하기 쉬운 날입니다. 계정이 이미 있다면 로그인 후 학교 목록·에세이·추천서 요청 상태를 차분히 점검하고, 접속이 원활하지 않다면 며칠 뒤 다시 시도해도 지원 일정에는 문제가 없습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Common%20App%20college%20application%20portal%20launch%20day%2C%20student%20celebrating%20on%20laptop%2C%20August%201%20calendar%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-39&orientation=landscape",
+  },
+  {
     id: "38",
     title: "영국 A-Level 결과 발표 8월 13일, GCSE는 8월 20일 — UCAS 확정 절차",
     category: "커리큘럼",
