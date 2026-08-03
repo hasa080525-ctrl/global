@@ -17,6 +17,36 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "40",
+    title: "8월 22일 SAT 응시 — 정규 접수 마감 8월 7일",
+    category: "입시",
+    date: "2026-08-03",
+    summary:
+      "College Board 공식 일정에 따르면 다음 SAT는 8월 22일(토) 시행되며, 정규 접수 마감은 8월 7일입니다. 추가접수(레이트)는 8월 11일까지 가능하나 지연료가 붙습니다. 성적은 9월 4일 발표됩니다.",
+    metaDescription:
+      "8월 22일 SAT 정규 접수 마감은 8월 7일입니다. 추가접수는 8월 11일까지, 성적 발표는 9월 4일입니다.",
+    sections: [
+      {
+        heading: "시험 일정 — 8월 22일, 접수 마감 8월 7일",
+        body: "College Board 공식 SAT Suite 일정에 따르면 다음 SAT 시험은 2026년 8월 22일(토) 시행됩니다. 정규 접수 마감은 8월 7일 밤 11시 59분(미국 동부시간)이며, 이 시점을 넘기면 추가 비용이 붙는 추가접수(레이트 등록)로 넘어갑니다.",
+      },
+      {
+        heading: "추가접수는 8월 11일까지, 단 지연료 발생",
+        body: "정규 접수를 놓쳤다면 8월 11일까지 추가접수가 가능합니다. 다만 기본 응시료(68달러)에 레이트 등록 수수료(38달러)가 추가로 부과됩니다. 시험장 선택 폭도 정규 접수 대비 줄어들 수 있어, 가능하면 정규 접수 기간 안에 신청하는 것이 유리합니다.",
+      },
+      {
+        heading: "성적 발표는 9월 4일",
+        body: "8월 22일 시험의 성적은 9월 4일 발표될 예정입니다. 수시 원서 접수(9월 초중순 시작)와 시기가 겹치는 경우가 많으므로, 지원 대학의 점수 제출 마감일과 성적 발표일을 함께 확인해두는 것이 안전합니다.",
+      },
+      {
+        heading: "국제학교 학생이 지금 챙길 것",
+        body: "8월 SAT를 준비 중이라면 접수 마감(8월 7일)이 며칠 남지 않았으니 지금 바로 계정을 확인하고 시험장을 신청하는 것이 좋습니다. 아직 준비가 부족하다면 10월·12월 등 이후 시험 일정을 목표로 학습 계획을 다시 세워도 늦지 않습니다.",
+      },
+    ],
+    image:
+      "https://readdy.ai/api/search-image?query=Student%20registering%20for%20SAT%20exam%20on%20laptop%2C%20College%20Board%20test%20date%20calendar%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-40&orientation=landscape",
+  },
+  {
     id: "39",
     title: "Common App 2026-27 시즌 공식 오픈 — Activities 섹션 명칭 변경",
     category: "입시",
