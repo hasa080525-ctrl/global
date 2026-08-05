@@ -113,22 +113,15 @@ export default function Navbar() {
                               window.scrollTo({ top: 0, behavior: "smooth" });
                               setNewsOpen(false);
                             }}
-                            className="w-full flex gap-3 p-3 text-left hover:bg-background-50/5 transition cursor-pointer"
+                            className="w-full p-3 text-left hover:bg-background-50/5 transition cursor-pointer"
                           >
-                            <img
-                              src={item.image}
-                              alt={item.title}
-                              className="w-14 h-14 rounded-lg object-cover shrink-0"
-                            />
-                            <div className="flex-1 min-w-0">
-                              <span className="inline-block rounded-full bg-primary-500/20 text-primary-400 text-xs font-bold px-2 py-0.5 mb-1">
-                                {item.category}
-                              </span>
-                              <p className="text-sm text-background-100 font-medium line-clamp-2 leading-snug">
-                                {item.title}
-                              </p>
-                              <p className="text-xs text-background-400 mt-1">{item.date}</p>
-                            </div>
+                            <span className="inline-block rounded-full bg-primary-500/20 text-primary-400 text-xs font-bold px-2 py-0.5 mb-1">
+                              {item.category}
+                            </span>
+                            <p className="text-sm text-background-100 font-medium line-clamp-2 leading-snug">
+                              {item.title}
+                            </p>
+                            <p className="text-xs text-background-400 mt-1">{item.date}</p>
                           </button>
                         ))}
                       </div>
