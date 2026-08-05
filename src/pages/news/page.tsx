@@ -76,7 +76,7 @@ function LatestNewsSlider({ onNavigate }: { onNavigate: (id: string) => void }) 
                       {item.date}
                     </span>
                   </div>
-                  <h3 className="font-heading text-xl md:text-3xl font-medium text-white leading-snug tracking-tight drop-shadow-lg">
+                  <h3 className="font-body text-xl md:text-3xl font-bold text-white leading-snug tracking-tight drop-shadow-lg">
                     {item.title}
                   </h3>
                 </div>
@@ -226,7 +226,7 @@ export default function NewsPage() {
                       {item.date}
                     </span>
                   </div>
-                  <h3 className="font-heading text-xl md:text-2xl font-medium text-foreground-950 line-clamp-2 leading-snug tracking-tight">
+                  <h3 className="font-body text-xl md:text-2xl font-bold text-foreground-950 line-clamp-2 leading-snug tracking-tight">
                     {item.title}
                   </h3>
                   <p className="mt-3 text-sm md:text-base text-foreground-800 line-clamp-3 leading-relaxed">

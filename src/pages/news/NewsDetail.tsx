@@ -153,7 +153,7 @@ export default function NewsDetail() {
             <span className="text-base font-medium text-foreground-500">{item.date}</span>
           </div>
 
-          <h1 className="font-heading text-4xl md:text-5xl font-medium text-foreground-950 leading-tight tracking-tight">
+          <h1 className="font-body text-4xl md:text-5xl font-bold text-foreground-950 leading-tight tracking-tight">
             {item.title}
           </h1>
 
@@ -164,7 +164,7 @@ export default function NewsDetail() {
           <div className="mt-10 space-y-10">
             {item.sections.map((section, idx) => (
               <div key={idx} className="border-l-4 border-primary-500 pl-6 md:pl-8">
-                <h2 className="font-heading text-2xl md:text-3xl font-medium text-foreground-950 tracking-tight">
+                <h2 className="font-body text-2xl md:text-3xl font-bold text-foreground-950 tracking-tight">
                   {section.heading}
                 </h2>
                 <p className="mt-4 text-base md:text-lg text-foreground-900 leading-[1.8]">
