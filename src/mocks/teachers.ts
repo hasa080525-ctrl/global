@@ -21,7 +21,7 @@ export const TEACHERS = [
     subject: "영어",
     name: "박민준 선생님",
     years: 15,
-    image: "https://readdy.ai/api/search-image?query=Professional%20Korean%20man%20in%20charcoal%20suit%20with%20burgundy%20tie%2C%20warm%20friendly%20smile%2C%20dark%20blue%20gradient%20background%2C%20corporate%20headshot%20portrait%20style%2C%20soft%20studio%20lighting%2C%20elegant%20and%20scholarly%20appearance%2C%20high-end%20editorial%20photography&width=400&height=400&seq=teacher-eng-01-v2&orientation=squarish",
+    image: "/teacher-avatar-male.png",
     tagline: "영어는 언어, 아니라 문화입니다.",
     specialties: ["IB English A", "AP Literature", "SAT Writing", "Essay Writing"],
     career: [
@@ -38,7 +38,7 @@ export const TEACHERS = [
     subject: "과학",
     name: "이현우 선생님",
     years: 10,
-    image: "https://readdy.ai/api/search-image?query=Professional%20Korean%20man%20in%20dark%20grey%20suit%20with%20white%20shirt%2C%20approachable%20smile%2C%20dark%20blue%20gradient%20background%2C%20corporate%20headshot%20portrait%20style%2C%20warm%20studio%20lighting%2C%20intelligent%20and%20reliable%20appearance%2C%20high-end%20editorial%20photography&width=400&height=400&seq=teacher-sci-01-v2&orientation=squarish",
+    image: "/teacher-avatar-male.png",
     tagline: "과학은 실험의 세상입니다.",
     specialties: ["IB Physics", "AP Chemistry", "IB Biology", "Middle School Science"],
     career: [
@@ -72,7 +72,7 @@ export const TEACHERS = [
     subject: "에세이",
     name: "정수아 선생님",
     years: 11,
-    image: "https://readdy.ai/api/search-image?query=Professional%20Korean%20woman%20in%20beige%20tailored%20blazer%20with%20thoughtful%20creative%20smile%2C%20dark%20blue%20gradient%20background%2C%20corporate%20headshot%20portrait%20style%2C%20warm%20studio%20lighting%2C%20artistic%20and%20intellectual%20appearance%2C%20high-end%20editorial%20photography&width=400&height=400&seq=teacher-essay-02&orientation=squarish",
+    image: "/teacher-avatar-female.png",
     tagline: "글에는 학생의 목소리가 담깁니다.",
     specialties: ["IB Extended Essay", "TOK Essay", "Common App", "학교별 에세이"],
     career: [
@@ -89,7 +89,7 @@ export const TEACHERS = [
     subject: "입시",
     name: "강도윤 선생님",
     years: 14,
-    image: "https://readdy.ai/api/search-image?query=Professional%20Korean%20man%20in%20navy%20blue%20suit%20with%20confident%20warm%20smile%2C%20dark%20blue%20gradient%20background%2C%20corporate%20headshot%20portrait%20style%2C%20soft%20studio%20lighting%2C%20leadership%20and%20expertise%20appearance%2C%20high-end%20editorial%20photography&width=400&height=400&seq=teacher-adm-01-v2&orientation=squarish",
+    image: "/teacher-avatar-male.png",
     tagline: "목표가 명확하면 길이 보입니다.",
     specialties: ["SAT/ACT 전략", "IB/AP 점수 관리", "대학 리스트 선정", "인터뷰 대비"],
     career: [
@@ -106,7 +106,7 @@ export const TEACHERS = [
     subject: "수학·과학",
     name: "David Park 선생님",
     years: 13,
-    image: "https://readdy.ai/api/search-image?query=Bilingual%20Korean-American%20male%20teacher%20in%20olive%20green%20casual%20blazer%20with%20warm%20intellectual%20smile%2C%20modern%20international%20school%20classroom%20background%20with%20soft%20natural%20light%2C%20approachable%20yet%20scholarly%20headshot%20portrait%20style%2C%20multicultural%20educator%20appearance%2C%20high-end%20editorial%20photography&width=400&height=400&seq=teacher-intl-math&orientation=squarish",
+    image: "/teacher-avatar-male.png",
     tagline: "Language should never be a barrier to understanding math.",
     specialties: ["IB Math HL/SL", "AP Calculus BC", "AP Physics C", "SAT Math"],
     career: [
@@ -123,7 +123,7 @@ export const TEACHERS = [
     subject: "영어·에세이",
     name: "Sarah Kim 선생님",
     years: 11,
-    image: "https://readdy.ai/api/search-image?query=Bilingual%20Korean-American%20female%20teacher%20in%20warm%20cream%20knit%20blazer%20with%20creative%20expressive%20smile%2C%20modern%20bright%20international%20school%20setting%20in%20background%20with%20natural%20daylight%2C%20literary%20and%20approachable%20headshot%20portrait%20style%2C%20inspiring%20educator%20appearance%2C%20high-end%20editorial%20photography&width=400&height=400&seq=teacher-intl-eng&orientation=squarish",
+    image: "/teacher-avatar-female.png",
     tagline: "Every student has a story worth telling — in any language.",
     specialties: ["IB English A/B", "Extended Essay", "TOK Essay", "Common App Essay"],
     career: [

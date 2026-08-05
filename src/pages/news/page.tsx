@@ -156,7 +156,7 @@ export default function NewsPage() {
       {/* Hero */}
       <section className="relative h-[320px] md:h-[440px] overflow-hidden">
         <img
-          src="https://readdy.ai/api/search-image?query=Modern%20international%20school%20campus%20with%20students%20studying%20in%20library%2C%20bright%20and%20clean%20educational%20environment%2C%20professional%20photography%2C%20warm%20lighting%2C%20neutral%20background%2C%20high%20quality&width=1600&height=500&seq=news-header&orientation=landscape"
+          src="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/ad4235205082cb96d6197d180c581ff8.png"
           alt="국제학교 뉴스"
           className="absolute inset-0 w-full h-full object-cover object-top"
         />

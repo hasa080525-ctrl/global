@@ -44,7 +44,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Family%20reviewing%20US%20investment%20immigration%20documents%20with%20American%20flag%20and%20visa%20papers%20on%20desk%2C%20financial%20planning%20concept%2C%20professional%20editorial%20photography%2C%20clean%20natural%20lighting&width=400&height=250&seq=news-42&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "41",
@@ -74,7 +74,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Parent%20and%20child%20researching%20international%20school%20accreditation%20on%20laptop%2C%20education%20verification%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-41&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "40",
@@ -104,7 +104,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20registering%20for%20SAT%20exam%20on%20laptop%2C%20College%20Board%20test%20date%20calendar%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-40&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "39",
@@ -134,7 +134,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Common%20App%20college%20application%20portal%20launch%20day%2C%20student%20celebrating%20on%20laptop%2C%20August%201%20calendar%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-39&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "38",
@@ -164,7 +164,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Students%20checking%20A-Level%20exam%20results%20on%20laptop%2C%20UK%20university%20admissions%20UCAS%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-38&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "37",
@@ -194,7 +194,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20filling%20out%20college%20application%20on%20laptop%2C%20Common%20App%20concept%2C%20calendar%20and%20deadline%20reminder%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-37&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "36",
@@ -224,7 +224,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Korean%20public%20school%20classroom%20with%20students%20discussing%20International%20Baccalaureate%20curriculum%2C%20IB%20World%20School%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-36&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "35",
@@ -254,7 +254,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Yale%20University%20campus%20building%20with%20students%20walking%2C%20Ivy%20League%20admissions%20concept%2C%20SAT%20test%20prep%20books%20on%20desk%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-35&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "34",
@@ -284,7 +284,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20registering%20for%20university%20admissions%20test%20on%20laptop%20with%20UK%20university%20brochures%2C%20Oxford%20Cambridge%20application%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-34&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "33",
@@ -314,7 +314,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=World%20university%20rankings%20report%20on%20laptop%20screen%20with%20global%20map%2C%20academic%20research%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-33&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "32",
@@ -340,7 +340,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20checking%20Cambridge%20IGCSE%20exam%20results%20on%20laptop%20with%20calendar%2C%20international%20school%20results%20day%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-32&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "31",
@@ -374,7 +374,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=US%20federal%20student%20loan%20documents%20and%20calculator%20on%20desk%20with%20American%20flag%2C%20financial%20aid%20planning%20concept%2C%20professional%20editorial%20photography%2C%20clean%20natural%20lighting&width=400&height=250&seq=news-31&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "30",
@@ -404,7 +404,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=SAT%20and%20ACT%20exam%20answer%20sheets%20side%20by%20side%20on%20desk%20with%20pencil%2C%20standardized%20testing%20concept%2C%20clean%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-30&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "29",
@@ -434,7 +434,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Oxford%20University%20historic%20building%20with%20students%20walking%2C%20UK%20university%20admissions%20concept%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-29&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "28",
@@ -464,7 +464,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Ivy%20League%20university%20campus%20building%20with%20students%20walking%2C%20autumn%20academic%20atmosphere%2C%20SAT%20test%20preparation%20books%20on%20desk%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-28&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "27",
@@ -494,7 +494,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Diploma%20certificate%20and%20graduation%20cap%20on%20desk%20with%20world%20map%2C%20international%20baccalaureate%20exam%20results%20concept%2C%20professional%20educational%20photography%2C%20soft%20natural%20lighting&width=400&height=250&seq=news-27&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "26",
@@ -524,7 +524,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20taking%20digital%20exam%20on%20laptop%20in%20classroom%2C%20modern%20international%20school%20testing%20environment%2C%20focused%20studying%20atmosphere%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-26&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "25",
@@ -554,7 +554,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=US%20passport%20and%20student%20visa%20documents%20on%20desk%20with%20American%20flag%2C%20international%20student%20immigration%20concept%2C%20professional%20editorial%20photography%2C%20clean%20lighting&width=400&height=250&seq=news-25&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "24",
@@ -586,7 +586,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20filling%20out%20college%20application%20on%20laptop%20with%20Common%20App%20website%20open%2C%20organized%20desk%20with%20notes%20and%20checklist%2C%20focused%20planning%20atmosphere%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-24&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "23",
@@ -620,7 +620,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20opening%20A-Level%20exam%20results%20envelope%20with%20anxious%20excited%20expression%2C%20UK%20school%20setting%2C%20clean%20modern%20background%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-23&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "22",
@@ -654,7 +654,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20working%20on%20business%20plan%20and%20cybersecurity%20project%20on%20laptop%2C%20modern%20classroom%20setting%20with%20charts%20and%20code%20on%20screen%2C%20engaged%20focused%20expression%2C%20professional%20educational%20photography%2C%20bright%20lighting&width=400&height=250&seq=news-22&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "21",
@@ -688,7 +688,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20taking%20TOEFL%20test%20on%20computer%20with%20headphones%2C%20focused%20concentration%20in%20quiet%20test%20center%2C%20clean%20minimalist%20background%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-21&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "20",
@@ -722,7 +722,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20reviewing%20updated%20IB%20Diploma%20curriculum%20documents%20with%20laptop%2C%20focused%20planning%20session%2C%20modern%20study%20desk%20with%20notebook%2C%20warm%20natural%20lighting%2C%20professional%20educational%20photography&width=400&height=250&seq=news-20&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "19",
@@ -756,7 +756,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20checking%20IB%20diploma%20exam%20results%20on%20laptop%20with%20relieved%20expression%2C%20world%20map%20and%20statistics%20chart%20on%20screen%2C%20clean%20modern%20desk%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-19&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "18",
@@ -790,7 +790,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20taking%20digital%20SAT%20exam%20on%20laptop%20using%20Bluebook%20testing%20app%2C%20focused%20concentration%2C%20modern%20minimalist%20study%20desk%2C%20clean%20background%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-18&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "17",
@@ -824,7 +824,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20checking%20AP%20exam%20score%20results%20on%20laptop%20screen%2C%20mixed%20anticipation%20and%20relief%20expression%2C%20modern%20study%20desk%20with%20notebook%2C%20warm%20natural%20window%20light%2C%20academic%20achievement%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-17&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "16",
@@ -856,7 +856,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20reviewing%20study%20notes%20and%20calendar%20at%20desk%20preparing%20for%20new%20school%20semester%2C%20organized%20workspace%20with%20textbooks%2C%20warm%20late%20summer%20afternoon%20light%2C%20focused%20academic%20planning%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-16&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "13",
@@ -890,7 +890,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20checking%20exam%20results%20on%20laptop%20with%20relieved%20happy%20expression%2C%20clean%20modern%20desk%20with%20IB%20textbooks%2C%20warm%20natural%20window%20light%2C%20academic%20achievement%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-13&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "14",
@@ -922,7 +922,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20anxiously%20waiting%20for%20exam%20score%20results%20on%20phone%2C%20AP%20exam%20preparation%20books%20on%20desk%2C%20focused%20study%20environment%2C%20warm%20indoor%20lighting%2C%20academic%20tension%20and%20anticipation%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-14&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "15",
@@ -956,7 +956,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20working%20on%20college%20application%20essay%20at%20laptop%20with%20prestigious%20university%20brochures%20nearby%2C%20organized%20modern%20study%20desk%2C%20calm%20focused%20atmosphere%2C%20warm%20ambient%20lighting%2C%20academic%20planning%20concept%2C%20professional%20educational%20photography&width=400&height=250&seq=news-15&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "10",
@@ -986,7 +986,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=British%20international%20school%20students%20studying%20together%20in%20classroom%2C%20UK%20school%20building%20exterior%2C%20growth%20of%20international%20baccalaureate%20programme%2C%20professional%20educational%20photography%2C%20natural%20daylight&width=400&height=250&seq=news-10-v2&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "11",
@@ -1016,7 +1016,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=World%20university%20ranking%20concept%2C%20prestigious%20campus%20building%20with%20global%20map%20overlay%2C%20graduation%20cap%20on%20desk%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-11-v2&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "12",
@@ -1046,7 +1046,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20reviewing%20AP%20exam%20registration%20receipt%20and%20payment%20on%20laptop%2C%20academic%20planning%20desk%2C%20clean%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-12-v2&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "7",
@@ -1076,7 +1076,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=US%20student%20visa%20application%20documents%20and%20passport%20on%20desk%20with%20American%20flag%2C%20international%20student%20immigration%20fee%20concept%2C%20professional%20editorial%20photography%2C%20clean%20lighting&width=400&height=250&seq=news-7-v3&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "8",
@@ -1106,7 +1106,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Empty%20lecture%20hall%20with%20declining%20enrollment%20concept%2C%20university%20campus%20building%2C%20international%20student%20statistics%20chart%20overlay%2C%20professional%20editorial%20photography%2C%20clean%20lighting&width=400&height=250&seq=news-8-v2&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "9",
@@ -1136,7 +1136,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Korean%20high%20school%20building%20exterior%20in%20Seoul%2C%20students%20in%20classroom%20discussion%2C%20international%20baccalaureate%20concept%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-9-v2&orientation=landscape",
+      "/news-images/admissions.png",
   },
   {
     id: "1",
@@ -1166,7 +1166,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Student%20practicing%20language%20speaking%20test%20with%20headset%20and%20laptop%2C%20digital%20exam%20preparation%2C%20modern%20study%20desk%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-1-v2&orientation=landscape",
+      "/news-images/curriculum.png",
   },
   {
     id: "2",
@@ -1196,7 +1196,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Canadian%20university%20campus%20with%20maple%20leaf%20flag%2C%20study%20permit%20documents%20on%20desk%2C%20international%20student%20visa%20concept%2C%20professional%20editorial%20photography%2C%20clean%20natural%20lighting&width=400&height=250&seq=news-2-v2&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "3",
@@ -1226,7 +1226,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=British%20international%20boarding%20school%20campus%20in%20Southeast%20Asia%2C%20tropical%20setting%20with%20modern%20school%20building%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-3-v2&orientation=landscape",
+      "/news-images/school-news.png",
   },
   {
     id: "4",
@@ -1256,7 +1256,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Diverse%20international%20students%20walking%20on%20US%20university%20campus%2C%20autumn%20academic%20atmosphere%2C%20professional%20educational%20photography%2C%20warm%20natural%20lighting&width=400&height=250&seq=news-4-v3&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "5",
@@ -1286,7 +1286,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=UK%20graduate%20student%20holding%20visa%20documents%2C%20London%20skyline%20in%20background%2C%20professional%20editorial%20photography%2C%20clean%20natural%20lighting&width=400&height=250&seq=news-5-v3&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
   {
     id: "6",
@@ -1316,7 +1316,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       },
     ],
     image:
-      "https://readdy.ai/api/search-image?query=Australian%20university%20campus%20building%20with%20Sydney%20skyline%2C%20international%20students%20walking%20on%20campus%2C%20professional%20educational%20photography%2C%20bright%20natural%20lighting&width=400&height=250&seq=news-6-v2&orientation=landscape",
+      "/news-images/study-abroad.png",
   },
 ];
 
