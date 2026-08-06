@@ -90,6 +90,10 @@ export default function Footer() {
             영어 조기교육 고민 · 조기유학 고민 · 전학 학습공백 · 해외이주 준비
           </p>
           <p>
+            <b className="mr-2 font-semibold text-background-200">송도 해외대학 입시대비</b>
+            한국뉴욕주립대학교(Stony Brook) · 한국뉴욕주립대학교(FIT) · 한국조지메이슨대학교 · 유타대학교 아시아캠퍼스 · 겐트대학교 글로벌캠퍼스
+          </p>
+          <p>
             <b className="mr-2 font-semibold text-background-200">입시 제도</b>
             재외국민전형 · 특례입학 · 해외고교 졸업자 전형 · 영주권자 전형
           </p>
