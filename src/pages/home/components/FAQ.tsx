@@ -1,8 +1,21 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { FAQS } from "@/mocks/faq";
 
+const CATEGORIES = ["전체", "수업방식", "수업과목", "비용", "결과"] as const;
+
 export default function FAQ() {
+  const [activeCategory, setActiveCategory] = useState<(typeof CATEGORIES)[number]>("전체");
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+
+  const filteredFaqs = useMemo(
+    () => (activeCategory === "전체" ? FAQS : FAQS.filter((item) => item.category === activeCategory)),
+    [activeCategory],
+  );
+
+  const handleCategoryClick = (category: (typeof CATEGORIES)[number]) => {
+    setActiveCategory(category);
+    setOpenIndex(0);
+  };
 
   return (
     <section id="faq" className="bg-background-100 section-pad py-20 md:py-24"
@@ -19,13 +32,30 @@ export default function FAQ() {
           궁금하신 점이 있다면 언제든지 문의해주세요
         </p>
 
-        <div className="mt-12 space-y-3"
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
+          {CATEGORIES.map((category) => (
+            <button
+              key={category}
+              type="button"
+              onClick={() => handleCategoryClick(category)}
+              className={`rounded-full px-4 py-2 text-xs md:text-sm font-bold transition cursor-pointer whitespace-nowrap ${
+                activeCategory === category
+                  ? "bg-primary-500 text-foreground-950"
+                  : "bg-background-50 text-foreground-600 border border-background-300/70 hover:border-primary-400"
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
+
+        <div className="mt-8 space-y-3"
         >
-          {FAQS.map((item, idx) => {
+          {filteredFaqs.map((item, idx) => {
             const isOpen = openIndex === idx;
             return (
               <div
-                key={idx}
+                key={item.question}
                 className="overflow-hidden rounded-2xl border border-background-300/70 bg-background-50 transition"
               >
                 <button
@@ -35,9 +65,9 @@ export default function FAQ() {
                 >
                   <span className="flex items-center gap-3 text-sm md:text-base font-medium text-foreground-950 tracking-tight"
                   >
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary-500 font-heading text-sm text-foreground-950"
+                    <span className="shrink-0 rounded-full bg-accent-100 px-2.5 py-1 text-[11px] font-bold text-accent-700"
                     >
-                      {idx + 1}
+                      {item.category}
                     </span>
                     {item.question}
                   </span>

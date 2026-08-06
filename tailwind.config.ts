@@ -105,7 +105,7 @@ export default {
         "fade-in": "fade-in 0.6s ease-out both",
         "bar-rise": "bar-rise 1.2s ease-out both",
         "wiggle": "wiggle 3s ease-in-out infinite",
-        "marquee": "marquee 40s linear infinite",
+        "marquee": "marquee 200s linear infinite",
       },
     },
   },
