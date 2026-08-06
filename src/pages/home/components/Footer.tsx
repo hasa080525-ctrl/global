@@ -72,7 +72,30 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-2 border-t border-accent-700 pt-6 text-xs sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 space-y-2 border-t border-accent-700 pt-6 text-xs leading-loose text-background-400">
+          <p>
+            <b className="mr-2 font-semibold text-background-200">국제학교 정보</b>
+            국제학교란 · 국제학교 종류 · 국제학교 순위 · 국제학교 학비 · 국제학교 장단점 · 외국인학교 차이 · 국제학교 vs 특목고
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">입학 준비</b>
+            국제학교 입학조건 · 입학나이 · 편입 · 전학 · 입학시험 · 인터뷰 준비 · 에세이 작성
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">자녀 배경별 상담</b>
+            주재원 자녀 교육 · 해외 파견 자녀 · 귀국 자녀 적응 · 이중국적 자녀 · 다문화가정 자녀
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">학부모 고민</b>
+            영어 조기교육 고민 · 조기유학 고민 · 전학 학습공백 · 해외이주 준비
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">입시 제도</b>
+            재외국민전형 · 특례입학 · 해외고교 졸업자 전형 · 영주권자 전형
+          </p>
+        </div>
+
+        <div className="mt-6 flex flex-col gap-2 border-t border-accent-700 pt-6 text-xs sm:flex-row sm:items-center sm:justify-between">
           <span>© 2026 국제학교 전문과외. All rights reserved.</span>
           <span>개인정보 처리방침 · 이용약관</span>
         </div>
