@@ -101,6 +101,46 @@ export default function Footer() {
             <b className="mr-2 font-semibold text-background-200">입시 제도</b>
             재외국민전형 · 특례입학 · 해외고교 졸업자 전형 · 영주권자 전형
           </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">과목·시험 과외</b>
+            국제학교 과외 · IB 과외 · AP 과외 · IGCSE 과외 · SAT 과외 · ACT 과외 · A-Level 과외 · IB Math AA 과외 · IB Math AI 과외 · IB EE 과외 · TOK 과외 · IB DP 과외 · IB MYP 과외 · 국제학교 지오메트리과외 · 국제학교 프리캘큘러스과외 · IB Literature 과외 · SAT Writing 과외 · IB 물리 과외 · IB 화학 과외 · IB 생물 과외 · AP Physics 과외 · AP Chemistry 과외 · AP Biology 과외 · AP Calculus BC 과외 · IB IA 첨삭 · 국제학교 중국어 과외 · 국제학교 일본어 과외 · 국제학교 스페인어 과외
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">지역별 과외</b>
+            서울 · 강남 · 제주 · 송도 · 대구 · 부산 · 대전 국제학교 과외
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">국내 국제학교</b>
+            NLCS · 채드윅 · KIS · SJA · BFS · GSIS · 브랭섬홀아시아 · 청라달튼외국인학교 · 드와이트외국인학교 · 광주국제학교 · 세종 페이스튼 · 오사카 KIS
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">해외 국가·도시별 과외</b>
+            베트남 · 태국 · 인도네시아 · 말레이시아 · 중국 · 일본 · 미국 · 캐나다 · 유럽 · 두바이 · 하노이 · 호치민 · 방콕 · 자카르타 · 상하이 · 도쿄 국제학교 과외 · 마닐라 국제학교 과외
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">겨울·방학 캠프</b>
+            겨울캠프 · 방학캠프 · 해외 방학캠프 · 캐나다 겨울캠프 · 캐나다 홈스테이 캠프 · 뉴질랜드 어학캠프 · 뉴질랜드 홈스테이 캠프 · 일본 어학캠프 · 일본 교토 캠프 · 나이아가라폴스 캠프 · 오클랜드 홈스테이 캠프 · Waiuku College 캠프 · Calvary Christian School 캠프 · 세인트캐서린 캠프 · 아이비리그 대학 탐방 캠프 · 마오리 문화 체험 캠프
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">합격사례 대학</b>
+            하버드 · 스탠포드 · MIT · 예일 · 컬럼비아 · Cornell University · UC Berkeley · NYU · University of Chicago · Johns Hopkins University · Duke University · Brown University · Princeton University · University of Michigan · University of Tokyo · Northwestern University 합격 과외 · 아이비리그 합격 사례 · Top 20 대학 합격 사례
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">선생님 자격·특징</b>
+            IB Examiner 선생님 과외 · Cambridge CELTA 과외 · IB Extended Essay Examiner 과외 · IB Math HL Examiner 과외 · 원어민 과외
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">입시·상담 서비스</b>
+            국제학교 편입 과외 · 국제학교 전학 과외 · 국제학교 입학 인터뷰 대비 · SSAT 대비 과외 · MAP 테스트 대비 과외 · IB Internal Assessment 과외 · 국제학교 조기유학 · 국제학교 대입 컨설팅 · 방학 집중 과외 · 유학상품 상담 · Common App Essay 컨설팅 · 전학 적응 과외
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">입시 연도·서비스</b>
+            2026 입시 · 2027 입시 · 2026 IB DP · 2027 IB DP · 2026-27 Common App · 무료 체험 수업 · 국제학교 내신 관리 · 국제학교 GPA 향상 · 국제학교 과외 비용 · 국제학교 유학 상담 · 국제학교 온라인 과외 후기 · 국제학교 학생 대상 수업
+          </p>
+          <p>
+            <b className="mr-2 font-semibold text-background-200">해외연수 캠프 유형</b>
+            해외 공립학교 체험 캠프 · 학생 해외연수 캠프 · 초등 해외캠프 · 중고등 해외캠프
+          </p>
         </div>
 
         <div className="mt-6 flex flex-col gap-2 border-t border-accent-700 pt-6 text-xs sm:flex-row sm:items-center sm:justify-between">
