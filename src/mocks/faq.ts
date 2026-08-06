@@ -54,4 +54,14 @@ export const FAQS = [
     answer:
       "학생의 기초 수준과 학습 투자 시간에 따라 결과는 달라집니다. 다만, 과거 수업 데이터를 보면 꾸준한 수업을 이어가신 학생의 85% 이상이 목표했던 성적에 도달했습니다. 무료 모의수업에서 학생의 현재 상황을 진단한 후, 현실적인 목표와 일정을 함께 세워드립니다.",
   },
+  {
+    question: "인천 송도에 있는 해외대학 한국캠퍼스 입시도 준비할 수 있나요?",
+    answer:
+      "네, 가능합니다. 인천글로벌캠퍼스에 있는 한국뉴욕주립대학교(Stony Brook·FIT), 한국조지메이슨대학교, 유타대학교 아시아캠퍼스, 겐트대학교 글로벌캠퍼스 등 해외대학 한국캠퍼스 진학을 목표로 하는 학생의 입시 준비도 도와드립니다. 지원하려는 캠퍼스의 전형 요건을 먼저 확인한 뒤 맞춤 학습 계획을 세워드립니다.",
+  },
+  {
+    question: "Stanford OHS, ASU Prep Digital 같은 해외 온라인스쿨 재학생도 과외가 가능한가요?",
+    answer:
+      "네, 가능합니다. Stanford Online High School, University of Nebraska High School, ASU Prep Digital, The Davidson Academy, Dwight Global Online School, Mt. Everest Academy, iUniversity Prep 등 온라인 정규학교에 재학 중인 학생도 학교 커리큘럼과 진도에 맞춰 1:1로 지도합니다. 시차가 있는 해외 학사 일정에 맞춰 화상 수업 시간도 유연하게 조정해드립니다.",
+  },
 ];
