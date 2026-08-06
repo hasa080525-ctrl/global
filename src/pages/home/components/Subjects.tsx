@@ -1,7 +1,7 @@
 const ROWS = [
   {
     subject: "수학",
-    detail: "IB / AP / 알지브라 / 지오메트리 / 프리캘큘러스",
+    detail: "IB / AP / 알지브라(Algebra) / 지오메트리(Geometry) / 프리캘큘러스(Calculus)",
   },
   {
     subject: "영어",
@@ -43,10 +43,10 @@ export default function Subjects() {
           <table className="w-full text-sm md:text-base">
             <thead>
               <tr className="bg-primary-500 text-foreground-950">
-                <th className="w-32 md:w-44 px-4 md:px-6 py-4 font-heading">
+                <th className="w-32 md:w-44 px-4 md:px-6 py-4 font-body font-bold">
                   과목
                 </th>
-                <th className="px-4 md:px-6 py-4 font-heading">특징</th>
+                <th className="px-4 md:px-6 py-4 font-body font-bold">특징</th>
               </tr>
             </thead>
             <tbody>
