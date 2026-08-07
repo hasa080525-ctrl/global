@@ -12,12 +12,14 @@
     "type-check": "tsc --noEmit --project tsconfig.app.json"
   },
   "dependencies": {
+    "@sparticuz/chromium": "^149.0.0",
     "@stripe/react-stripe-js": "4.0.2",
     "@supabase/supabase-js": "2.57.4",
     "firebase": "12.0.0",
     "i18next": "^25.3.2",
     "i18next-browser-languagedetector": "^8.2.0",
     "lucide-react": "^0.469.0",
+    "puppeteer-core": "^25.5.0",
     "react": "^19.1.2",
     "react-dom": "^19.1.2",
     "react-i18next": "^15.6.0",

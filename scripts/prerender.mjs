@@ -12,7 +12,16 @@ import { readFileSync, mkdirSync, writeFileSync, rmSync } from "node:fs";
 import { createServer } from "node:http";
 import { extname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import puppeteer from "puppeteer";
+
+// Vercel's build image is missing the shared libraries (libnspr4.so etc.)
+// that a normal downloaded Chrome binary needs, so plain `puppeteer` fails
+// there with "Failed to launch the browser process! Code: 127". Use the
+// statically-linked, serverless-packaged Chromium build on Vercel, and fall
+// back to regular `puppeteer` (which manages its own cached Chrome) for
+// local development, where the full binary launches fine.
+const onVercel = !!process.env.VERCEL;
+const puppeteer = onVercel ? (await import("puppeteer-core")).default : (await import("puppeteer")).default;
+const chromium = onVercel ? (await import("@sparticuz/chromium")).default : null;
 
 const DIST_DIR = fileURLToPath(new URL("../dist/", import.meta.url));
 const NEWS_SRC = fileURLToPath(new URL("../src/mocks/news.ts", import.meta.url));
@@ -109,7 +118,13 @@ async function main() {
   const server = await startServer();
   // --no-sandbox is required in most CI/build containers (incl. Vercel),
   // which don't grant the namespace permissions Chrome's sandbox needs.
-  const browser = await puppeteer.launch({ headless: true, args: ["--no-sandbox", "--disable-setuid-sandbox"] });
+  const browser = onVercel
+    ? await puppeteer.launch({
+        headless: true,
+        args: chromium.args,
+        executablePath: await chromium.executablePath(),
+      })
+    : await puppeteer.launch({ headless: true, args: ["--no-sandbox", "--disable-setuid-sandbox"] });
   try {
     const page = await browser.newPage();
     for (const route of routes) {
