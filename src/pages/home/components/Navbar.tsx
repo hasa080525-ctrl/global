@@ -17,7 +17,6 @@ const NAV_LINKS: NavLinkItem[] = [
   { label: "겨울캠프", href: "/camp", isPage: true },
   { label: "뉴스", href: "/news", isPage: true, hasNewsDropdown: true },
   { label: "FAQ", href: "#faq" },
-  { label: "문의", href: "/contact", isPage: true },
   { label: "신청", href: "/trial", isPage: true, highlight: true },
 ];
 
