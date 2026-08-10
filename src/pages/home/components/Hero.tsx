@@ -17,7 +17,11 @@ export default function Hero() {
       id="hero"
       className="relative overflow-hidden bg-foreground-950 text-background-50"
     >
-      <div className="absolute inset-0 bg-polka opacity-90" />
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/hero-campus.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-foreground-950/80" />
       <div className="relative section-pad mx-auto max-w-5xl py-20 md:py-28 text-center">
         <span className="inline-flex items-center gap-2 rounded-full bg-primary-500 px-4 py-1.5 text-sm md:text-base font-medium text-foreground-950 whitespace-nowrap">
           <i className="ri-graduation-cap-fill" />
