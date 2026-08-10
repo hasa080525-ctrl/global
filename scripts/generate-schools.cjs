@@ -108,10 +108,16 @@ function relatedForSchool(regionSlugStr, schoolSlugStr, name, eligibleKeywords, 
 function pageTemplate({ school, regionName, regionSlugStr, schoolSlugStr, kw, eligibleKeywords, country }) {
   const name = displayName(school.name);
   const title = `${name}${kw.suffix} | 국제학교 전문과외`;
-  const desc = `${name} 학생을 위한 ${kw.suffix} 안내. IB·AP 등 국제학교 커리큘럼 전문 1:1 화상 과외 국제학교전문과외가 도와드립니다.`;
+  const fact = factLine(school);
+  // Only claim IB/AP in the search snippet when the school's data actually
+  // confirms it (factLine is null for every 'basic'-tier school) — a generic
+  // "IB·AP 등" line on a school without either was a mismatch between the
+  // search snippet and the page/school reality, which likely suppressed CTR.
+  const desc = fact
+    ? `${name} 학생을 위한 ${kw.suffix} 안내. ${name}는 ${fact}. 국제학교전문과외가 커리큘럼에 맞춰 1:1로 도와드립니다.`
+    : `${name} 학생을 위한 ${kw.suffix} 안내. 학교 진도와 평가 방식에 맞춘 1:1 화상 과외를 국제학교전문과외가 도와드립니다.`;
   const slug = slugFor(regionSlugStr, schoolSlugStr, kw);
   const canonical = `${SITE}/schools/${encodeURIComponent(slug)}.html`;
-  const fact = factLine(school);
   const related = relatedForSchool(regionSlugStr, schoolSlugStr, name, eligibleKeywords, kw.id);
   const kwList = eligibleKeywords.map((k) => `${name}${k.suffix}`).join(', ');
 
