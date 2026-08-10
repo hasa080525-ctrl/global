@@ -44,13 +44,6 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="relative mx-auto mt-10 h-40 w-40 md:h-48 md:w-48">
-          <div className="absolute inset-0 rounded-full bg-primary-500/20 blur-2xl" />
-          <div className="relative flex h-full w-full items-center justify-center rounded-[2rem] bg-primary-500 text-foreground-950 animate-wiggle">
-            <i className="ri-user-smile-fill text-7xl md:text-8xl" />
-          </div>
-        </div>
-
         <div className="mt-10">
           <a
             href="#apply"
