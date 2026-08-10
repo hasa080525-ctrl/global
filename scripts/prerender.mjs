@@ -52,7 +52,7 @@ function newsIds() {
 }
 
 function staticRoutes() {
-  return ["/", "/contact", "/trial", "/news", "/camp"];
+  return ["/", "/contact", "/trial", "/news", "/camp", "/about", "/subjects", "/faq"];
 }
 
 function outputPathFor(route) {

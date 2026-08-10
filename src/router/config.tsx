@@ -7,6 +7,9 @@ import TrialPage from "../pages/trial/page";
 import NewsPage from "../pages/news/page";
 import NewsDetail from "../pages/news/NewsDetail";
 import CampPage from "../pages/camp/page";
+import AboutPage from "../pages/about/page";
+import SubjectsPage from "../pages/subjects/page";
+import FaqPage from "../pages/faq/page";
 
 const routes: RouteObject[] = [
   {
@@ -15,7 +18,15 @@ const routes: RouteObject[] = [
   },
   {
     path: "/about",
-    element: <Navigate to="/#about" replace />,
+    element: <AboutPage />,
+  },
+  {
+    path: "/subjects",
+    element: <SubjectsPage />,
+  },
+  {
+    path: "/faq",
+    element: <FaqPage />,
   },
   {
     path: "/faculty",
