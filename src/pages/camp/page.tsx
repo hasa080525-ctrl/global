@@ -153,7 +153,7 @@ export default function CampPage() {
       />
       <meta
         name="keywords"
-        content="겨울캠프, 2027 겨울캠프, 캐나다 겨울캠프, 뉴질랜드 겨울캠프, 일본 겨울캠프, 해외 어학연수, 초등 해외캠프, 중등 해외캠프, 고등 해외캠프, 홈스테이 캠프, 공립학교 정규과정 체험, 조기유학 캠프, 국제학교 전문과외 캠프"
+        content="겨울캠프, 2027 겨울캠프, 여름캠프, 여름방학 캠프, 캐나다 겨울캠프, 뉴질랜드 겨울캠프, 일본 겨울캠프, 해외 어학연수, 초등 해외캠프, 중등 해외캠프, 고등 해외캠프, 홈스테이 캠프, 공립학교 정규과정 체험, 조기유학 캠프, 국제학교 전문과외 캠프"
       />
       <link rel="canonical" href={`${siteUrl}/camp`} />
       <meta property="og:title" content="2027 겨울캠프 모집 | 캐나다·뉴질랜드·일본 국제학교 캠프" />
@@ -273,7 +273,10 @@ export default function CampPage() {
             ))}
           </div>
 
-          <p className="mt-8 text-center text-xs text-foreground-600">
+          <p className="mt-8 text-center text-sm text-foreground-700">
+            여름방학(7~8월) 캠프도 별도로 문의 시 상담해드립니다.
+          </p>
+          <p className="mt-2 text-center text-xs text-foreground-600">
             * 위 일정·비용은 모집 상황에 따라 변경될 수 있으며, 정확한 안내는 상담을 통해 확인하실 수 있습니다.
           </p>
         </div>
