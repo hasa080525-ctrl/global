@@ -83,11 +83,10 @@ const KEYWORDS = [
 ];
 
 function factLine(s) {
-  const bits = [];
-  if (s.hasIB) bits.push('IB(International Baccalaureate) 프로그램을 운영합니다');
-  if (s.hasAmerican) bits.push('미국식 AP 커리큘럼을 운영합니다');
-  if (bits.length === 0) return null;
-  return bits.join(', ');
+  if (s.hasIB && s.hasAmerican) return 'IB(International Baccalaureate) 프로그램과 미국식 AP 커리큘럼을 함께 운영합니다';
+  if (s.hasIB) return 'IB(International Baccalaureate) 프로그램을 운영합니다';
+  if (s.hasAmerican) return '미국식 AP 커리큘럼을 운영합니다';
+  return null;
 }
 
 function esc(s) {
