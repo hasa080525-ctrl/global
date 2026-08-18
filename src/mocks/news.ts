@@ -17,6 +17,32 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "45",
+    title: "케임브리지 IGCSE·O Level 결과 발표 — 315,000여 명, 4,949개교 응시",
+    category: "커리큘럼",
+    date: "2026-08-18",
+    summary:
+      "케임브리지 인터내셔널이 8월 18일 2026년 6월 시험 세션의 IGCSE·O Level 결과를 발표했습니다. 전 세계 4,949개교 소속 학생 31만 5천여 명이 결과를 받았으며, 지난주 발표된 AS·A-Level(36만 8천여 명, 3,500개교)에 이은 두 번째 결과 발표입니다.",
+    metaDescription:
+      "케임브리지 IGCSE·O Level 결과가 8월 18일 발표됐습니다. 31만 5천여 명, 4,949개교가 결과를 받았습니다.",
+    sections: [
+      {
+        heading: "IGCSE·O Level 결과, 8월 18일 발표",
+        body: "케임브리지 인터내셔널이 8월 18일 2026년 6월 시험 세션의 IGCSE·O Level 결과를 발표했습니다. 전 세계 4,949개교 소속 학생 31만 5천여 명이 결과를 받았으며, 이는 지난주 발표된 AS·A-Level(36만 8천여 명, 3,500개교)에 이은 두 번째 결과 발표입니다.",
+      },
+      {
+        heading: "A-Level이 먼저, IGCSE가 나중인 이유",
+        body: "케임브리지는 매년 AS·A-Level 결과를 IGCSE·O Level보다 일주일 앞서 발표합니다. 대학 입학과 직결되는 A-Level 결과를 먼저 처리해 UCAS Confirmation·Clearing 절차를 진행한 뒤, 다음 주에 IGCSE 업무를 진행하는 구조입니다.",
+      },
+      {
+        heading: "국제학교 IGCSE 응시생이 확인할 것",
+        body: "IGCSE 결과는 학교를 통해 우선 확인할 수 있으며, myresults.cie.org.uk를 통한 온라인 확인은 소속 학교가 활성화한 경우에만 가능합니다. 재채점(Enquiry about Results)이 필요하다면 학교의 신청 마감일을 미리 확인해두는 것이 안전합니다. IGCSE 결과를 바탕으로 A-Level·IB 등 다음 단계 과목을 선택하는 경우, 여름방학 중 관련 개념을 미리 점검해두면 새 학기 적응이 수월합니다.",
+      },
+    ],
+    image:
+      "/news-images/curriculum.png",
+  },
+  {
     id: "44",
     title: "케임브리지 A-Level 결과 발표 — 응시 73만 7천 건, 전년 대비 5% 증가",
     category: "커리큘럼",
