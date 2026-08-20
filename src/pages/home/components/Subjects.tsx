@@ -17,6 +17,11 @@ const ROWS = [
       "중국어: IGCSE / IB CHINESE B 대비\n일본어: IB JAPANESE B / BEGINNER 대비\n스페인어: IB SPANISH AB INITIO / SL",
   },
   {
+    subject: "사회·컴퓨터",
+    detail:
+      "IB ECONOMICS / IB PSYCHOLOGY / IB HISTORY, AP COMPUTER SCIENCE / AP US HISTORY",
+  },
+  {
     subject: "입학·전학 준비",
     detail:
       "국제학교 입학·전학 준비: SSAT 대비 / MAP 테스트 대비 / 입학 인터뷰 대비 / 아이비리그 진학 준비",
