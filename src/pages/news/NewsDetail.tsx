@@ -40,7 +40,7 @@ export default function NewsDetail() {
     <main className="bg-background-50 text-foreground-950">
       <title>{`${item.title} | 서울 국제학교전문과외`}</title>
       <meta name="description" content={metaDesc} />
-      <meta name="keywords" content={`국제학교, ${item.category}, IB, AP, SAT, 화상 과외, 국제학교전문과외`} />
+      <meta name="keywords" content={item.keywords ? `${item.keywords}, 국제학교, 국제학교전문과외` : `국제학교, ${item.category}, IB, AP, SAT, 화상 과외, 국제학교전문과외`} />
       <link rel="canonical" href={`${siteUrl}/news/${item.id}`} />
       <meta property="og:title" content={`${item.title} | 서울 국제학교전문과외`} />
       <meta property="og:description" content={metaDesc} />

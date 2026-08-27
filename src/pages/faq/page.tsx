@@ -16,7 +16,7 @@ export default function FaqPage() {
       />
       <meta
         name="keywords"
-        content="국제학교 과외 비용, 국제학교 과외 문의, 국제학교 편입 과외, IB vs AP, 국제학교 온라인 과외, 국제학교 전문과외"
+        content="국제학교 과외 비용, 국제학교 과외 문의, 국제학교 편입 과외, IB vs AP, 국제학교 온라인 과외, 국제학교 전문과외, SSAT 대비, MAP 테스트 대비, 국제학교 입학 인터뷰, 인천글로벌캠퍼스 입시, 해외 온라인스쿨 과외, IB AP 재채점, 국제학교 특목고 비교, 국제학교 적응, 정시 특례입학, IB 학점인정, 국제학교 학비"
       />
       <link rel="canonical" href={`${siteUrl}/faq`} />
       <meta property="og:title" content="자주 묻는 질문 | 국제학교전문과외" />

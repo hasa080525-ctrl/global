@@ -95,6 +95,21 @@ function dedupeTitleTag(html) {
   });
 }
 
+// Same root cause as the <title> case above, but for <meta name="description">
+// and <meta name="keywords">: the static defaults baked into index.html are
+// never removed, and (unlike <title>) React's hoisted version lands *after*
+// them in the captured DOM. Left alone, every non-home route ships the
+// homepage's description/keywords first, which is what crawlers read - so
+// every other page was effectively indexed under the homepage's metadata.
+// Keep only the last occurrence of each (React's, page-specific one).
+function dedupeMetaTag(html, name) {
+  const pattern = new RegExp(`<meta name="${name}"[^>]*>`, "g");
+  const matches = html.match(pattern);
+  if (!matches || matches.length < 2) return html;
+  let i = 0;
+  return html.replace(pattern, () => (++i === matches.length ? matches[matches.length - 1] : ""));
+}
+
 async function prerenderRoute(page, route) {
   const url = `http://localhost:${PORT}${route}`;
   await page.goto(url, { waitUntil: "networkidle0", timeout: 30000 });
@@ -105,7 +120,9 @@ async function prerenderRoute(page, route) {
     },
     { timeout: 15000 }
   );
-  const html = dedupeTitleTag(await page.content());
+  let html = dedupeTitleTag(await page.content());
+  html = dedupeMetaTag(html, "description");
+  html = dedupeMetaTag(html, "keywords");
   const outPath = outputPathFor(route);
   mkdirSync(join(outPath, ".."), { recursive: true });
   writeFileSync(outPath, html);

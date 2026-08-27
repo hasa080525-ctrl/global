@@ -11,6 +11,8 @@ export interface NewsItem {
   summary: string;
   /** Short (<=80 char) description for meta/OG tags. Falls back to `summary` when omitted. */
   metaDescription?: string;
+  /** Article-specific SEO keywords drawn from this article's own real content. */
+  keywords?: string;
   sections: NewsSection[];
   image: string;
 }
@@ -18,6 +20,7 @@ export interface NewsItem {
 export const NEWS_ITEMS: NewsItem[] = [
   {
     id: "46",
+    keywords: "ISHCMC IB 결과, IB 45점 만점, 이중언어 디플로마, 호치민 국제학교, 베트남 주재원 자녀, IB 디플로마 취득률",
     title: "호치민시국제학교(ISHCMC) 2026 IB 결과 — 평균 34.5점, 만점자 2명",
     category: "학교소식",
     date: "2026-08-05",
@@ -44,6 +47,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "45",
+    keywords: "케임브리지 IGCSE 결과, O Level 결과, myresults.cie.org.uk, IGCSE 재채점, Enquiry about Results, 케임브리지 인터내셔널",
     title: "케임브리지 IGCSE·O Level 결과 발표 — 315,000여 명, 4,949개교 응시",
     category: "커리큘럼",
     date: "2026-08-18",
@@ -70,6 +74,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "44",
+    keywords: "케임브리지 A-Level 결과, AS A-Level 결과, UCAS Track, UCAS Clearing, 온스크린 디지털 응시, 중동 대안 평가",
     title: "케임브리지 A-Level 결과 발표 — 응시 73만 7천 건, 전년 대비 5% 증가",
     category: "커리큘럼",
     date: "2026-08-12",
@@ -104,6 +109,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "43",
+    keywords: "조지타운대 Common App, 조지타운 지원서, Common App 보충 에세이, 2027학년도 입시, 조지타운 입학사정관",
     title: "조지타운대, 첫 Common App 참여 — 2027학년도 입시부터 자체 지원서와 병행",
     category: "입시",
     date: "2026-08-10",
@@ -134,6 +140,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "42",
+    keywords: "F-1 비자 체류기간, H-1B 취업비자, EB-5 투자이민, I-526E 청원서, 미국 유학생 비자",
     title: "美 유학생 비자 규제 강화 속 EB-5 투자이민 관심 증가",
     category: "유학",
     date: "2026-07-30",
@@ -164,6 +171,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "41",
+    keywords: "미인가 교육시설, 교육부 단속, 국제학교 인가, 미인가 대안학교, 국제학교 편입",
     title: "국제학교 열풍 속 미인가 교육시설 주의보 — 교육부 단속 강화",
     category: "유학",
     date: "2026-07-31",
@@ -194,6 +202,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "40",
+    keywords: "SAT 8월 22일, SAT 접수마감, SAT 추가접수, College Board SAT 일정, SAT 성적발표",
     title: "8월 22일 SAT 응시 — 정규 접수 마감 8월 7일",
     category: "입시",
     date: "2026-08-03",
@@ -224,6 +233,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "39",
+    keywords: "Common App 2026-27, Activities and Experiences, Common App 오픈, 커먼앱 신규 회원대학",
     title: "Common App 2026-27 시즌 공식 오픈 — Activities 섹션 명칭 변경",
     category: "입시",
     date: "2026-08-01",
@@ -254,6 +264,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "38",
+    keywords: "영국 A-Level 결과 발표, GCSE 결과 발표, JCQ, UCAS Confirmation, UCAS Clearing, grade boundaries",
     title: "영국 A-Level 결과 발표 8월 13일, GCSE는 8월 20일 — UCAS 확정 절차",
     category: "커리큘럼",
     date: "2026-07-31",
@@ -284,6 +295,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "37",
+    keywords: "Common App 2026-27 사이클, Common App 마감, 얼리 액션 마감, 얼리 디시전 마감, 레귤러 디시전",
     title: "2026-27 Common App 8월 1일 오픈 — 2025-26 사이클은 7월 28일 마감",
     category: "입시",
     date: "2026-07-29",
@@ -314,6 +326,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "36",
+    keywords: "공교육 IB 학교, IB 월드스쿨, IB 후보학교, PYP MYP DP, 한국형 바칼로레아",
     title: "전국 공교육 IB 학교 269개교로 확대 — 2년 만에 2.8배 증가",
     category: "커리큘럼",
     date: "2026-07-14",
@@ -344,6 +357,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "35",
+    keywords: "예일대 Test-Flexible 폐지, 예일 SAT ACT 필수, 아이비리그 표준시험, 예일 입시정책",
     title: "예일대, 'Test-Flexible' 정책 폐지 — 2026-27 입시부터 SAT·ACT 다시 필수",
     category: "입시",
     date: "2026-07-24",
@@ -374,6 +388,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "34",
+    keywords: "UAT-UK, ESAT TARA TMUA, 옥스포드 입학시험, 케임브리지 임페리얼 공통시험, Pearson VUE",
     title: "UAT-UK(ESAT·TARA·TMUA) 예약 7월 20일 시작 — 옥스포드·케임브리지·임페리얼 공통시험",
     category: "입시",
     date: "2026-07-24",
@@ -404,6 +419,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "33",
+    keywords: "U.S. News 세계대학순위, 옥스퍼드 4위, 칭화대 톱10, Best Global Universities, QS 순위 비교",
     title: "U.S. News 2026-27 세계대학순위 발표 — 옥스퍼드 4위·칭화대 첫 톱10 진입",
     category: "유학",
     date: "2026-07-24",
@@ -434,6 +450,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "32",
+    keywords: "케임브리지 인터내셔널 결과발표, IGCSE 디지털 응시, 얼리어답터 프로그램, Enquiry about Results",
     title: "케임브리지 인터내셔널 6월 시험 결과, 8월 11일 발표 — 디지털 응시 얼리어답터 확대",
     category: "커리큘럼",
     date: "2026-07-24",
@@ -460,6 +477,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "31",
+    keywords: "페어런트 플러스 대출, 그래드 플러스 폐지, OBBBA, 미국 학자금대출, Parent PLUS 상한",
     title: "美 연방 학자금대출 개편 7월 시행 — 페어런트 플러스 첫 상한, 그래드 플러스 폐지",
     category: "유학",
     date: "2026-07-22",
@@ -494,6 +512,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "30",
+    keywords: "ETS ACT 인수, Enhanced ACT, SAT ACT 통합, ACT 과학 선택과목",
     title: "ETS, ACT 인수 완료 — SAT·ACT 두 시험 모두 한 회사 손에",
     category: "입시",
     date: "2026-06-30",
@@ -524,6 +543,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "29",
+    keywords: "옥스포드 자체시험 폐지, MAT PAT 폐지, UAT-UK 전환, ESAT TARA TMUA, UCAT LNAT",
     title: "옥스포드, 2027학년도 입시부터 자체 입학시험 폐지 — UAT-UK 공통시험으로",
     category: "유학",
     date: "2026-02-06",
@@ -554,6 +574,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "28",
+    keywords: "컬럼비아대 SAT ACT 필수, 아이비리그 표준시험 부활, 시험선택제 폐지, waiver 신청",
     title: "컬럼비아대 SAT·ACT 필수 부활 — 아이비리그 8개교 전원 표준시험 요구",
     category: "입시",
     date: "2026-07-18",
@@ -584,6 +605,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "27",
+    keywords: "IB 5월 2026 결과, IB 평균점수, IB 합격률, IB 40점이상, 비시험 비상조치 NECM",
     title: "IB 5월 2026 시험 결과 발표 — 역대 최대 20만 9천여 명 응시, 평균점수 상승",
     category: "입시",
     date: "2026-07-18",
@@ -614,6 +636,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "26",
+    keywords: "케임브리지 디지털시험, 실라버스 개정, IGCSE 오픈텍스트 영문학, 디자인테크놀로지 개편",
     title: "케임브리지 인터내셔널, 2026년 디지털 시험 도입 및 실라버스 25개 이상 개정",
     category: "커리큘럼",
     date: "2026-07-18",
@@ -644,6 +667,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "25",
+    keywords: "F-1 비자 체류기간 폐지, 출국유예기간 30일, 미국 유학생 비자 규정",
     title: "美 유학생 '체류기간' 제도 폐지 — 최대 4년 고정기간, 출국유예 30일로 단축",
     category: "유학",
     date: "2026-07-18",
@@ -674,6 +698,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "24",
+    keywords: "Common App 8월1일 오픈, Common App 에세이 문항, ED EA 마감, Common App 이월정보",
     title: "2026-27학년도 Common App, 8월 1일 오픈 — 에세이 문항은 그대로",
     category: "입시",
     date: "2026-07-15",
@@ -706,6 +731,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "23",
+    keywords: "영국 A-Level GCSE 결과일, Ofqual 채점기준, UCAS 클리어링",
     title: "영국 A-Level·GCSE 결과 발표일 확정 — 8월 13일·20일",
     category: "입시",
     date: "2026-07-15",
@@ -740,6 +766,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "22",
+    keywords: "AP Business with Personal Finance, AP Cybersecurity, AP Career Kickstart, Bluebook Desmos",
     title: "College Board, 2026-27학년도 AP 신규 과목 2개 출시 — 비즈니스·사이버보안",
     category: "커리큘럼",
     date: "2026-07-15",
@@ -774,6 +801,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "21",
+    keywords: "TOEFL iBT 개편, TOEFL 적응형시험, CEFR 밴드점수, TOEFL 2026년 1월",
     title: "TOEFL iBT, 2026년 1월부터 대개편 — 시험시간 단축·새 밴드 점수제",
     category: "입시",
     date: "2026-07-15",
@@ -808,6 +836,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "20",
+    keywords: "IB DP 커리큘럼 개편, IB Extended Essay 개편, IB 컴퓨터과학, IB 디자인테크놀로지, IB 심리학 미술",
     title: "2027년 5월부터 바뀌는 IB DP 커리큘럼 — EE·심리·컴공·디자인테크·미술",
     category: "커리큘럼",
     date: "2026-07-15",
@@ -842,6 +871,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "19",
+    keywords: "IB 5월 시험결과, IB 지역별 평균, Enquiry upon Results, IB 재채점",
     title: "2026년 5월 IB 시험 결과 발표 — 전 세계 평균 30.88점",
     category: "입시",
     date: "2026-07-14",
@@ -876,6 +906,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "18",
+    keywords: "SAT 2026-27, SAT Waitlist, Bluebook 계산기, SAT 편의지원 Accommodations",
     title: "2026-27학년도 SAT, 대기자 명단·Bluebook 신기능 도입",
     category: "입시",
     date: "2026-07-13",
@@ -910,6 +941,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "17",
+    keywords: "2026 AP 성적발표, My AP 포털, AP 재시험, AP 크레딧 인정",
     title: "2026 AP 시험 성적, 오늘부터 확인 가능 — 발표 첫날 체크리스트",
     category: "입시",
     date: "2026-07-07",
@@ -944,6 +976,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "16",
+    keywords: "국제학교 2학기 준비, 여름방학 학습계획, IB AP 여름과제, IA Extended Essay 마무리",
     title: "국제학교 2학기 준비, 여름방학 마지막 3주가 좌우한다",
     category: "커리큘럼",
     date: "2026-07-05",
@@ -976,6 +1009,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "13",
+    keywords: "IB 5월 시험성적, IBIS 포털, IB 이의신청 Enquiry upon Results, IB 대학성적제출",
     title: "2026 IB 5월 시험 성적 발표 — 국제학교 학생 필독 대응 가이드",
     category: "커리큘럼",
     date: "2026-07-01",
@@ -1010,6 +1044,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "14",
+    keywords: "AP 2026 점수발표, AP 재시험 신청, AP 대학크레딧, MIT Caltech AP정책",
     title: "AP 2026 점수 발표 D-2주 — 재시험·대학 크레딧 활용 완벽 정리",
     category: "입시",
     date: "2026-06-30",
@@ -1042,6 +1077,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "15",
+    keywords: "2027학년도 조기전형, 하버드 예일 스탠퍼드 ED EA, Common App Personal Statement, 추천서 요청",
     title: "2027학년도 미국 명문대 조기전형 일정 공개 — 지금 준비해야 할 것들",
     category: "유학",
     date: "2026-06-29",
@@ -1076,6 +1112,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "10",
+    keywords: "영국 IB 학교, IB 비선발형 학교, IBO 보고서, 영국 IB 재학생",
     title: "IB, 영국서 10년 새 급성장 — 128개교 10만 명 재학, 3분의 2가 비선발형",
     category: "커리큘럼",
     date: "2026-06-30",
@@ -1106,6 +1143,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "11",
+    keywords: "QS 2027 세계대학순위, MIT 1위, 중국 홍콩 대학순위, QS Quacquarelli Symonds",
     title: "QS 2027 세계대학순위 발표 — MIT 15년 연속 1위, 中·홍콩 대약진",
     category: "유학",
     date: "2026-06-18",
@@ -1136,6 +1174,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "12",
+    keywords: "AP 캡스톤 응시료, AP 세미나 AP 리서치, AP 캡스톤 디플로마",
     title: "AP 캡스톤 응시료, 일반 AP와 동일하게 인하 — 해외 응시생 최대 48달러 절감",
     category: "입시",
     date: "2026-06-15",
@@ -1166,6 +1205,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "7",
+    keywords: "F-1 학생비자 비용, 비자 진실성 수수료, SEVIS MRV 수수료, 미국 비자 인터뷰",
     title: "美 F-1 학생비자 비용 785달러로 급증 — '비자 진실성 수수료' 250달러 신설",
     category: "유학",
     date: "2026-05-19",
@@ -1196,6 +1236,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "8",
+    keywords: "미국 유학생 등록감소, NAFSA 조사, 비자정책 영향, 미국 대학원 유학생",
     title: "美 대학 신규 유학생 등록 20% 급감 — 조사 대학 84% '비자 정책이 원인'",
     category: "유학",
     date: "2026-05-11",
@@ -1226,6 +1267,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "9",
+    keywords: "서울 IB 후보학교, 한국형 바칼로레아, 서울시교육청 IB",
     title: "서울 IB 후보학교 106곳으로 확대 — '한국형 바칼로레아' 본격 추진",
     category: "입시",
     date: "2026-04-14",
@@ -1256,6 +1298,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "1",
+    keywords: "AP 세계언어 디지털전환, AP 코스프로젝트, AP 프랑스어 독일어 스페인어, Bluebook 말하기시험",
     title: "AP 세계 언어 6과목, 2027년 전면 디지털 전환 — 필수 '코스 프로젝트' 신설",
     category: "커리큘럼",
     date: "2026-03-16",
@@ -1286,6 +1329,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "2",
+    keywords: "캐나다 스터디퍼밋, IRCC 유학허가서, 캐나다 대학원 유학, PAL 승인서",
     title: "캐나다, 2026년 유학허가서 발급 대폭 축소 — 대학원생은 예외",
     category: "유학",
     date: "2025-12-20",
@@ -1316,6 +1360,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "3",
+    keywords: "덜위치칼리지 방콕, 하이게이트 방콕, 위컴애비 방콕, 영국 사립교 태국진출",
     title: "영국 명문 사립교 3곳, 2026년 8월 나란히 방콕 신규 진출",
     category: "학교 소식",
     date: "2025-12-09",
@@ -1346,6 +1391,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "4",
+    keywords: "미국 유학생 117만명, 오픈도어스 보고서, 인도 유학생 1위, IIE 통계",
     title: "美 유학생 117만 명 역대 최다 — 인도, 처음으로 중국 제치고 1위",
     category: "유학",
     date: "2025-11-17",
@@ -1376,6 +1422,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "5",
+    keywords: "영국 그래주에이트 비자, 영국 졸업생 취업비자, 그래주에이트 루트 단축",
     title: "영국 졸업생 취업비자, 2027년부터 2년→18개월로 단축",
     category: "유학",
     date: "2025-10-14",
@@ -1406,6 +1453,7 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: "6",
+    keywords: "호주 유학생 계획수준, 호주 국제학생 쿼터, NPL 호주비자",
     title: "호주, 2026년 국제학생 입학 계획수준 29만5000명으로 확대",
     category: "유학",
     date: "2025-08-04",
