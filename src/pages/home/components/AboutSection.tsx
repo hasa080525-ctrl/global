@@ -42,7 +42,37 @@ export const OVERSEAS_SCHOOLS: OverseasRegion[] = [
     code: "cn",
     flag: "🇨🇳",
     name: "중국",
-    schools: ["SAS", "Dulwich", "YCIS", "Wellington", "Concordia", "WAB", "ISB", "상하이 KIS", "베이징 KIS", "청도 KIS", "천진 KIS", "대련 KIS"],
+    schools: ["SAS", "Dulwich", "YCIS", "Wellington", "Concordia", "WAB", "ISB", "상하이 KIS", "베이징 KIS", "청도 KIS", "천진 KIS", "대련 KIS", "광저우한국학교", "홍콩한국국제학교"],
+  },
+  {
+    code: "tw",
+    flag: "🇹🇼",
+    name: "대만",
+    schools: ["타이뻬이한국학교", "까오숑한국국제학교"],
+  },
+  {
+    code: "sg",
+    flag: "🇸🇬",
+    name: "싱가포르",
+    schools: ["UWCSEA", "SAS (Singapore American School)", "싱가포르한국국제학교"],
+  },
+  {
+    code: "sa",
+    flag: "🇸🇦",
+    name: "사우디아라비아",
+    schools: ["리야드한국학교", "젯다한국학교"],
+  },
+  {
+    code: "ru",
+    flag: "🇷🇺",
+    name: "러시아",
+    schools: ["모스크바한국학교"],
+  },
+  {
+    code: "ar",
+    flag: "🇦🇷",
+    name: "아르헨티나",
+    schools: ["아르헨티나한국학교"],
   },
   {
     code: "jp",
