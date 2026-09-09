@@ -19,6 +19,29 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "50",
+    keywords: "IB Math AA 개정, IB Mathematics Analysis and Approaches, 2027 IB 커리큘럼, IB 수학 개정, IB DP 2027",
+    title: "IB Math AA(Analysis and Approaches), 2027년 개정 커리큘럼 발표",
+    category: "커리큘럼",
+    date: "2026-04-01",
+    summary:
+      "국제 바칼로레아(IB)가 DP Mathematics: Analysis and Approaches(AA) 과목의 개정 커리큘럼을 발표했습니다. 새 교육과정은 2027년 2월 공개되어 2027년 8월부터 첫 시행되며, 첫 평가는 2029년 5월입니다.",
+    metaDescription:
+      "IB Math AA 2027년 개정 커리큘럼 — 2027년 8월 첫 시행, 2029년 5월 첫 평가.",
+    sections: [
+      {
+        heading: "2027년 8월 첫 시행, 2029년 5월 첫 평가",
+        body: "IB 공식 발표에 따르면 새 DP Mathematics: Analysis and Approaches 과정은 2027년 2월 공개되어 2027년 8월부터 첫 교육이 시작되고, 첫 평가(시험)는 2029년 5월입니다. 현재 중학교 상급 학년이나 예비 IB DP 학생이라면 진학 시점에 따라 신·구 커리큘럼 중 어느 쪽을 배우게 될지 미리 확인해두는 것이 좋습니다.",
+      },
+      {
+        heading: "새 내용 추가 없이 구조 정리 중심 개정",
+        body: "IB 측은 이번 개정이 기존 커리큘럼의 강점을 유지하면서 과정의 일관성을 높이고 불필요한 학습 부담을 줄이는 데 초점을 맞췄다고 설명했습니다. 새로운 내용 영역을 추가하기보다 평가 구조를 다듬는 '재발명이 아닌 정제' 방향으로, 교사와 학생 모두에게 급격한 변화 없이 매끄러운 전환을 목표로 합니다.",
+      },
+    ],
+    image:
+      "/news-images/school-news.png",
+  },
+  {
     id: "49",
     keywords: "연세대 12년특례, 재외국민전형 모집요강, 9월 신입학, 12년 특례 원서접수, 모빌리티시스템전공",
     title: "연세대 2026학년도 9월 신입학(12년 특례) 모집요강 발표",

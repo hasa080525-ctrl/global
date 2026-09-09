@@ -15,7 +15,7 @@ export default function SubjectsPage() {
       />
       <meta
         name="keywords"
-        content="국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, 국제학교 알지브라과외, 국제학교 지오메트리과외, 국제학교 프리캘큘러스과외, 국제학교 영어 과외, IB 물리 과외, IB 화학 과외, IB 생물 과외, AP Physics 과외, AP Chemistry 과외, 국제학교 중국어 과외, 국제학교 일본어 과외, 국제학교 스페인어 과외, SSAT 대비 과외, MAP 테스트 대비 과외, 국제학교 입학 인터뷰 대비"
+        content="국제학교 수학 과외, IB 수학 과외, IB Math AA 과외, IB Math AI 과외, IB Math AA 2027 개정, 국제학교 알지브라과외, 국제학교 지오메트리과외, 국제학교 프리캘큘러스과외, 국제학교 영어 과외, IB 물리 과외, IB 화학 과외, IB 생물 과외, AP Physics 과외, AP Chemistry 과외, 국제학교 중국어 과외, 국제학교 일본어 과외, 국제학교 스페인어 과외, SSAT 대비 과외, MAP 테스트 대비 과외, 국제학교 입학 인터뷰 대비"
       />
       <link rel="canonical" href={`${siteUrl}/subjects`} />
       <meta property="og:title" content="국제학교 과목 안내 | IB·AP·SAT 전 과목 과외" />
