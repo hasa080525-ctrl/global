@@ -19,6 +19,29 @@ export interface NewsItem {
 
 export const NEWS_ITEMS: NewsItem[] = [
   {
+    id: "51",
+    keywords: "SAT 10월 시험일정, ACT 10월 시험일정, SAT 접수마감, ACT 접수마감, 2026 SAT ACT 일정",
+    title: "10월 SAT·ACT 시험 접수 마감 9월 29일 — 2주 앞으로",
+    category: "시험일정",
+    date: "2026-09-15",
+    summary:
+      "SAT는 10월 3일, ACT는 10월 17일에 각각 시험이 치러지며, 두 시험 모두 접수 마감은 9월 29일입니다. 12월 시험(SAT 12월 5일·ACT 12월 12일)의 접수 마감은 11월 29일입니다.",
+    metaDescription:
+      "SAT 10월 3일·ACT 10월 17일 시험 접수 마감은 9월 29일입니다.",
+    sections: [
+      {
+        heading: "10월 시험 접수, 9월 29일까지",
+        body: "미주중앙일보가 정리한 2026년 시험 일정에 따르면 SAT는 10월 3일, ACT는 10월 17일에 시험이 치러지며 두 시험 모두 접수 마감은 9월 29일입니다. 접수 마감 이후에도 추가 접수 기간이 있지만 시험장 정원이 차면 더 이상 신청할 수 없으니, 목표 시험장을 마감 전에 미리 확정해두는 것이 안전합니다.",
+      },
+      {
+        heading: "12월 시험까지 함께 확인",
+        body: "이후 일정으로는 SAT 11월 7일(접수 마감 별도 공지), 12월 5일(접수 마감 11월 29일) 시험이, ACT는 12월 12일(접수 마감 11월 29일) 시험이 예정되어 있습니다. 10월 시험을 놓쳤거나 재응시를 고려 중이라면 12월 일정을 기준으로 학습 계획을 세워도 늦지 않습니다.",
+      },
+    ],
+    image:
+      "/news-images/school-news.png",
+  },
+  {
     id: "50",
     keywords: "IB Math AA 개정, IB Mathematics Analysis and Approaches, 2027 IB 커리큘럼, IB 수학 개정, IB DP 2027",
     title: "IB Math AA(Analysis and Approaches), 2027년 개정 커리큘럼 발표",

@@ -119,7 +119,7 @@ export default function NewsPage() {
     <main className="bg-background-50 text-foreground-950">
       <title>뉴스 &amp; 소식 | 국제학교 입시·IB·AP·SAT 최신 정보</title>
       <meta name="description" content="국제학교 입시, IB·AP·IGCSE·SAT 시험 일정과 준비 전략, 유학 트렌드까지 학생과 학부모를 위한 최신 교육 소식을 전합니다." />
-      <meta name="keywords" content="국제학교 입시, IB 입시, AP 시험 준비, SAT 준비, IGCSE 시험, 국제학교 뉴스, 국제학교 과외 정보, 국제학교 유학, 화상 과외 추천, IB 시험 일정, AP 시험 일정, 국제학교 수시 정시, 국제학교 유학 정보, ED 입시 캘린더" />
+      <meta name="keywords" content="국제학교 입시, IB 입시, AP 시험 준비, SAT 준비, IGCSE 시험, 국제학교 뉴스, 국제학교 과외 정보, 국제학교 유학, 화상 과외 추천, IB 시험 일정, AP 시험 일정, 국제학교 수시 정시, 국제학교 유학 정보, ED 입시 캘린더, SAT 10월 시험일정, ACT 10월 시험일정" />
       <link rel="canonical" href={`${siteUrl}/news`} />
       <meta property="og:title" content="뉴스 & 소식 | 국제학교 입시·IB·AP·SAT 최신 정보" />
       <meta property="og:description" content="국제학교 입시, IB·AP·IGCSE·SAT 시험 일정과 준비 전략, 유학 트렌드까지 학생과 학부모를 위한 최신 교육 소식을 전합니다." />
