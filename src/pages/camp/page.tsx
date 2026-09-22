@@ -192,7 +192,7 @@ export default function CampPage() {
           <p className="mt-4 text-sm md:text-base text-background-200">
             캐나다·뉴질랜드 공립학교 정규과정 체험부터 일본 어학연수까지,
             <br className="hidden md:block" />
-            초등~고등 학생을 위한 해외 캠프 프로그램 모집이 시작됩니다.
+            초등~고등 학생을 위한 해외 방학캠프 프로그램 모집이 시작됩니다.
           </p>
         </div>
       </section>

@@ -1,7 +1,7 @@
 const ROWS = [
   {
     subject: "수학",
-    detail: "IB / AP / 알지브라(Algebra) / 지오메트리(Geometry) / 프리캘큘러스(Calculus)",
+    detail: "IB / AP / 알지브라(Algebra) / 지오메트리(Geometry) / 프리캘큘러스(Pre-Calculus)",
   },
   {
     subject: "영어",

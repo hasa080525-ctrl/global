@@ -75,7 +75,7 @@ export const FAQS = [
     category: "수업과목",
     question: "Stanford OHS, ASU Prep Digital 같은 해외 온라인스쿨 재학생도 과외가 가능한가요?",
     answer:
-      "네, 가능합니다. Stanford Online High School, University of Nebraska High School, ASU Prep Digital, The Davidson Academy, Dwight Global Online School, Mt. Everest Academy, iUniversity Prep 등 온라인 정규학교에 재학 중인 학생도 학교 커리큘럼과 진도에 맞춰 1:1로 지도합니다. 시차가 있는 해외 학사 일정에 맞춰 화상 수업 시간도 유연하게 조정해드립니다.",
+      "네, 가능합니다. Stanford Online High School, University of Nebraska High School, ASU Prep Digital, The Davidson Academy, Dwight Global Online School, Mt. Everest Academy, iUniversity Prep 등 미국 고등학교 졸업장(Diploma)이 인정되는 온라인 정규학교에 재학 중인 학생도 학교 커리큘럼과 진도에 맞춰 1:1로 지도합니다. 시차가 있는 해외 학사 일정에 맞춰 화상 수업 시간도 유연하게 조정해드립니다.",
   },
   {
     category: "수업과목",
