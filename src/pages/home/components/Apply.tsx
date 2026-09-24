@@ -53,6 +53,23 @@ export default function Apply() {
     body.append("subjects", subjects.join(", "));
     if (note) body.append("note", note);
 
+    fetch(
+      "https://script.google.com/macros/s/AKfycbwOqTTLkqZ_frFyT6N0QcjYZT3jsG0puhq9wRmrQSPxhFgn0fXET3AoGVj4PiHMNHcg/exec",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "text/plain" },
+        body: JSON.stringify({
+          site: "국제학교전문과외",
+          name,
+          phone,
+          grade,
+          subject: subjects.join(", "),
+          message: note || "(없음)",
+        }),
+      },
+    ).catch((err) => console.error("구글시트 전송 실패:", err));
+
     try {
       const res = await fetch(FORM_ENDPOINT, {
         method: "POST",
