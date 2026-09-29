@@ -143,6 +143,67 @@ const CAMPS: CampProgram[] = [
   },
 ];
 
+interface ManagedProgram {
+  country: string;
+  flag: string;
+  school: string;
+  region: string;
+  target: string;
+  cost: string;
+  costIncludes?: string;
+  costExcludes?: string;
+  features: string[];
+}
+
+const MANAGED_PROGRAMS: ManagedProgram[] = [
+  {
+    country: "캐나다 관리형 중고등 유학",
+    flag: "🇨🇦",
+    school: "Niagara Catholic District School Board 산하 공립학교",
+    region: "캐나다 온타리오주 나이아가라",
+    target: "중1~고2, 성적 중·상위권",
+    cost: "4,250만원 (9학년 이상 기준)",
+    costIncludes: "입학지원비, 학비, 홈스테이비, 캐나다의료보험료, 현지관리비, 서비스대행비",
+    costExcludes: "항공료, 용돈, 여권, 유학비자진행비, 여행자보험료, 기타 활동비",
+    features: [
+      "캐나다 공립교육청 국제학생 프로그램 참여",
+      "현지 관리 선생님의 학사·홈스테이 생활 관리",
+      "현지 학생과 동일한 정규과정 수업 (학교별 ESL 병행 가능)",
+      "한 학기·한 학년 참가 후 연장 및 고교 졸업까지 가능",
+    ],
+  },
+  {
+    country: "뉴질랜드 관리형 중고등 유학",
+    flag: "🇳🇿",
+    school: "Waiuku College (오클랜드 인근 9~13학년 공립학교)",
+    region: "뉴질랜드 오클랜드 와이우쿠",
+    target: "중1~고2",
+    cost: "3,200만원",
+    costIncludes: "입학지원비, 등록비, 학비, 홈스테이배정비, 홈스테이비, 교재비, 여행보험료, 교내활동비",
+    costExcludes: "수속대행비 150만원, 항공료, 용돈, 비자 진행비",
+    features: [
+      "전교생 대비 유학생 비율 5% 미만으로 현지 몰입 환경",
+      "ESOL(영어 적응) 수업 지원",
+      "국제학생 담당 선생님·홈스테이 관리자의 생활 관리",
+      "뉴질랜드 국가공인 학력인증(NCEA) 취득 — 한국 및 해외 대학 진학 활용 가능",
+    ],
+  },
+  {
+    country: "미국·영국 사립 보딩스쿨 (EF Academy)",
+    flag: "🇺🇸",
+    school: "EF Academy 국제 보딩스쿨 (캘리포니아 패서디나·뉴욕, 영국 옥스퍼드 캠퍼스)",
+    region: "미국 캘리포니아·뉴욕 / 영국 옥스퍼드",
+    target: "만 13세 이상, 9~12학년(고등 전 학년) · 모국 8학년 과정 이수자",
+    cost: "학비는 캠퍼스·학년별로 상이 (상담을 통해 안내)",
+    features: [
+      "패서디나 캠퍼스: AP·고급연구(Advanced Research) 과정 운영",
+      "뉴욕·옥스퍼드 캠퍼스: IB 디플로마 프로그램(11학년부터 2년 과정) 운영",
+      "전담 대학 진학 상담교사의 1:1 입시 컨설팅",
+      "30개국 이상 학생이 함께 생활하는 완전 기숙사(보딩) 시스템",
+    ],
+  },
+];
+
 export default function CampPage() {
   return (
     <main className="bg-background-50 text-foreground-950">
@@ -278,6 +339,84 @@ export default function CampPage() {
           </p>
           <p className="mt-2 text-center text-xs text-foreground-600">
             * 위 일정·비용은 모집 상황에 따라 변경될 수 있으며, 정확한 안내는 상담을 통해 확인하실 수 있습니다.
+          </p>
+        </div>
+      </section>
+
+      {/* Managed long-term study abroad (partner programs) */}
+      <section className="bg-background-100 section-pad py-16 md:py-20">
+        <div className="mx-auto max-w-6xl">
+          <div className="mx-auto max-w-2xl text-center mb-10">
+            <span className="inline-flex items-center gap-2 rounded-full bg-foreground-950 px-4 py-1.5 text-xs md:text-sm font-medium text-primary-500">
+              제휴 프로그램
+            </span>
+            <h2 className="mt-4 font-heading text-3xl md:text-4xl text-foreground-950">
+              한 학기 이상, 관리형 중고등 유학·보딩스쿨
+            </h2>
+            <p className="mt-3 text-sm md:text-base text-foreground-700">
+              짧은 캠프가 아닌 한 학기~1년 이상 현지 정규과정에 다니며 고교 졸업까지 이어갈 수 있는
+              장기 프로그램입니다. 캐나다·뉴질랜드는 제휴사 쏠루트유학의 현지 관리 서비스로, 미국·영국
+              보딩스쿨은 제휴사 EF Academy를 통해 진행됩니다.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {MANAGED_PROGRAMS.map((p) => (
+              <div
+                key={p.country}
+                className="flex flex-col rounded-3xl border border-background-300/70 bg-background-50 p-6 md:p-7"
+              >
+                <div className="flex items-center gap-2.5">
+                  <span className="text-2xl">{p.flag}</span>
+                  <h3 className="font-heading text-xl md:text-2xl text-foreground-950">
+                    {p.country}
+                  </h3>
+                </div>
+
+                <dl className="mt-5 space-y-2.5 text-sm">
+                  <div className="flex gap-2">
+                    <dt className="w-16 shrink-0 font-semibold text-foreground-600">학교</dt>
+                    <dd className="text-foreground-800">{p.school}</dd>
+                  </div>
+                  <div className="flex gap-2">
+                    <dt className="w-16 shrink-0 font-semibold text-foreground-600">지역</dt>
+                    <dd className="text-foreground-800">{p.region}</dd>
+                  </div>
+                  <div className="flex gap-2">
+                    <dt className="w-16 shrink-0 font-semibold text-foreground-600">대상</dt>
+                    <dd className="text-foreground-800">{p.target}</dd>
+                  </div>
+                </dl>
+
+                <div className="mt-4 rounded-2xl bg-background-100 p-4">
+                  <p className="text-xs font-bold text-primary-600">주요 특징</p>
+                  <ul className="mt-2 space-y-1.5 text-sm text-foreground-800">
+                    {p.features.map((f) => (
+                      <li key={f} className="flex gap-1.5">
+                        <i className="ri-check-line mt-0.5 shrink-0 text-primary-600" />
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="mt-5 border-t border-background-300/70 pt-4">
+                  <p className="font-heading text-2xl text-foreground-950">{p.cost}</p>
+                  {p.costIncludes && <p className="mt-1 text-xs text-foreground-600">포함: {p.costIncludes}</p>}
+                  {p.costExcludes && <p className="mt-0.5 text-xs text-foreground-600">불포함: {p.costExcludes}</p>}
+                </div>
+
+                <a
+                  href="/trial"
+                  className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-foreground-950 px-6 py-3.5 text-sm font-medium text-primary-500 transition hover:bg-foreground-900 cursor-pointer"
+                >
+                  자료 신청하기 <i className="ri-arrow-right-line" />
+                </a>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-center text-xs text-foreground-600">
+            * 위 프로그램은 제휴사(쏠루트유학, EF Academy)를 통해 진행되며, 정확한 선발 기준·절차·학비는 상담을 통해 확인하실 수 있습니다.
           </p>
         </div>
       </section>
