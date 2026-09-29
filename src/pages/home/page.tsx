@@ -15,6 +15,7 @@ import Story from "./components/Story";
 import Badge from "./components/Badge";
 import FAQ from "./components/FAQ";
 import Apply from "./components/Apply";
+import SisterSite from "./components/SisterSite";
 import Footer from "./components/Footer";
 import StickyBar from "./components/StickyBar";
 import JsonLd from "@/components/base/JsonLd";
@@ -209,6 +210,7 @@ export default function Home() {
       <Badge />
       <FAQ />
       <Apply />
+      <SisterSite />
       <Footer />
       <StickyBar />
     </main>
