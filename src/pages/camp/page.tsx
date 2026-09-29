@@ -150,6 +150,7 @@ interface ManagedProgram {
   region: string;
   target: string;
   cost: string;
+  costIsNote?: boolean;
   costIncludes?: string;
   costExcludes?: string;
   features: string[];
@@ -195,6 +196,7 @@ const MANAGED_PROGRAMS: ManagedProgram[] = [
     region: "미국 캘리포니아·뉴욕 / 영국 옥스퍼드",
     target: "만 13세 이상, 9~12학년(고등 전 학년) · 모국 8학년 과정 이수자",
     cost: "학비는 캠퍼스·학년별로 상이 (상담을 통해 안내)",
+    costIsNote: true,
     features: [
       "패서디나 캠퍼스: AP·고급연구(Advanced Research) 과정 운영",
       "뉴욕·옥스퍼드 캠퍼스: IB 디플로마 프로그램(11학년부터 2년 과정) 운영",
@@ -401,7 +403,7 @@ export default function CampPage() {
                 </div>
 
                 <div className="mt-5 border-t border-background-300/70 pt-4">
-                  <p className="font-heading text-2xl text-foreground-950">{p.cost}</p>
+                  <p className={p.costIsNote ? "text-base font-medium text-foreground-800" : "font-heading text-2xl text-foreground-950"}>{p.cost}</p>
                   {p.costIncludes && <p className="mt-1 text-xs text-foreground-600">포함: {p.costIncludes}</p>}
                   {p.costExcludes && <p className="mt-0.5 text-xs text-foreground-600">불포함: {p.costExcludes}</p>}
                 </div>
