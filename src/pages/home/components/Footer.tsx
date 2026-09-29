@@ -92,6 +92,16 @@ export default function Footer() {
                     잉글리시이지 (영어 전문)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://coding.me.kr/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary-300 cursor-pointer"
+                  >
+                    코딩미 (코딩 전문)
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

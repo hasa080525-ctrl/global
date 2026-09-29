@@ -19,6 +19,7 @@ const NAV_LINKS: NavLinkItem[] = [
   { label: "뉴스", href: "/news", isPage: true, hasNewsDropdown: true },
   { label: "FAQ", href: "#faq" },
   { label: "영어회화", href: "https://englisheasy.co.kr/", external: true },
+  { label: "코딩", href: "https://coding.me.kr/", external: true },
   { label: "신청", href: "/trial", isPage: true, highlight: true },
 ];
 
