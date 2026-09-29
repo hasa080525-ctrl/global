@@ -18,7 +18,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-10 text-sm">
+          <div className="grid grid-cols-2 gap-10 text-sm sm:grid-cols-3">
             <div>
               <h5 className="font-heading text-base text-primary-500">바로가기</h5>
               <ul className="mt-3 space-y-2">
@@ -75,6 +75,21 @@ export default function Footer() {
                 <li>
                   <a href="/contact" className="hover:text-primary-300 cursor-pointer">
                     문의하기
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-heading text-base text-primary-500">관련 사이트</h5>
+              <ul className="mt-3 space-y-2">
+                <li>
+                  <a
+                    href="https://englisheasy.co.kr/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary-300 cursor-pointer"
+                  >
+                    잉글리시이지 (영어 전문)
                   </a>
                 </li>
               </ul>
