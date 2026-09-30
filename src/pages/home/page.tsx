@@ -197,6 +197,7 @@ export default function Home() {
       }} />
       <Navbar />
       <Hero />
+      <SisterSite />
       <Traits />
       <AboutSection />
       <Teachers />
@@ -210,7 +211,6 @@ export default function Home() {
       <Badge />
       <FAQ />
       <Apply />
-      <SisterSite />
       <Footer />
       <StickyBar />
     </main>
