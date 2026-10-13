@@ -18,6 +18,7 @@ import Apply from "./components/Apply";
 import SisterSite from "./components/SisterSite";
 import Footer from "./components/Footer";
 import StickyBar from "./components/StickyBar";
+import SubjectPickerModal from "./components/SubjectPickerModal";
 import JsonLd from "@/components/base/JsonLd";
 import { FAQS } from "@/mocks/faq";
 import { TEACHERS } from "@/mocks/teachers";
@@ -196,6 +197,7 @@ export default function Home() {
         }))
       }} />
       <Navbar />
+      <SubjectPickerModal />
       <Hero />
       <SisterSite />
       <Traits />
