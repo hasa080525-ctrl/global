@@ -3,6 +3,8 @@ const PAINS = [
   { text: "암기 과목은 시험만 보면 머리가 하얘져요", align: "right" },
   { text: "다른 친구들 모르게 성적을 올리고 싶어요", align: "left" },
   { text: "개념 정리가 안 된 채로 진도만 나가고 있어요", align: "right" },
+  { text: "국제학교 전학을 고민 중인데 적응할 수 있을지 걱정돼요", align: "left" },
+  { text: "IB 점수가 갑자기 떨어져서 어떻게 해야 할지 모르겠어요", align: "right" },
 ];
 
 export default function Pain() {
