@@ -49,8 +49,17 @@ function koreanOnly(name) {
   return name.replace(/\s*\([^)]*\)\s*/g, '').trim();
 }
 
+function shortLabelFor(district) {
+  return district.shortLabel || district.title.split(/[(（]/)[0].trim();
+}
+
+function topSchoolsSentence(district) {
+  const names = district.schools.slice(0, 3).map((s) => koreanOnly(s.name));
+  return `대표적인 학교로는 ${names.join('·')} 등이 있습니다.`;
+}
+
 function keywordsFor(district) {
-  const regionShort = district.title.split(/[(（]/)[0].trim();
+  const regionShort = shortLabelFor(district);
   const terms = new Set();
   terms.add(district.title);
   terms.add(`${regionShort} 한인 학군`);
@@ -74,6 +83,7 @@ function pageTemplate(district, allDistricts) {
   const canonical = `${SITE}/guide/${district.id}.html`;
   const related = relatedLinks(allDistricts, district.countryKey, district.id);
   const keywords = keywordsFor(district);
+  const topSchools = topSchoolsSentence(district);
 
   return `<!DOCTYPE html>
 <html lang="ko">
@@ -128,7 +138,7 @@ function pageTemplate(district, allDistricts) {
   <div class="hero">
     <div class="eyebrow">${esc(district.eyebrow)}</div>
     <h1>${esc(district.title)}</h1>
-    <p>${esc(district.intro)}</p>
+    <p>${esc(district.intro)} ${esc(topSchools)}</p>
   </div>
 
   ${district.note ? `<div class="note-box">※ ${esc(district.note)}</div>` : ''}
@@ -143,7 +153,7 @@ function pageTemplate(district, allDistricts) {
 
   <div class="section">
     <h2>어떻게 도와드리나요</h2>
-    <p>어느 학교에 재학 중이시든, 1:1 화상 수업으로 학교 진도·숙제·내신 관리부터 미국·영국 대학 진학을 위한 에세이·입시 준비까지 국제학교전문과외가 도와드립니다. 시차에 맞춰 수업 시간을 조율하며, 해당 지역·학교의 학사 일정에 맞춘 상담도 가능합니다.</p>
+    <p>위 학교들을 포함해 어느 학교에 재학 중이시든, 1:1 화상 수업으로 학교 진도·숙제·내신 관리부터 미국·영국 대학 진학을 위한 에세이·입시 준비까지 국제학교전문과외가 도와드립니다. 시차에 맞춰 수업 시간을 조율하며, 해당 학교의 학사 일정에 맞춘 상담도 가능합니다.</p>
   </div>
 
   <div class="cta-box">
@@ -183,7 +193,7 @@ function hubTemplate(allDistricts) {
   for (const d of allDistricts) byCountry[d.countryKey].push(d);
   const hubKeywords = [
     '해외 학군 가이드', '국제학교전문과외', '주재원 자녀 학교', '교포 자녀 학교',
-    ...allDistricts.map((d) => d.title.split(/[(（]/)[0].trim()),
+    ...allDistricts.map((d) => shortLabelFor(d)),
   ].join(', ');
 
   const groups = Object.entries(byCountry).map(([key, list]) => {

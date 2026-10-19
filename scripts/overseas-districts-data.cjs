@@ -254,7 +254,7 @@ const UK_DISTRICTS = [
 
 const SEA_DISTRICTS = [
   {
-    id: 'korean-international-schools', title: '동남아 한국국제학교 비교 (싱가포르·KL·호치민·하노이·방콕·마닐라·자카르타)', eyebrow: '동남아 · 재외한국학교',
+    id: 'korean-international-schools', title: '동남아 한국국제학교 비교 (싱가포르·KL·호치민·하노이·방콕·마닐라·자카르타)', eyebrow: '동남아 · 재외한국학교', shortLabel: '동남아 한국국제학교',
     intro: '한국국제학교는 교육부가 인가한 재외한국학교로, 한국 교육과정을 기본으로 하면서 영어·현지어 수업을 병행합니다. 귀국 후 한국 학교로 편입하기 쉬워 동남아 주재원 가정이 많이 선택합니다.',
     schools: [
       { name: '싱가포르한국국제학교 (Singapore Korean International School)' },
@@ -267,7 +267,7 @@ const SEA_DISTRICTS = [
     ],
   },
   {
-    id: 'hanoi-factory-area', title: '베트남 북부 공장지역 — 하노이 통학 안내 (박닌·하이퐁·타이응우옌)', eyebrow: '베트남 · 삼성·LG 공장지역',
+    id: 'hanoi-factory-area', title: '베트남 북부 공장지역 — 하노이 통학 안내 (박닌·하이퐁·타이응우옌)', eyebrow: '베트남 · 삼성·LG 공장지역', shortLabel: '하노이',
     intro: '삼성·LG 공장이 있는 박닌·하이퐁·타이응우옌 지역은 그 자체로는 국제학교 선택지가 많지 않아, 많은 주재원 가정이 하노이 소재 학교로 통학하거나 하노이한국국제학교를 선택합니다.',
     schools: [
       { name: 'UNIS 하노이 (United Nations International School of Hanoi)', tag: 'IB' },
