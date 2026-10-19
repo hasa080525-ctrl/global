@@ -4,9 +4,19 @@ interface SisterSiteEntry {
   description: string;
   url: string;
   ctaLabel: string;
+  external?: boolean;
 }
 
 const SITES: SisterSiteEntry[] = [
+  {
+    icon: "ri-earth-line",
+    title: "해외 학군 가이드 (국제학교 아닌 현지 공립학교 정보)",
+    description:
+      "한국 주재원·교포 자녀가 많이 다니는 미국·영국 공립학교, 동남아 한국국제학교 지역별 정보입니다. 거주 지역과 무관하게 화상 과외로 지원 가능합니다.",
+    url: "/guide/",
+    ctaLabel: "해외 학군 가이드 보기",
+    external: false,
+  },
   {
     icon: "ri-book-open-line",
     title: "영어 전문 사이트, 잉글리시이지",
@@ -49,8 +59,7 @@ export default function SisterSite() {
             </div>
             <a
               href={site.url}
-              target="_blank"
-              rel="noopener noreferrer"
+              {...(site.external === false ? {} : { target: "_blank", rel: "noopener noreferrer" })}
               className="whitespace-nowrap rounded-full bg-primary-500 px-6 py-3 text-sm font-medium text-foreground-950 transition hover:bg-primary-400 cursor-pointer"
             >
               {site.ctaLabel}
