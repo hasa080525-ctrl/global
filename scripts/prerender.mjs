@@ -72,7 +72,7 @@ function startServer() {
         res.writeHead(200, { "Content-Type": MIME[extname(filePath)] || "application/octet-stream" });
         res.end(data);
       } catch {
-        // Mirrors vercel.json's SPA-fallback rewrite for /((?!assets/|schools/).*)
+        // Mirrors vercel.json's SPA-fallback rewrite for /((?!assets/|schools/|guide/).*)
         const shell = readFileSync(SHELL_PATH);
         res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
         res.end(shell);
