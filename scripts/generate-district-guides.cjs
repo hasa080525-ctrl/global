@@ -43,11 +43,37 @@ function relatedLinks(allDistricts, countryKey, currentId) {
     .join('\n          ');
 }
 
+// Short Korean-only name for keyword variety (drops the "(English Name)" part
+// a school.name carries for display, e.g. "포트리 고등학교 (Fort Lee HS)" -> "포트리 고등학교").
+function koreanOnly(name) {
+  return name.replace(/\s*\([^)]*\)\s*/g, '').trim();
+}
+
+function keywordsFor(district) {
+  const regionShort = district.title.split(/[(（]/)[0].trim();
+  const terms = new Set();
+  terms.add(district.title);
+  terms.add(`${regionShort} 한인 학군`);
+  terms.add(`${regionShort} 공립학교`);
+  terms.add(`${regionShort} 주재원 자녀 학교`);
+  terms.add(`${regionShort} 유학`);
+  terms.add(`${regionShort} 조기유학`);
+  for (const s of district.schools) {
+    terms.add(s.name);
+    const ko = koreanOnly(s.name);
+    if (ko !== s.name) terms.add(ko);
+  }
+  terms.add('해외 학군 가이드');
+  terms.add('국제학교전문과외');
+  return [...terms].join(', ');
+}
+
 function pageTemplate(district, allDistricts) {
   const title = `${district.title} 한인 학군 가이드 | 국제학교 전문과외`;
   const desc = `${district.title} 지역 한국 주재원·교포 가정의 자녀 교육 가이드. ${district.intro.slice(0, 60)}...`;
   const canonical = `${SITE}/guide/${district.id}.html`;
   const related = relatedLinks(allDistricts, district.countryKey, district.id);
+  const keywords = keywordsFor(district);
 
   return `<!DOCTYPE html>
 <html lang="ko">
@@ -58,6 +84,7 @@ function pageTemplate(district, allDistricts) {
 <link rel="icon" type="image/png" href="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/f689f6902db8633945364b676e8e94f8.png">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
+<meta name="keywords" content="${esc(keywords)}">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <link rel="canonical" href="${canonical}">
 <link rel="stylesheet" href="/schools/assets/school.css">
@@ -154,6 +181,10 @@ function pageTemplate(district, allDistricts) {
 function hubTemplate(allDistricts) {
   const byCountry = { us: [], uk: [], sea: [] };
   for (const d of allDistricts) byCountry[d.countryKey].push(d);
+  const hubKeywords = [
+    '해외 학군 가이드', '국제학교전문과외', '주재원 자녀 학교', '교포 자녀 학교',
+    ...allDistricts.map((d) => d.title.split(/[(（]/)[0].trim()),
+  ].join(', ');
 
   const groups = Object.entries(byCountry).map(([key, list]) => {
     if (list.length === 0) return '';
@@ -175,6 +206,7 @@ function hubTemplate(allDistricts) {
 <link rel="icon" type="image/png" href="https://static.readdy.ai/image/396c131664f132186cce247becf0fbc5/f689f6902db8633945364b676e8e94f8.png">
 <title>해외 학군 가이드 — 한국 주재원·교포 자녀 교육 정보 | 국제학교 전문과외</title>
 <meta name="description" content="미국·영국·동남아 한국 주재원·교포 자녀가 많이 다니는 지역별 공립학교·국제학교 정보를 모았습니다. 어느 지역에 거주하시든 화상으로 과외를 도와드립니다.">
+<meta name="keywords" content="${esc(hubKeywords)}">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}/guide/">
 <link rel="stylesheet" href="/schools/assets/school.css">
