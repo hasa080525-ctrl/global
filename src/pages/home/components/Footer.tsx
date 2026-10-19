@@ -43,11 +43,6 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/guide/" className="hover:text-primary-300 cursor-pointer">
-                    해외 학군 가이드
-                  </a>
-                </li>
-                <li>
                   <a href="/camp" className="hover:text-primary-300 cursor-pointer">
                     2027 겨울캠프
                   </a>
@@ -112,7 +107,19 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-2 border-t border-accent-700 pt-6 text-xs sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-10 border-t border-accent-700 pt-8 text-sm">
+          <h5 className="font-heading text-base text-primary-500">
+            해외 학군 가이드 <span className="text-xs font-normal text-background-400">(국제학교 아닌 현지 공립학교 정보)</span>
+          </h5>
+          <p className="mt-2 max-w-xl text-xs leading-relaxed text-background-300">
+            한국 주재원·교포 자녀가 많이 다니는 미국·영국 공립학교, 동남아 한국국제학교 지역별 정보입니다. 국제학교 커리큘럼과는 별개로, 거주 지역과 무관하게 화상 과외로 지원 가능한 안내 페이지입니다.
+          </p>
+          <a href="/guide/" className="mt-3 inline-flex items-center gap-1 hover:text-primary-300 cursor-pointer">
+            해외 학군 가이드 전체 보기 <i className="ri-arrow-right-line" />
+          </a>
+        </div>
+
+        <div className="mt-8 flex flex-col gap-2 border-t border-accent-700 pt-6 text-xs sm:flex-row sm:items-center sm:justify-between">
           <span>© 2026 국제학교 전문과외. All rights reserved.</span>
           <span>개인정보 처리방침 · 이용약관</span>
         </div>
