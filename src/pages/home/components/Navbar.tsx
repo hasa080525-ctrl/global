@@ -9,6 +9,10 @@ interface NavLinkItem {
   highlight?: boolean;
   hasNewsDropdown?: boolean;
   external?: boolean;
+  // Served as a static file outside the SPA router (e.g. /guide/) - needs a
+  // real browser navigation, not react-router's navigate(), which would just
+  // rewrite the URL without loading the static HTML and show a 404.
+  staticPage?: boolean;
 }
 
 const NAV_LINKS: NavLinkItem[] = [
@@ -18,6 +22,7 @@ const NAV_LINKS: NavLinkItem[] = [
   { label: "겨울캠프", href: "/camp", isPage: true },
   { label: "뉴스", href: "/news", isPage: true, hasNewsDropdown: true },
   { label: "FAQ", href: "#faq" },
+  { label: "학군가이드", href: "/guide/", staticPage: true },
   { label: "영어회화", href: "https://englisheasy.co.kr/", external: true },
   { label: "코딩", href: "https://coding.me.kr/", external: true },
   { label: "신청", href: "/trial", isPage: true, highlight: true },
@@ -147,7 +152,7 @@ export default function Navbar() {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noopener noreferrer" : undefined}
-                onClick={link.external ? undefined : (e) => handleClick(e, link.href, link.isPage)}
+                onClick={link.external || link.staticPage ? undefined : (e) => handleClick(e, link.href, link.isPage)}
                 className={`rounded-full px-3 py-1.5 text-sm font-medium transition whitespace-nowrap cursor-pointer ${
                   link.highlight
                     ? "bg-primary-500 text-foreground-950 hover:bg-primary-400"
@@ -181,7 +186,7 @@ export default function Navbar() {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noopener noreferrer" : undefined}
-                onClick={link.external ? undefined : (e) => handleClick(e, link.href, link.isPage)}
+                onClick={link.external || link.staticPage ? undefined : (e) => handleClick(e, link.href, link.isPage)}
                 className={`rounded-lg px-3 py-2.5 text-sm font-medium transition ${
                   link.highlight
                     ? "bg-primary-500 text-foreground-950"
