@@ -246,7 +246,7 @@ export default function AboutSection() {
           </a>
         </h4>
         <p className="mt-3 text-sm md:text-base text-foreground-700">
-          국내·해외 국제학교 학생을 위한 1:1 맞춤 과외 서비스입니다
+          국내·해외 국제학교 학생을 위한 1:1 맞춤 비대면(화상) 과외 서비스입니다
         </p>
       </div>
 

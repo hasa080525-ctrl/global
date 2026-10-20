@@ -5,6 +5,8 @@ const PAINS = [
   { text: "개념 정리가 안 된 채로 진도만 나가고 있어요", align: "right" },
   { text: "국제학교 전학을 고민 중인데 적응할 수 있을지 걱정돼요", align: "left" },
   { text: "IB 점수가 갑자기 떨어져서 어떻게 해야 할지 모르겠어요", align: "right" },
+  { text: "고교학점제·내신 5등급제 경쟁이 부담스러워 국제학교 진학을 고민하고 있어요", align: "left" },
+  { text: "비대면 수업이라 꾸준히 따라갈 수 있을지 걱정돼요", align: "right" },
 ];
 
 export default function Pain() {

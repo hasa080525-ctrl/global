@@ -93,7 +93,7 @@ export default function ContactPage() {
     <main className="bg-background-50 text-foreground-950">
       <title>상담 문의 | 국제학교전문과외 전화·카카오톡 무료상담</title>
       <meta name="description" content="IB·AP·IGCSE·SAT 국제학교 과외 비용, 커리큘럼 상담을 전화·카카오톡·온라인으로 받아보세요. 24시간 내 답변드립니다." />
-      <meta name="keywords" content="국제학교 과외 상담, IB 과외 문의, AP 과외 비용, IGCSE 과외 상담, A-Level 과외 상담, SAT 과외 비용, ACT 과외 비용, 화상 과외 상담, 온라인 과외 상담, 국제학교 과외 추천, 국제학교 1:1 과외, 서울 국제학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상 상담, 무료 과외 상담, 국제학교 과외 카카오톡 문의, 국제학교 과외 전화상담" />
+      <meta name="keywords" content="국제학교 과외 상담, IB 과외 문의, AP 과외 비용, IGCSE 과외 상담, A-Level 과외 상담, SAT 과외 비용, ACT 과외 비용, 화상 과외 상담, 온라인 과외 상담, 국제학교 과외 추천, 국제학교 1:1 과외, 서울 국제학교 과외, 국제학교 내신 관리, 국제학교 GPA 향상 상담, 무료 과외 상담, 국제학교 과외 카카오톡 문의, 국제학교 과외 전화상담, 비대면 수업 상담, 자녀 성적 고민 상담" />
       <link rel="canonical" href={`${siteUrl}/contact`} />
       <meta property="og:title" content="상담 문의 | 국제학교전문과외 전화·카카오톡 무료상담" />
       <meta property="og:description" content="IB·AP·IGCSE·SAT 국제학교 과외 비용, 커리큘럼 상담을 전화·카카오톡·온라인으로 받아보세요. 24시간 내 답변드립니다." />
@@ -157,6 +157,9 @@ export default function ContactPage() {
           </h1>
           <p className="mt-4 text-sm md:text-base text-background-200">
             수업에 대한 궁금한 점, 언제든지 편하게 문의해주세요
+          </p>
+          <p className="mt-2 text-sm md:text-base text-background-300">
+            자녀 성적 고민으로 비대면 수업이 꾸준히 이어질 수 있을지 걱정되신다면, 상담에서 먼저 확인해보세요
           </p>
         </div>
       </section>
