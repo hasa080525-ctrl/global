@@ -125,12 +125,7 @@ export default function Home() {
           "addressLocality": "서울특별시",
           "addressCountry": "KR"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "37.5665",
-          "longitude": "126.9780"
-        },
-        "openingHours": "Mo-Fr 09:00-22:00",
+        "openingHours": "Mo-Su 09:00-22:00",
         "foundingDate": "2015",
         "knowsLanguage": ["ko", "en"],
         "hasOfferCatalog": {

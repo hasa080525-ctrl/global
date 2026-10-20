@@ -12,7 +12,7 @@ export default function FaqPage() {
       <title>자주 묻는 질문 | 국제학교전문과외</title>
       <meta
         name="description"
-        content="수업 방식, 수업 과목, 비용, 결과까지 - 국제학교전문과외에 자주 묻는 질문과 답변을 확인해보세요."
+        content="IB·AP·IGCSE·SAT 국제학교 전문과외의 수업 방식, 수업 과목, 비용, 성적 향상 결과까지 - 학부모님들이 자주 묻는 질문과 답변을 한곳에 모았습니다."
       />
       <meta
         name="keywords"
@@ -22,7 +22,7 @@ export default function FaqPage() {
       <meta property="og:title" content="자주 묻는 질문 | 국제학교전문과외" />
       <meta
         property="og:description"
-        content="수업 방식, 수업 과목, 비용, 결과까지 - 국제학교전문과외에 자주 묻는 질문과 답변을 확인해보세요."
+        content="IB·AP·IGCSE·SAT 국제학교 전문과외의 수업 방식, 수업 과목, 비용, 성적 향상 결과까지 - 학부모님들이 자주 묻는 질문과 답변을 한곳에 모았습니다."
       />
       <meta property="og:url" content={`${siteUrl}/faq`} />
       <meta property="og:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
@@ -32,7 +32,7 @@ export default function FaqPage() {
       <meta name="twitter:title" content="자주 묻는 질문 | 국제학교전문과외" />
       <meta
         name="twitter:description"
-        content="수업 방식, 수업 과목, 비용, 결과까지 - 국제학교전문과외에 자주 묻는 질문과 답변을 확인해보세요."
+        content="IB·AP·IGCSE·SAT 국제학교 전문과외의 수업 방식, 수업 과목, 비용, 성적 향상 결과까지 - 학부모님들이 자주 묻는 질문과 답변을 한곳에 모았습니다."
       />
       <meta name="twitter:image" content="https://kukje-gwaoe.co.kr/og-image.jpg" />
       <JsonLd
