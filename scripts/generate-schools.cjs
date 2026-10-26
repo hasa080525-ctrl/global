@@ -275,6 +275,7 @@ function hubTemplate(allRegions) {
   </div>
   <div class="section">
 ${groups}
+    <p style="margin-top:14px; font-size:13px; color:var(--slate, #6b7280);">목록에 없는 학교를 직접 찾아보고 싶으시다면 <a href="https://edu.naver.com/school-search?level=high" target="_blank" rel="noopener">네이버 학교 검색</a>을 참고하실 수 있습니다.</p>
   </div>
 </div>
 

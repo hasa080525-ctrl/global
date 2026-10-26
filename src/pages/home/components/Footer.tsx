@@ -102,6 +102,11 @@ export default function Footer() {
                     코딩미 (코딩 전문)
                   </a>
                 </li>
+                <li>
+                  <a href="/sites.html" className="hover:text-primary-300 cursor-pointer">
+                    전체 사이트 모음
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
