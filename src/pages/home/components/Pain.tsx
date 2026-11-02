@@ -7,6 +7,7 @@ const PAINS = [
   { text: "IB 점수가 갑자기 떨어져서 어떻게 해야 할지 모르겠어요", align: "right" },
   { text: "고교학점제·내신 5등급제 경쟁이 부담스러워 국제학교 진학을 고민하고 있어요", align: "left" },
   { text: "비대면 수업이라 꾸준히 따라갈 수 있을지 걱정돼요", align: "right" },
+  { text: "고환율 때문에 유학 비용 부담이 커졌는데 지금 보내도 될지 고민돼요", align: "left" },
 ];
 
 export default function Pain() {
