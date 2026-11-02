@@ -3,6 +3,25 @@ import { FAQS } from "@/mocks/faq";
 
 const CATEGORIES = ["전체", "수업방식", "수업과목", "비용", "결과"] as const;
 
+function renderAnswer(text: string) {
+  const parts = text.split(/(open\.neis\.go\.kr)/);
+  return parts.map((part, i) =>
+    part === "open.neis.go.kr" ? (
+      <a
+        key={i}
+        href="https://open.neis.go.kr/portal/mainPage.do"
+        target="_blank"
+        rel="noopener"
+        className="underline font-medium"
+      >
+        {part}
+      </a>
+    ) : (
+      part
+    ),
+  );
+}
+
 export default function FAQ() {
   const [activeCategory, setActiveCategory] = useState<(typeof CATEGORIES)[number]>("전체");
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -84,7 +103,7 @@ export default function FAQ() {
                 >
                   <div className="px-5 pb-5 md:px-6 md:pb-6 text-sm md:text-base leading-relaxed text-foreground-700"
                   >
-                    {item.answer}
+                    {renderAnswer(item.answer)}
                   </div>
                 </div>
               </div>
