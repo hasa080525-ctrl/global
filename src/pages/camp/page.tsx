@@ -360,6 +360,14 @@ export default function CampPage() {
               장기 프로그램입니다. 캐나다·뉴질랜드는 제휴사 쏠루트유학의 현지 관리 서비스로, 미국·영국
               보딩스쿨은 제휴사 EF Academy를 통해 진행됩니다.
             </p>
+            <a
+              href="https://solluteuhakcamp2027.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center gap-1 text-xs md:text-sm text-primary-700 underline hover:text-primary-600"
+            >
+              참고: 쏠루트유학 2027 캠프 안내 사이트 <i className="ri-external-link-line" />
+            </a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
