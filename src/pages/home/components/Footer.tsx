@@ -23,6 +23,11 @@ export default function Footer() {
               <h5 className="font-heading text-base text-primary-500">바로가기</h5>
               <ul className="mt-3 space-y-2">
                 <li>
+                  <a href="/study-abroad" className="hover:text-primary-300 cursor-pointer">
+                    해외유학 안내
+                  </a>
+                </li>
+                <li>
                   <a href="/about" className="hover:text-primary-300 cursor-pointer">
                     수업중인 학교
                   </a>

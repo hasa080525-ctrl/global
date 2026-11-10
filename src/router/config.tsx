@@ -7,6 +7,7 @@ import TrialPage from "../pages/trial/page";
 import NewsPage from "../pages/news/page";
 import NewsDetail from "../pages/news/NewsDetail";
 import CampPage from "../pages/camp/page";
+import StudyAbroadPage from "../pages/study-abroad/page";
 import AboutPage from "../pages/about/page";
 import SubjectsPage from "../pages/subjects/page";
 import FaqPage from "../pages/faq/page";
@@ -63,6 +64,10 @@ const routes: RouteObject[] = [
   {
     path: "/camp",
     element: <CampPage />,
+  },
+  {
+    path: "/study-abroad",
+    element: <StudyAbroadPage />,
   },
   {
     path: "*",
