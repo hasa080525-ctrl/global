@@ -272,7 +272,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       "SAT 10월 3일·ACT 10월 17일 시험 접수 마감은 9월 29일입니다.",
     sections: [
       {
-        heading: "10월 시험 접수, 9월 29일까지",
+        heading: "SAT 10월 3일·ACT 10월 17일 시행, 시험장 정원 유의",
         body: "미주중앙일보가 정리한 2026년 시험 일정에 따르면 SAT는 10월 3일, ACT는 10월 17일에 시험이 치러지며 두 시험 모두 접수 마감은 9월 29일입니다. 접수 마감 이후에도 추가 접수 기간이 있지만 시험장 정원이 차면 더 이상 신청할 수 없으니, 목표 시험장을 마감 전에 미리 확정해두는 것이 안전합니다.",
       },
       {
@@ -372,7 +372,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       "케임브리지 A-Level 결과가 8월 11일 발표됐습니다. 응시 73만7천 건, 전년 대비 5% 증가 등 주요 통계를 정리했습니다.",
     sections: [
       {
-        heading: "응시 73만 7천 건, 전년 대비 5% 증가",
+        heading: "8월 11일 결과 발표, 128개국 36만여 명 응시",
         body: "케임브리지 인터내셔널이 8월 11일 2026년 6월 시험 세션의 AS·A-Level 결과를 발표했습니다. 128개국 약 3,500개교 소속 학생 36만 8천여 명이 결과를 받았으며, 총 응시 건수는 73만 7천 건으로 2025년 대비 5% 증가했습니다.",
       },
       {
@@ -465,7 +465,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       "8월 22일 SAT 정규 접수 마감은 8월 7일입니다. 추가접수는 8월 11일까지, 성적 발표는 9월 4일입니다.",
     sections: [
       {
-        heading: "시험 일정 — 8월 22일, 접수 마감 8월 7일",
+        heading: "정규 접수 마감, 8월 7일 밤 11시 59분(美 동부시간)까지",
         body: "College Board 공식 SAT Suite 일정에 따르면 다음 SAT 시험은 2026년 8월 22일(토) 시행됩니다. 정규 접수 마감은 8월 7일 밤 11시 59분(미국 동부시간)이며, 이 시점을 넘기면 추가 비용이 붙는 추가접수(레이트 등록)로 넘어갑니다.",
       },
       {
@@ -558,7 +558,7 @@ export const NEWS_ITEMS: NewsItem[] = [
       "영국 A-Level 결과는 8월 13일, GCSE는 8월 20일 발표됩니다. UCAS Confirmation·Clearing 절차도 함께 안내합니다.",
     sections: [
       {
-        heading: "발표 일정 — A-Level 8월 13일, GCSE 8월 20일",
+        heading: "A-Level 오전 8시부터 발표, AS 레벨도 같은 날",
         body: "영국 A-Level 결과는 8월 13일(목) 오전 8시부터, GCSE 결과는 그로부터 일주일 뒤인 8월 20일(목) 발표됩니다. AQA·Edexcel(Pearson)·OCR·WJEC 등 모든 시험위원회에 공통 적용되는 JCQ(Joint Council for Qualifications) 지정 일정입니다. AS 레벨 결과도 A-Level과 같은 날 함께 발표됩니다.",
       },
       {
