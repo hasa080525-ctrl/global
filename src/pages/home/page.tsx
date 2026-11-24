@@ -44,7 +44,7 @@ export default function Home() {
     <main className="bg-background-50 text-foreground-950">
       <title>국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험</title>
       <meta name="description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
-      <meta name="keywords" content="국제학교 과외, 국제학교 전문과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, A-Level 과외, 외국인학교 과외, 화상 과외, 1:1 맞춤 과외, 무료 체험 수업, IB 수학 과외, IB 영어 과외, 국제학교 에세이 과외, IB DP 과외, 채드윅 과외, NLCS 과외, KIS 과외, 베일러국제학교, 폴아카데미, 수원국제학교, 광주외국인학교, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, 국제학교 전학, 국제학교 내신 관리, 국제학교 편입 과외, 겨울방학 국제학교 선행학습, 국제학교 과외 비교, 예비 국제학교 신입생 준비" />
+      <meta name="keywords" content="국제학교 과외, 국제학교 전문과외, IB 과외, AP 과외, IGCSE 과외, SAT 과외, A-Level 과외, 외국인학교 과외, 화상 과외, 1:1 맞춤 과외, 무료 체험 수업, IB 수학 과외, IB 영어 과외, 국제학교 에세이 과외, IB DP 과외, 채드윅 과외, NLCS 과외, KIS 과외, 베일러국제학교, 폴아카데미, 수원국제학교, 광주외국인학교, 서울 국제학교 과외, 강남 국제학교 과외, 제주 국제학교 과외, 송도 국제학교 과외, 국제학교 전학, 국제학교 내신 관리, 국제학교 편입 과외, 겨울방학 국제학교 선행학습, 국제학교 과외 비교, 예비 국제학교 신입생 준비, IB CAS 포트폴리오, UCAS 영국대학 지원, 듀오링고 영어시험 DET" />
       <link rel="canonical" href={siteUrl} />
       <meta property="og:title" content="국제학교전문과외 | IB·AP·SAT·IGCSE 화상 과외 무료체험" />
       <meta property="og:description" content="IB·AP·IGCSE·SAT·A-Level 국제학교 전문 1:1 화상 과외. 서울·강남·제주·송도 8~15년 경력 강사진과 무료 모의수업으로 성적을 올려보세요." />
