@@ -33,6 +33,14 @@ const SITES: SisterSiteEntry[] = [
     url: "https://coding.me.kr/",
     ctaLabel: "코딩미 바로가기",
   },
+  {
+    icon: "ri-flask-line",
+    title: "과학고·영재학교·자사고 전문 사이트, 원쌤",
+    description:
+      "영재성검사·자기주도학습전형 준비부터 재학생 심화 교과·내신·R&E까지 — 국내 과학고·영재학교·자사고를 준비하거나 재학 중이라면 함께 확인해보세요.",
+    url: "https://one-ssam.co.kr/",
+    ctaLabel: "원쌤 바로가기",
+  },
 ];
 
 export default function SisterSite() {
