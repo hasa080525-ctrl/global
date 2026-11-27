@@ -41,6 +41,14 @@ const SITES: SisterSiteEntry[] = [
     url: "https://one-ssam.co.kr/",
     ctaLabel: "원쌤 바로가기",
   },
+  {
+    icon: "ri-translate-2",
+    title: "외고·국제고·국제중 전문 사이트, 하이스코어",
+    description:
+      "국제중 면접 대비부터 외고·국제고 자기주도학습전형, 재학생 전공어 심화·내신까지 — 외고·국제고·국제중을 준비하거나 재학 중이라면 함께 확인해보세요.",
+    url: "https://high-score.co.kr/",
+    ctaLabel: "하이스코어 바로가기",
+  },
 ];
 
 export default function SisterSite() {
